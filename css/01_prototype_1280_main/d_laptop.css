@@ -135,19 +135,16 @@
 
   .gnb li a {
     padding:5px 20px;
-    /* background-color: #cca; */
   }
 
   #adViewBox {
     width: 100%;
     height: 742px;
     box-sizing: border-box;
-    /* padding: 28px 100px; */
   }
   .view_outer {
     width: 100%; height: 742px;
     margin: auto;
-    /* background-color: #9cf; */
   }
   .viewport {width: 100%; min-width: 1280px;height: 742px;}
   .viewport > img {
@@ -160,27 +157,7 @@
     color: #fff;
     font-size: 26px;
     font-weight: 500;
-    /* background-color: #999; */
-    /* shadow: #fff; */
   }
-  /* .view_indicator {
-    float: right;
-    margin: auto;
-    margin-top: 500px; margin-right: 30px;
-  }
-  .view_indicator ul {
-    width: 100%; height: auto;
-    padding: 10px 15px;
-  }
-  .view_indicator li {
-    float: left;
-    width: 20px;
-    margin-right: 5px;
-    background-color: #333; color: #fff;
-    border-radius: 50px;
-    text-align: center;
-  }
-  .view_indicator li:last-child{ margin-right: 0;} */
 
   #shortcutBox {
     width: 1100px;
@@ -193,7 +170,6 @@
   .shortcut_outer {
     width: 100%; height: auto;
     margin: auto;
-    /* background-color: #9cf; */
   }
   .shortcut01 {
     display: flex;
@@ -203,47 +179,57 @@
   }
   .scimg01 {
     float: left;
-    width: 200px; height: 200px;
+    width: 200px;
+    height: 200px;
     margin: 0 10px;
   }
   .scimg01 img {
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     vertical-align: middle;
   }
   .scimg02 {
     float: left;
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     margin: 0 10px;
   }
   .scimg02 img {
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     vertical-align: middle;
   }
   .scimg03 {
     float: left;
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     margin: 0 10px;
   }
   .scimg03 img {
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     vertical-align: middle;
   }
   .scimg04 {
     float: left;
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     margin: 0 10px;
   }
   .scimg04 img {
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     vertical-align: middle;
   }
   .scimg05 {
     float: left;
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     margin-left: 10px;
   }
   .scimg05 img {
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     vertical-align: middle;
   }
 
@@ -255,143 +241,145 @@
   }
   .scimg06 {
     float: left;
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     margin: 0 10px;
   }
   .scimg06 img {
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     vertical-align: middle;
   }
   .scimg07 {
     float: left;
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     margin: 0 10px;
   }
   .scimg07 img {
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     vertical-align: middle;
   }
   .scimg08 {
     float: left;
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     margin: 0 10px;
   }
   .scimg08 img {
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     vertical-align: middle;
   }
   .scimg09 {
     float: left;
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     margin: 0 10px;
   }
   .scimg09 img {
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     vertical-align: middle;
   }
   .scimg10 {
     float: left;
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     margin-left: 10px;
   }
   .scimg10 img {
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     vertical-align: middle;
   }
   .sctext {
-    width: 200px; height: 200px;
+    width: 200px; 
+    height: 200px;
     line-height: 200px;
     text-align: center;
     margin: auto;
-    /* margin-top: 10px; */
     color: #fff;
     font-size: 22px;
     font-weight: 400;
     box-sizing: border-box;
     text-align: center;
     position: absolute;
-    /* top: 50%; */
-    /* left: 50%; */
   }
-  /* .shortcut_outer ul {
-    width: 100%; height: auto;
-    box-sizing: border-box;
-    margin: 0 70px;
-  }
-  
-  .shortcut li {
-    float: left;
-    width: 200px; height: 200px;
-    margin-right: 55px; margin-top: 10px;
-    background-color: #eee;
-    background-image: url(../../img/picture/shortcut_1.png);
-    background-image: url(../../img/picture/shortcut_2.png);
-    background-image: url(../../img/picture/shortcut_2-1.png);
-    background-image: url(../../img/picture/shortcut_3.png);
-    background-image: url(../../img/picture/shortcut_3-1.png);
-    background-image: url(../../img/picture/shortcut_4.png);
-    background-image: url(../../img/picture/shortcut_4-1.png);
-    background-repeat: no-repeat;
-    background-size: 220px;
-    background-position: 50% 50%;
-  } */
-  /* .shortcut_outer li {
-    float: left;
-    width: 173px; height: 173px;
-    margin-right: 35px; margin-bottom: 10px;
-    background-color: #eee;
-  } */
   .shortcut_outer li:nth-last-of-type(-n+5){margin-bottom: 0;}
-  .shortcut_outer li:nth-last-child(1){margin-bottom: 0; margin-right: 10;}
+  .shortcut_outer li:nth-last-child(1){margin-bottom: 0; margin-right: 10px;}
 
-  .content_box_wrap{
+  #content_box_wrap{
   width: 100%; height: auto;
   }
 
   #communityBox {
-    display: none;
+    display: flex;
     width: 100%; height: 695px;
     background-color: #fff;
     padding: 35px 90px;
   }
-  .commuity_inner {
+  .community_inner {
     width: 100%; height: 625px;
   }
-  .bestpicture {
-    float: left;
-    width: 540px; height: 625px;
+  .bestpicture_title {
+    width: 510px;
+    display: flex;
+    margin: auto;
+  }
+  .community_inner h2 {
+    width: 430px;
   }
   .moretx {
     width: 80px; height: 40px;
-    float: right;
+    text-align: center;
   }
-  .bestpicture1 {
+  .bestpicture {
+    /* display: flex; */
     float: left;
-    width: 245px; height: 240px;
-    margin:25px 15px 0px 10px;
-    border-radius: 10px;
-    background-color: #aaa;
+    width: 540px; height: 625px;
+  }
+  .bestpicture_top {display: flex;}
+  .bestpicture1 {
+    width: 250px; height: 240px;
+    margin: 25px 10px 0px 10px;
+    border-radius: 5%;
+  }
+  .bestpicture1 img {
+    width: 100%;
+    border-radius: 5%;
   }
   .bestpicture2 {
-    float: left;
-    width: 245px; height: 240px;
-    margin:25px 15px 0px 10px;
-    border-radius: 10px;
-    background-color: #aaa;
+    width: 250px; height: 240px;
+    margin:25px 10px 0px 10px;
+    border-radius: 5%;
   }
+  .bestpicture2 img {
+    width: 100%;
+    border-radius: 5%;
+  }
+  .bestpicture_bottom {display: flex;}
   .bestpicture3 {
-    float: left;
-    width: 245px; height: 230px;
-    margin:20px 15px 0px 10px;
-    border-radius: 10px;
-    background-color: #aaa;
+    width: 250px; height: 240px;
+    margin: 25px 10px 0px 10px;
+    border-radius: 5%;
+  }
+  .bestpicture3 img {
+    width: 100%;
+    border-radius: 5%;
   }
   .bestpicture4 {
-    float: left;
-    width: 245px; height: 230px;
-    margin:20px 15px 0px 10px;
-    border-radius: 10px;
-    background-color: #aaa;
+    width: 250px; height: 240px;
+    margin: 25px 10px 0px 10px;
+    border-radius: 5%;
+  }
+  .bestpicture4 img {
+    width: 100%;
+    border-radius: 5%;
+  }
+  .community_inner {
+    width: 100%; height: 625px;
   }
   .story {
     float: left;
@@ -408,17 +396,17 @@
     float: left;
     margin: 25px 20px 5px 40px;
     border-radius: 10px;
-    /* background-color: #aaa; */
   }
   .storytext {
-    width: 450px; height: 45px;
+    width: 450px; 
+    height: 45px;
     float: left;
     margin: 5px 0 0 40px;
     border-radius: 10px;
-    /* background-color: #aaa; */
   }
   .storytextid {
-    width: 100%; height: 22px;
+    width: 100%; 
+    height: 22px;
     float: left;
     margin-left: 40px;
     margin-top: -10px;
@@ -444,27 +432,28 @@
   }
   .review {
     float: left;
-    width: 540px; height: 290px;
+    width: 540px; 
+    height: 290px;
     margin-left: 10px;
   }
   .review h2 {
-    width: 162px; height: 40px;
+    width: 162px; 
+    height: 40px;
     margin-left: 24px;
     float: left;
   }
   .reviewimg {
-    width: 450px; height: 150px;
+    width: 450px; 
+    height: 150px;
     float: left;
     margin: 25px 20px 5px 40px;
     border-radius: 10px;
-    /* background-color: #aaa; */
   }
   .reviewtext {
     width: 450px; height: 45px;
     float: left;
     margin: 5px 0 0 40px;
     border-radius: 10px;
-    /* background-color: #aaa; */
   }
   .reviewimg_02 {
     display: none;
@@ -476,7 +465,6 @@
   #bestBox {
     width: 100%; height: 603px;
     box-sizing: border-box;
-    /* padding: 50px 100px; */
   }
 
 
@@ -487,7 +475,6 @@
     box-sizing: border-box;
     background-color: #fff;
     margin: auto;
-    /* padding: 50px 100px; */
   }
     #bestBox h2 {
       width: 1100px; height: auto;
@@ -497,17 +484,13 @@
     .bestbox_inner {
       width: 1100px; height: auto;
       float: left;
-      /* padding: 0 20px; */
-      /* background-color: #eee; */
     }
     .bestbox_list ul {
       display: flex;
       width: 1100px; height: auto;
       margin-top: 30px;
-      /* padding: 10px 0 10px 25px; */
     }
     .bestbox_list ul li {
-      /* float: left; */
       width: 96px;
       height: 50px;
       line-height: 50px;
@@ -517,9 +500,6 @@
       width: 100px;
       font-size: 19px;
     }
-    /* .best_scroll_last {
-      width: 100px;
-    } */
     .bestbox_img ul {
       display: flex;
       width: 1080px;
@@ -555,49 +535,41 @@
       width: 325px; height: 300px;
       margin: 30px 20px 10px 20px;
       border-radius: 10px;
-      /* background-color: #aaa; */
     }
     .bestimg2 {
       float: left;
       width: 325px; height: 300px;
       margin: 30px 20px 10px 20px;
       border-radius: 10px;
-      /* background-color: #aaa; */
     }
     .bestimg3 {
       float: left;
       width: 325px; height: 300px;
       margin: 30px 20px 10px 20px;
       border-radius: 10px;
-      /* background-color: #aaa; */
     }
     .besttext1 {
       float: left;
       width: 300px; height: 100px;
       margin: 10px 20px 10px 20px;
       border-radius: 10px;
-      /* background-color: #aaa; */
     }
     .besttext2 {
       float: left;
       width: 300px; height: 100px;
       margin: 10px 20px 10px 20px;
       border-radius: 10px;
-      /* background-color: #aaa; */
     }
     .besttext3 {
       float: left;
       width: 300px; height: 100px;
       margin: 10px 20px 10px 20px;
       border-radius: 10px;
-      /* background-color: #aaa; */
     }
 
   #miniAdBox {
     height: 100%; 
     box-sizing: border-box; 
-    /* padding: 28px 100px; */
-    /* background-color: #fff; */
   }
   .mini_inner{
     display: flex;
@@ -607,7 +579,6 @@
     margin-bottom: 50px;
   }
   .deal {
-    /* float: left; */
     width: 550px; height: 100%;
   }
   .deal h2 {
@@ -617,7 +588,6 @@
     margin-bottom: 50px;
   }
   .dealimg {
-    /* float: left; */
     width: 500px; 
     height: auto;
     margin: auto;
@@ -649,7 +619,6 @@
     width: 100%;
     transition: all .5s;
   }
-  /* .textbox {position:absolute;z-index:2;top:50%;left:50%;transform:translate(-50%,-50%);line-height:1.6;text-align:center;} */
   .textbox span {
     font-weight: 500;
   }
@@ -663,9 +632,6 @@
     display: block;
     position: relative;
   }
-  /* .slide_item li a img {
-    width: 100%;
-  } */
   .slide_item label {
     position: absolute;
     z-index: 1;
@@ -831,7 +797,7 @@
   }
   .cs_part {
     display: flex;
-    width: 1100px;
+    width: 772px;
   }
   .cs_part h3 {
     width: 154px;
@@ -843,7 +809,7 @@
     text-align: left;
   }
   .tel_part {
-    width: 310px;
+    width: 134px;
     font-size: 18px;
   }
   .tel_part address {
@@ -880,12 +846,11 @@
     width: 180px;
     /* display: flex; */
     position: absolute;
-    top: 10px;
+    top: 0px;
     right: 0;
   }
   .brandsite_part {
     width: 100%;
-    margin-left: 5px;
   }
   .brandsite_btn {
     width: 100%; height: 42px;

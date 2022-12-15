@@ -185,30 +185,39 @@
     </nav>
       <!-- // #shortcutBox -->
       
-    <main class="content_box_wrap">
+    <main id="content_box_wrap">
       <h2 class="blind">주요 내용</h2>
       <section id="communityBox">
-        <div class="commuity_inner">
-          <div class="bestpicture">
+        <div class="community_inner">
+          <div class="bestpicture_title">
             <h2>오늘의 인기사진</h2>
-              <div class="moretx"><button>more</button></div>
-            <!-- <div class="h2title">오늘의 인기사진</div> -->
-            <div class="bestpicture1">
-              <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164180958739200150.jpeg?gif=1&w=640&h=640&c=c" alt="오늘의 인기사진">
+            <div class="moretx"><button>more</button></div>
+          </div>
+          <div class="bestpicture">
+            <div class="bestpicture_top">
+              <button class="bestpicture1">
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164180958739200150.jpeg?gif=1&w=640&h=640&c=c" alt="오늘의 인기사진">
+              </button>
+              <button class="bestpicture2">
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164179291280787688.jpeg?gif=1&w=640&h=640&c=c" alt="오늘의 인기사진">
+              </button>
             </div>
-            <div class="bestpicture2">
-              <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164179291280787688.jpeg?gif=1&w=640&h=640&c=c" alt="오늘의 인기사진">
-            </div>
-            <div class="bestpicture3">
-              <img src="https://image.ohou.se/i/video-service-prd-s3-bucket-thumbnail/61dbb45526e55c13ef8584d7/61dbb45526e55c13ef8584d7.0000001.jpg?gif=1&w=640&h=640&c=c" alt="오늘의 인기사진">
-            </div>
-            <div class="bestpicture4">
-              <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164179076333675468.jpeg?gif=1&w=640&h=640&c=c" alt="오늘의 인기사진">
+            <div class="bestpicture_bottom">
+              <button class="bestpicture3">
+                <img src="https://image.ohou.se/i/video-service-prd-s3-bucket-thumbnail/61dbb45526e55c13ef8584d7/61dbb45526e55c13ef8584d7.0000001.jpg?gif=1&w=640&h=640&c=c" alt="오늘의 인기사진">
+              </button>
+              <button class="bestpicture4">
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164179076333675468.jpeg?gif=1&w=640&h=640&c=c" alt="오늘의 인기사진">
+              </button>
             </div>
           </div>
+        </div>
+        <div class="community_inner02">
           <div class="story">
-            <h2>오늘의 스토리</h2>
+            <div class="story_title">
+              <h2>오늘의 스토리</h2>
               <div class="moretx"><button>more</button></div>
+            </div>
             <div class="storyimg">
               <img src="../img/picture/storypicture_1-1.png" alt="오늘의 스토리">
             </div>
@@ -229,20 +238,20 @@
           </div>
           <div class="review">
             <h2>오늘의 시공리뷰</h2>
-              <div class="moretx"><button>more</button></div>
-              <ul>
-                <li>
-                  <div class="reviewimg">
-                    <img src="../img/picture/reviewpictire_1.png" alt="리뷰이미지">
-                  </div>
-                  <div class="reviewtext">오래된 화장실을 클래식하게 시공</div>
-                  <div class="storytextid">진인테리어</div>
-                  <div class="reviewimg_02">
-                    <img src="../img/picture/reviewpictire_2.png" alt="리뷰이미지">
-                  </div>
-                  <div class="reviewtext_02">스토리텍스트</div>
-                </li>
-              </ul>
+            <div class="moretx"><button>more</button></div>
+            <ul>
+              <li>
+                <div class="reviewimg">
+                  <img src="../img/picture/reviewpictire_1.png" alt="리뷰이미지">
+                </div>
+                <div class="reviewtext">오래된 화장실을 클래식하게 시공</div>
+                <div class="storytextid">진인테리어</div>
+                <div class="reviewimg_02">
+                  <img src="../img/picture/reviewpictire_2.png" alt="리뷰이미지">
+                </div>
+                <div class="reviewtext_02">스토리텍스트</div>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -397,8 +406,8 @@
           </h2>
           <div class="cs_box">
             <div class="cs_part">
-              <h3><button>고객센터</button></h3>
               <div class="tel_part">
+                <button>고객센터</button>
                 <address>
                   <a href="tel:010.6481.5231">1670-0876</a>
                 </address>
