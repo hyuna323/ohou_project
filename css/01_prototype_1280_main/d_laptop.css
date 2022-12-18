@@ -167,7 +167,7 @@
   }
 
   #shortcutBox {
-    width: 1330px;
+    width: 1100px;
     height: auto;
     box-sizing: border-box;
     background-color: #fff;
@@ -906,7 +906,7 @@
   .brandsite_btn {
     width: 100%; height: 42px;
     line-height: 42px;
-    background-color: #243c84;
+    background-color: #37B9DF;
     border-radius: 5px;
     color: #fff;
     font-size: 15px;

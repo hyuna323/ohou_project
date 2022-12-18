@@ -70,3 +70,20 @@ elBrandsitePart.addEventListener('mouseleave', e => {
   e.preventDefault();
   Belul.classList.remove('on');
 });
+
+// Top 맨위로 ====================================
+const ToTop = document.querySelector('.to_top');
+
+window.addEventListener('scroll',function () {
+  if(this.scrollY > 50) {
+    ToTop.classList.add('on');
+  } else {
+    ToTop.classList.remove('on');
+    
+  }
+})
+
+ToTop.addEventListener('click',function (e) {
+  e.preventDefault();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+})
