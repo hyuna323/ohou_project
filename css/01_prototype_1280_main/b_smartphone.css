@@ -159,148 +159,145 @@
   }
 
   #shortcutBox {
-    width: 1100px;
+    width: 300px;
     height: auto;
     box-sizing: border-box;
     background-color: #fff;
     margin: auto;
     margin-top: 70px;
+    overflow: hidden;
   }
   .shortcut_outer {
     width: 100%; height: auto;
     margin: auto;
+    /* overflow: hidden; */
   }
   .shortcut01 {
     display: flex;
-    width: 1100px;
+    width: 300px;
     height: auto;
     margin-bottom: 10px;
   }
   .scimg01 {
-    float: left;
-    width: 200px;
-    height: 200px;
-    margin: 0 10px;
+    width: 120px;
+    height: 120px;
+    margin: 0 8px;
   }
   .scimg01 img {
-    width: 200px; 
-    height: 200px;
+    width: 120px; 
+    height: 120px;
     vertical-align: middle;
   }
   .scimg02 {
-    float: left;
-    width: 200px; 
-    height: 200px;
-    margin: 0 10px;
+    width: 120px; 
+    height: 120px;
+    margin: 0 8px;
   }
   .scimg02 img {
-    width: 200px; 
-    height: 200px;
+    width: 120px; 
+    height: 120px;
     vertical-align: middle;
   }
   .scimg03 {
-    float: left;
-    width: 200px; 
-    height: 200px;
-    margin: 0 10px;
+    width: 120px; 
+    height: 120px;
+    margin: 0 8px;
   }
   .scimg03 img {
-    width: 200px; 
-    height: 200px;
+    width: 120px; 
+    height: 120px;
     vertical-align: middle;
   }
   .scimg04 {
-    float: left;
-    width: 200px; 
-    height: 200px;
-    margin: 0 10px;
+    width: 120px; 
+    height: 120px;
+    margin: 0 8px;
   }
   .scimg04 img {
-    width: 200px; 
-    height: 200px;
+    width: 120px; 
+    height: 120px;
     vertical-align: middle;
   }
   .scimg05 {
-    float: left;
-    width: 200px; 
-    height: 200px;
-    margin-left: 10px;
+    width: 120px; 
+    height: 120px;
+    margin-left: 8px;
   }
   .scimg05 img {
-    width: 200px; 
-    height: 200px;
+    width: 120px; 
+    height: 120px;
     vertical-align: middle;
   }
 
   .shortcut02 {
     display: flex;
-    width: 1100px;
+    width: 300px;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
   .scimg06 {
     float: left;
-    width: 200px; 
-    height: 200px;
-    margin: 0 10px;
+    width: 120px; 
+    height: 120px;
+    margin: 0 8px;
   }
   .scimg06 img {
-    width: 200px; 
-    height: 200px;
+    width: 120px; 
+    height: 120px;
     vertical-align: middle;
   }
   .scimg07 {
     float: left;
-    width: 200px; 
-    height: 200px;
-    margin: 0 10px;
+    width: 120px; 
+    height: 120px;
+    margin: 0 8px;
   }
   .scimg07 img {
-    width: 200px; 
-    height: 200px;
+    width: 120px; 
+    height: 120px;
     vertical-align: middle;
   }
   .scimg08 {
     float: left;
-    width: 200px; 
-    height: 200px;
-    margin: 0 10px;
+    width: 120px; 
+    height: 120px;
+    margin: 0 8px;
   }
   .scimg08 img {
-    width: 200px; 
-    height: 200px;
+    width: 120px; 
+    height: 120px;
     vertical-align: middle;
   }
   .scimg09 {
     float: left;
-    width: 200px; 
-    height: 200px;
-    margin: 0 10px;
+    width: 120px; 
+    height: 120px;
+    margin: 0 8px;
   }
   .scimg09 img {
-    width: 200px; 
-    height: 200px;
+    width: 120px; 
+    height: 120px;
     vertical-align: middle;
   }
   .scimg10 {
     float: left;
-    width: 200px; 
-    height: 200px;
-    margin-left: 10px;
+    width: 120px; 
+    height: 120px;
+    margin-left: 8px;
   }
   .scimg10 img {
-    width: 200px; 
-    height: 200px;
+    width: 120px; 
+    height: 120px;
     vertical-align: middle;
   }
   .sctext {
-    width: 200px; 
-    height: 200px;
-    line-height: 200px;
+    width: 120px; 
+    height: 120px;
+    line-height: 120px;
     text-align: center;
     margin: auto;
     color: #fff;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     box-sizing: border-box;
     text-align: center;
@@ -315,55 +312,60 @@
 
   #communityBox {
     display: flex;
-    width: 1100px; 
+    flex-wrap: wrap;
+    width: 300px; 
     height: auto;
     margin: auto;
     background-color: #fff;
-    margin-top: 70px;
+    overflow: hidden;
+    /* margin-top: 70px; */
     /* padding: 35px 90px; */
   }
   .community_inner {
-    width: 100%; height: 625px;
+    /* display: flex; */
+    flex-direction: column;
+    width: 100%; 
+    height: auto;
+    margin-top: 20px;
   }
   .bestpicture_title {
-    width: 510px;
+    width: 280px;
     display: flex;
     margin: auto;
   }
   .bestpicture_title h2 {
-    width: 430px;
+    width: 228px;
     line-height: 40px;
-    font-size: 22px;
+    font-size: 20px;
   }
   .moretx {
-    width: 80px; height: 40px;
+    width: 52px; height: 40px;
     text-align: center;
   }
   .bestpicture {
-    /* display: flex; */
-    width: 540px; 
+    display: flex;
+    width: 300px; 
     height: auto;
-    margin-top: 25px;
   }
   .bestpicture_top {display: flex;}
   .bestpicture1 {
-    width: 250px; 
-    height: 270px;
+    width: 186px; 
+    height: auto;
     margin: auto;
     border-radius: 5%;
   }
   .bestpicture1 img {
-    width: 100%;
+    width: 90%;
     border-radius: 5%;
   }
   .bestpicture2 {
-    width: 250px; 
-    height: 270px;
+    width: 186px; 
+    height: auto;
     margin: auto;
     border-radius: 5%;
   }
   .bestpicture2 img {
-    width: 100%;
+    width: 90%;
     border-radius: 5%;
   }
   .bestpicture_bottom {
@@ -371,62 +373,64 @@
     margin-top: 10px;
   }
   .bestpicture3 {
-    width: 250px; 
-    height: 270px;
+    width: 186px; 
+    height: auto;
     margin: auto;
     border-radius: 5%;
   }
   .bestpicture3 img {
-    width: 100%;
+    width: 90%;
     border-radius: 5%;
   }
   .bestpicture4 {
-    width: 250px; 
-    height: 270px;
+    width: 186px; 
+    height: auto;
     margin: auto;
     border-radius: 5%;
   }
   .bestpicture4 img {
-    width: 100%;
+    width: 90%;
     border-radius: 5%;
-  }
-  .community_inner {
-    width: 100%; height: 625px;
   }
   .community_inner02 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
   }
   .story {
     width: 100%; 
     height: auto;
-    /* margin-left: 10px; */
   }
   .story h2 {
     width: 140px; height: 40px;
-    margin-left: 24px;
     font-size: 22px;
   }
+  .storyimg {
+    display: flex;
+    width: 300px; 
+    height: auto;
+  }
   .story_title {
-    width: 510px;
+    width: 300px;
     display: flex;
     margin: auto;
   }
   .story_title h2 {
-    width: 406px;
+    width: 224px;
+    font-size: 20px;
   }
-  .storyimg {
+  .storyimg01 {
     display: flex;
     flex-wrap: wrap;
-    width: 450px; 
+    width: 300px; 
     height: auto;
     margin: auto;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     /* margin: 25px 20px 5px 50px; */
     border-radius: 10px;
   }
-  .storyimg img {
+  .storyimg01 img {
     width: 100%;
     height: 100%;
     margin: auto;
@@ -444,68 +448,70 @@
     font-size: 16px;
   }
   .storyimg_02 {
-    display: none;
+    /* display: none; */
   }
   .storytext_02 {
-    display: none;
+    /* display: none; */
   }
   .storyimg_03 {
-    display: none;
+    /* display: none; */
   }
   .storytext_03 {
-    display: none;
+    /* display: none; */
   }
   .storyimg_04 {
-    display: none;
+    /* display: none; */
   }
   .storytext_04 {
-    display: none;
+    /* display: none; */
   }
   .review {
     width: 100%; 
     height: auto;
+    margin-top: 20px;
+    overflow: hidden;
   }
-  .review h2 {
-    width: 162px; 
-    height: 40px;
-    margin-left: 24px;
-    float: left;
-  }
-  .story_title {
-    width: 510px;
+  .review_title {
+    width: 300px;
     display: flex;
     margin: auto;
   }
-  .story_title h2 {
-    width: 406px;
-    font-size: 22px;
+  .review_title h2 {
+    width: 248px;
+    font-size: 20px;
   }
   .reviewimg {
     display: flex;
+    width: 300px; 
+    height: auto;
+  }
+  .reviewimg01 {
+    display: flex;
     flex-wrap: wrap;
-    width: 450px; 
+    /* overflow: hidden; */
+    width: 300px; 
     height: auto;
     margin: auto;
     margin-top: 10px;
     border-radius: 10px;
   }
-  .reviewimg img {
+  .reviewimg01 img {
     width: 100%;
     height: 200px;
     margin: auto;
   }
   .reviewtext {
-    width: 450px; 
+    width: 300px; 
     height: auto;
     margin: auto;
     border-radius: 10px;
     font-size: 20px;
   }
   .reviewimg_02 {
-    display: none;
+    /* display: none; */
   }
   .reviewtext_02 {
-    display: none;
+    /* display: none; */
   }
   
   
