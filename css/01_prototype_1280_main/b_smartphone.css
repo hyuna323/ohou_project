@@ -13,7 +13,7 @@
     background-color: #fff;
   }
   .head_inner {
-    width: 300px;
+    width: 93.75%; min-width: 300px;
     height: 100%;
     display: flex;
     /* margin: auto;  */
@@ -165,12 +165,13 @@
     background-color: #fff;
     margin: auto;
     margin-top: 70px;
+    /* overflow: scroll; */
     overflow: hidden;
   }
   .shortcut_outer {
-    width: 100%; height: auto;
+    width: 100%; 
+    height: auto;
     margin: auto;
-    /* overflow: hidden; */
   }
   .shortcut01 {
     display: flex;
@@ -309,7 +310,7 @@
   #content_box_wrap{
   width: 100%; height: auto;
   }
-
+  /* #communityBox =============================== */
   #communityBox {
     display: flex;
     flex-wrap: wrap;
@@ -339,14 +340,19 @@
     font-size: 20px;
   }
   .moretx {
-    width: 52px; height: 40px;
+    width: 52px; 
+    height: 40px;
     text-align: center;
   }
   .bestpicture {
     display: flex;
     width: 300px; 
     height: auto;
+    overflow: scroll;
+    overflow: auto;
+    white-space: nowrap;
   }
+  .bestpicture::-webkit-scrollbar {display: none;}
   .bestpicture_top {display: flex;}
   .bestpicture1 {
     width: 186px; 
@@ -394,30 +400,35 @@
   }
   .community_inner02 {
     width: 100%;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
   }
   .story {
     width: 100%; 
     height: auto;
   }
   .story h2 {
-    width: 140px; height: 40px;
+    width: 140px; 
+    height: 40px;
     font-size: 22px;
   }
   .storyimg {
-    display: flex;
     width: 300px; 
     height: auto;
+    display: flex;
+    overflow: scroll;
+    overflow: auto;
+    white-space: nowrap;
   }
+  .storyimg::-webkit-scrollbar {display: none;}
   .story_title {
-    width: 300px;
+    width: 280px;
     display: flex;
     margin: auto;
   }
   .story_title h2 {
-    width: 224px;
+    width: 228px;
     font-size: 20px;
   }
   .storyimg01 {
@@ -426,8 +437,7 @@
     width: 300px; 
     height: auto;
     margin: auto;
-    /* margin-top: 30px; */
-    /* margin: 25px 20px 5px 50px; */
+    margin-right: 10px;
     border-radius: 10px;
   }
   .storyimg01 img {
@@ -447,29 +457,11 @@
     height: 22px;
     font-size: 16px;
   }
-  .storyimg_02 {
-    /* display: none; */
-  }
-  .storytext_02 {
-    /* display: none; */
-  }
-  .storyimg_03 {
-    /* display: none; */
-  }
-  .storytext_03 {
-    /* display: none; */
-  }
-  .storyimg_04 {
-    /* display: none; */
-  }
-  .storytext_04 {
-    /* display: none; */
-  }
+
   .review {
     width: 100%; 
     height: auto;
     margin-top: 20px;
-    overflow: hidden;
   }
   .review_title {
     width: 300px;
@@ -481,17 +473,21 @@
     font-size: 20px;
   }
   .reviewimg {
-    display: flex;
     width: 300px; 
     height: auto;
+    display: flex;
+    overflow: scroll;
+    overflow: auto;
+    white-space: nowrap;
   }
+  .reviewimg::-webkit-scrollbar {display: none;}
   .reviewimg01 {
     display: flex;
     flex-wrap: wrap;
-    /* overflow: hidden; */
     width: 300px; 
     height: auto;
     margin: auto;
+    margin-right: 10px;
     margin-top: 10px;
     border-radius: 10px;
   }
@@ -507,143 +503,137 @@
     border-radius: 10px;
     font-size: 20px;
   }
-  .reviewimg_02 {
-    /* display: none; */
+  .reviewimg02 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px; 
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
   }
-  .reviewtext_02 {
-    /* display: none; */
+  .reviewimg02 img {
+    width: 100%;
+    height: 200px;
+    margin: auto;
   }
   
   
   /* #bestBox============================== */
   #bestBox {
-    width: 1100px;
-    height: 603px;
+    width: 300px;
+    height: auto;
     box-sizing: border-box;
     background-color: #fff;
     margin: auto;
     margin-top: 70px;
   }
     #bestBox h2 {
-      width: 1100px; height: auto;
-      text-align: center;
+      width: 300px; 
+      height: auto;
       margin: auto;
+      font-size: 18px;
+      text-align: center;
     }
     .bestbox_inner {
-      width: 1100px; height: auto;
-      float: left;
+      width: 300px; 
+      height: auto;
     }
     .bestbox_list ul {
       display: flex;
-      width: 1100px; height: auto;
+      width: 310px; 
+      height: auto;
       margin-top: 30px;
+      overflow: scroll;
+      overflow: auto;
+      white-space: nowrap;
     }
     .bestbox_list ul li {
-      width: 96px;
+      width: auto;
       height: 50px;
       line-height: 50px;
       text-align: center;
     }
     .bestbox_list ul li button {
-      width: 100px;
-      font-size: 19px;
+      width: 80px;
+      font-size: 15px;
+    }
+    .bestbox_img {
+      width: 300px;
+      height: auto;
     }
     .bestbox_img ul {
+      width: 100%;
       display: flex;
-      width: 1080px;
       margin: auto;
-      font-size: 0;
+      overflow: scroll;
+      overflow: auto;
+      white-space: nowrap;
+      /* -ms-overflow-style: none; */
+      /* scrollbar-width: none; */
+    }
+    .bestbox_img ul::-webkit-scrollbar {
+      display: none;
     }
     .bestbox_img ul li:not(:last-child) {
+      width: 300px;
       display: inline-block;
       vertical-align: top;
-      width: 340px;
       margin-right: 30px;
     }
     .img_inner {
       width: auto;
       height: auto;
       position: relative;
-      overflow: hidden;
+      /* overflow: hidden; */
     }
     .img_inner img {
-      width: 340px;
+      width: 300px;
       margin: auto;
       margin-top: 30px;
     }
-    .besttext {
-      width: 340px;
-      font-size: 18px;
-      text-align: center;
+    .besttext p {
+      width: 300px;
       margin: auto;
       margin-top: 20px;
-    }
-    .bestimg1 {
-      float: left;
-      width: 325px; height: 300px;
-      margin: 30px 20px 10px 20px;
-      border-radius: 10px;
-    }
-    .bestimg2 {
-      float: left;
-      width: 325px; height: 300px;
-      margin: 30px 20px 10px 20px;
-      border-radius: 10px;
-    }
-    .bestimg3 {
-      float: left;
-      width: 325px; height: 300px;
-      margin: 30px 20px 10px 20px;
-      border-radius: 10px;
-    }
-    .besttext1 {
-      float: left;
-      width: 300px; height: 100px;
-      margin: 10px 20px 10px 20px;
-      border-radius: 10px;
-    }
-    .besttext2 {
-      float: left;
-      width: 300px; height: 100px;
-      margin: 10px 20px 10px 20px;
-      border-radius: 10px;
-    }
-    .besttext3 {
-      float: left;
-      width: 300px; height: 100px;
-      margin: 10px 20px 10px 20px;
-      border-radius: 10px;
+      font-size: 15px;
+      text-align: center;
+      text-decoration: none;
     }
 
+    /* #miniAdBox ============================== */
   #miniAdBox {
     height: 100%; 
     box-sizing: border-box; 
   }
   .mini_inner{
     display: flex;
-    width: 1100px; height: auto;
+    width: 300px; height: auto;
     margin: auto;
     margin-top: 70px;
     margin-bottom: 70px;
   }
   .deal {
-    width: 550px; height: 100%;
+    width: 145px; 
+    height: auto;
+    margin-right: 10px;
   }
   .deal h2 {
-    width: 500px;
-    text-align: center;
+    width: auto;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
   }
   .dealimg {
-    width: 500px; 
+    width: 140px; 
     height: auto;
     margin: auto;
     border-radius: 10px;
   }
   .dealimg img {
     width: 100%;
-    height: 250px;
+    height: 130px;
   }
   .dealimg input[id="slide"]{
     display: none;
@@ -655,25 +645,27 @@
     overflow: hidden;
   }
   .slide_item {
+    width: 100%;
     position: relative;
     display: inline-block;
     vertical-align: middle;
-    width: 100%;
     transition: all .35s;
   }
   .slide_item li {
+    width: 100%;
+    height: 160px;
     display: inline-block;
     vertical-align: middle;
-    width: 100%;
     transition: all .5s;
   }
   .textbox span {
     font-weight: 500;
   }
   .textbox p {
+    display: none;
     text-align: center;
-    font-size:16px;
-    color:#000;
+    font-size: 16px;
+    color: #000;
     transition:all .5s;
   }
   .slide_item li a {
@@ -690,21 +682,19 @@
     cursor: pointer;
   }
   label.left {
-    left: 20px;
-    top: 130px;
-    background-color: #5f5f5f;
-    background-image: url('../../img/base/left.png');
+    left: 0px;
+    top: 150px;
+    background-image: url('../../img/base/arrow_left.png');
     background-position: center center;
-    background-size: 50%;
+    background-size: 60%;
     background-repeat: no-repeat;
   }
   label.right {
-    right: 20px;
-    top: 130px;
-    background-color: #5f5f5f;
-    background-image: url('../../img/base/right.png');
+    right: 0px;
+    top: 150px;
+    background-image: url('../../img/base/arrow_right.png');
     background-position: center center;
-    background-size: 50%;
+    background-size: 60%;
     background-repeat: no-repeat;
   }
   
@@ -719,23 +709,25 @@
   .dealimg [id="slide03"]:checked ~ .slide_list .control03 {display: block;} */
   
   .planning {
-    width: 550px; height: 100%;
+    width: 145px; 
+    height: auto;
   }
   .planning h2 {
-    width: 500px;
-    text-align: center;
+    width: auto;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
   }
   .planing_img {
-    width: 500px; 
+    width: 140px; 
     height: auto;
     margin: auto;
     border-radius: 10px;
   }
   .planing_img img {
     width: 100%;
-    height: 250px;
+    height: 130px;
   }
   .planing_img input {display: none;}
   .planing_img input [id="slide"]{
@@ -747,16 +739,17 @@
     overflow: hidden;
   }
   .planslide_item {
+    width: 100%;
     position: relative;
     display: inline-block;
     vertical-align: middle;
-    width: 100%;
     transition: all .35s;
   }
   .planslide_item li {
+    width: 100%;
+    height: 160px;
     display: inline-block;
     vertical-align: middle;
-    width: 100%;
     transition: all .5s;
   }
   .plantext {
@@ -771,6 +764,7 @@
     font-size: 16px;
   }
   .plantext p {
+    display: none;
     font-size: 16px;
     width: auto;
     height: auto;
@@ -789,21 +783,19 @@
     cursor: pointer;
   }
   .plan_left {
-    left: 20px;
-    top: 130px;
-    background-color: #5f5f5f;
-    background-image: url('../../img/base/left.png');
+    left: 0px;
+    top: 150px;
+    background-image: url('../../img/base/arrow_left.png');
     background-position: center center;
-    background-size: 50%;
+    background-size: 60%;
     background-repeat: no-repeat;
   }
   .plan_right {
-    right: 20px;
-    top: 130px;
-    background-color: #5f5f5f;
-    background-image: url('../../img/base/right.png');
+    right: 0px;
+    top: 150px;
+    background-image: url('../../img/base/arrow_right.png');
     background-position: center center;
-    background-size: 50%;
+    background-size: 60%;
     background-repeat: no-repeat;
   }
   .planing_img [id="plan_slide01"]:checked ~ .planslide_list .planslide_item li {transform: translateX(0);}
@@ -812,6 +804,7 @@
 
 
   #footBox {
+    display: none;
     float: left;
     width: 100%; min-width: 1280px;
     height: auto;
