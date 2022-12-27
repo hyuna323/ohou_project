@@ -159,7 +159,7 @@
   }
   .viewtext {
     width: 100%; 
-    height: 20px;
+    height: auto;
     text-align: center;
     margin-top: -100px;
     color: #fff;

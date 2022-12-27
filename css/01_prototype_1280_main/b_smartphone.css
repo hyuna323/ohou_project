@@ -4,7 +4,7 @@
 @media all and (max-width: 767px) {
   #wrap {width: 100%; min-height: 600px;}
   #headBox {
-    width: 320px;
+    width: 100%; min-width: 320px;
     height: 60px;
     box-sizing: border-box;
     padding: 10px;
@@ -13,14 +13,14 @@
     background-color: #fff;
   }
   .head_inner {
-    width: 93.75%; min-width: 300px;
+    width: 100%; min-width: 300px;
     height: 100%;
     display: flex;
     /* margin: auto;  */
     box-sizing: border-box;
   }
   .head_inner h1 {
-    width: 240px;
+    width: 100%;
     height: 100%;
   }
   .head_inner h1 button {
@@ -132,25 +132,26 @@
   .head_inner02 {display: none;}
   #adViewBox {
     width: 100%;
-    height: auto;
+    height: 100%;
+    padding-top: 60px;
     box-sizing: border-box;
   }
   .view_outer {
     width: 100%; 
-    height: auto;
+    height: 100%;
     margin: auto;
   }
   .viewport {
     width: 100%; 
-    height: auto;
+    height: 100%;
   }
   .viewport > img {
     width: 100%; 
-    height: 300px;
+    height: 100%;
   }
   .viewtext {
     width: 100%; 
-    height: auto;
+    height: 100%;
     text-align: center;
     margin-top: -50px;
     color: #fff;
@@ -159,14 +160,17 @@
   }
 
   #shortcutBox {
+    /* display: none; */
     width: 300px;
     height: auto;
+    display: flex;
+    flex-wrap: wrap;
     box-sizing: border-box;
     background-color: #fff;
     margin: auto;
     margin-top: 70px;
-    /* overflow: scroll; */
-    overflow: hidden;
+    overflow-x: scroll;
+    /* overflow: hidden; */
   }
   .shortcut_outer {
     width: 100%; 
@@ -183,6 +187,7 @@
     width: 120px;
     height: 120px;
     margin: 0 8px;
+    position: relative;
   }
   .scimg01 img {
     width: 120px; 
@@ -193,6 +198,7 @@
     width: 120px; 
     height: 120px;
     margin: 0 8px;
+    position: relative;
   }
   .scimg02 img {
     width: 120px; 
@@ -203,6 +209,7 @@
     width: 120px; 
     height: 120px;
     margin: 0 8px;
+    position: relative;
   }
   .scimg03 img {
     width: 120px; 
@@ -213,6 +220,7 @@
     width: 120px; 
     height: 120px;
     margin: 0 8px;
+    position: relative;
   }
   .scimg04 img {
     width: 120px; 
@@ -223,6 +231,7 @@
     width: 120px; 
     height: 120px;
     margin-left: 8px;
+    position: relative;
   }
   .scimg05 img {
     width: 120px; 
@@ -237,10 +246,10 @@
     margin-bottom: 8px;
   }
   .scimg06 {
-    float: left;
     width: 120px; 
     height: 120px;
     margin: 0 8px;
+    position: relative;
   }
   .scimg06 img {
     width: 120px; 
@@ -248,10 +257,10 @@
     vertical-align: middle;
   }
   .scimg07 {
-    float: left;
     width: 120px; 
     height: 120px;
     margin: 0 8px;
+    position: relative;
   }
   .scimg07 img {
     width: 120px; 
@@ -259,10 +268,10 @@
     vertical-align: middle;
   }
   .scimg08 {
-    float: left;
     width: 120px; 
     height: 120px;
     margin: 0 8px;
+    position: relative;
   }
   .scimg08 img {
     width: 120px; 
@@ -274,6 +283,7 @@
     width: 120px; 
     height: 120px;
     margin: 0 8px;
+    position: relative;
   }
   .scimg09 img {
     width: 120px; 
@@ -281,10 +291,10 @@
     vertical-align: middle;
   }
   .scimg10 {
-    float: left;
     width: 120px; 
     height: 120px;
     margin-left: 8px;
+    position: relative;
   }
   .scimg10 img {
     width: 120px; 
@@ -295,7 +305,6 @@
     width: 120px; 
     height: 120px;
     line-height: 120px;
-    text-align: center;
     margin: auto;
     color: #fff;
     font-size: 18px;
@@ -312,10 +321,10 @@
   }
   /* #communityBox =============================== */
   #communityBox {
-    display: flex;
-    flex-wrap: wrap;
     width: 300px; 
     height: auto;
+    display: flex;
+    flex-wrap: wrap;
     margin: auto;
     background-color: #fff;
     overflow: hidden;
@@ -323,11 +332,11 @@
     /* padding: 35px 90px; */
   }
   .community_inner {
-    /* display: flex; */
-    flex-direction: column;
     width: 100%; 
     height: auto;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
   }
   .bestpicture_title {
     width: 280px;
@@ -345,12 +354,13 @@
     text-align: center;
   }
   .bestpicture {
-    display: flex;
     width: 300px; 
     height: auto;
+    display: flex;
     overflow: scroll;
     overflow: auto;
     white-space: nowrap;
+    margin-top: 10px;
   }
   .bestpicture::-webkit-scrollbar {display: none;}
   .bestpicture_top {display: flex;}
@@ -376,7 +386,6 @@
   }
   .bestpicture_bottom {
     display: flex;
-    margin-top: 10px;
   }
   .bestpicture3 {
     width: 186px; 
@@ -400,28 +409,11 @@
   }
   .community_inner02 {
     width: 100%;
+    height: auto;
     margin-top: 20px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
-  .story {
-    width: 100%; 
-    height: auto;
-  }
-  .story h2 {
-    width: 140px; 
-    height: 40px;
-    font-size: 22px;
-  }
-  .storyimg {
-    width: 300px; 
-    height: auto;
-    display: flex;
-    overflow: scroll;
-    overflow: auto;
-    white-space: nowrap;
-  }
-  .storyimg::-webkit-scrollbar {display: none;}
   .story_title {
     width: 280px;
     display: flex;
@@ -429,24 +421,35 @@
   }
   .story_title h2 {
     width: 228px;
+    line-height: 40px;
     font-size: 20px;
   }
-  .storyimg01 {
+  .story {
+    width: 300px; 
+    height: auto;
+    margin-top: 10px;
     display: flex;
-    flex-wrap: wrap;
+    overflow: scroll;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .story::-webkit-scrollbar {display: none;}
+  .storyimg01 {
     width: 300px; 
     height: auto;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
     margin-right: 10px;
     border-radius: 10px;
   }
   .storyimg01 img {
     width: 100%;
-    height: 100%;
+    height: auto;
     margin: auto;
   }
   .storytext {
-    width: 450px; 
+    width: 300px; 
     height: auto;
     margin: auto;
     border-radius: 10px;
@@ -454,25 +457,67 @@
   }
   .storytextid {
     width: 100%; 
-    height: 22px;
+    height: auto;
     font-size: 16px;
   }
-
-  .review {
-    width: 100%; 
+  .storyimg02 {
+    width: 300px; 
     height: auto;
-    margin-top: 20px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    border-radius: 10px;
   }
+  .storyimg02 img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+  }
+  .storyimg03 {
+    width: 300px; 
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+  .storyimg03 img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+  }
+  .storyimg04 {
+    width: 300px; 
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+  .storyimg04 img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+
   .review_title {
     width: 300px;
     display: flex;
     margin: auto;
+    margin-top: 20px;
   }
   .review_title h2 {
     width: 248px;
     font-size: 20px;
   }
-  .reviewimg {
+  .review {
     width: 300px; 
     height: auto;
     display: flex;
@@ -480,15 +525,15 @@
     overflow: auto;
     white-space: nowrap;
   }
-  .reviewimg::-webkit-scrollbar {display: none;}
+  .review::-webkit-scrollbar {display: none;}
   .reviewimg01 {
-    display: flex;
-    flex-wrap: wrap;
     width: 300px; 
     height: auto;
     margin: auto;
     margin-right: 10px;
     margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 10px;
   }
   .reviewimg01 img {
