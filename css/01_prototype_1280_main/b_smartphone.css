@@ -90,7 +90,7 @@
     position: fixed;
     width: 100%; min-width: 281px;
     height: 100%;
-    background-color: rgba(0, 169, 157, 0.9);
+    background-color: rgba(55, 185, 223, 0.9);
     text-transform: uppercase;
     left: 100%;
     transition: all 300ms;
