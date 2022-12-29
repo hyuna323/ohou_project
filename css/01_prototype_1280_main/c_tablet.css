@@ -4,7 +4,7 @@
 @media all and (min-width:768px) and (max-width:1279px) {
   #wrap {width: 100%; min-height: 600px;}
   #headBox {
-    width: 100%; min-width: 320px;
+    width: 100%; min-width: 768px;
     height: 60px;
     box-sizing: border-box;
     padding: 10px;
@@ -13,10 +13,9 @@
     background-color: #fff;
   }
   .head_inner {
-    width: 100%; min-width: 300px;
+    width: 100%; min-width: 700px;
     height: 100%;
     display: flex;
-    /* margin: auto;  */
     box-sizing: border-box;
   }
   .head_inner h1 {
@@ -27,12 +26,12 @@
     height: 100%;
   }
   .head_inner h1 img {
-    width: 90px;
+    width: 12.8571%; min-width: 90px;
     height: 100%;
   }
   .unb { display: none; }
   .header_m {
-    width: 42px; 
+    width: 38px;
     height: 26px;
     margin: auto;
     margin-top: 10px;
@@ -40,7 +39,7 @@
   }
 
   #unbInner {
-    width: 44px;
+    width: 100%;
     padding: 0;
   }
   
@@ -88,7 +87,7 @@
   }
   #slide_menu {
     position: fixed;
-    width: 100%; min-width: 281px;
+    width: 100%; min-width: 739px;
     height: 100%;
     background-color: rgba(55, 185, 223, 0.9);
     text-transform: uppercase;
@@ -180,8 +179,7 @@
   }
 
   #shortcutBox {
-    /* display: none; */
-    width: 300px;
+    width: 91.1458%; min-width: 700px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -189,8 +187,6 @@
     background-color: #fff;
     margin: auto;
     margin-top: 70px;
-    overflow-x: scroll;
-    /* overflow: hidden; */
   }
   .shortcut_outer {
     width: 100%; 
@@ -199,7 +195,7 @@
   }
   .shortcut01 {
     display: flex;
-    width: 300px;
+    width: 100%; min-width: 700px;
     height: auto;
     margin-bottom: 10px;
   }
@@ -261,7 +257,7 @@
 
   .shortcut02 {
     display: flex;
-    width: 300px;
+    width: 100%; min-width: 700px;
     height: auto;
     margin-bottom: 8px;
   }
@@ -341,15 +337,13 @@
   }
   /* #communityBox =============================== */
   #communityBox {
-    width: 300px; 
+    width: 700px; 
     height: auto;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     background-color: #fff;
     overflow: hidden;
-    /* margin-top: 70px; */
-    /* padding: 35px 90px; */
   }
   .community_inner {
     width: 100%; 
@@ -359,12 +353,12 @@
     flex-direction: column;
   }
   .bestpicture_title {
-    width: 280px;
+    width: 680px;
     display: flex;
     margin: auto;
   }
   .bestpicture_title h2 {
-    width: 228px;
+    width: 628px;
     line-height: 40px;
     font-size: 20px;
   }
@@ -374,10 +368,9 @@
     text-align: center;
   }
   .bestpicture {
-    width: 300px; 
+    width: 700px; 
     height: auto;
     display: flex;
-    overflow: scroll;
     overflow: auto;
     white-space: nowrap;
     margin-top: 10px;
@@ -385,7 +378,7 @@
   .bestpicture::-webkit-scrollbar {display: none;}
   .bestpicture_top {display: flex;}
   .bestpicture1 {
-    width: 186px; 
+    width: 210px; 
     height: auto;
     margin: auto;
     border-radius: 5%;
@@ -395,7 +388,7 @@
     border-radius: 5%;
   }
   .bestpicture2 {
-    width: 186px; 
+    width: 210px; 
     height: auto;
     margin: auto;
     border-radius: 5%;
@@ -408,7 +401,7 @@
     display: flex;
   }
   .bestpicture3 {
-    width: 186px; 
+    width: 210px; 
     height: auto;
     margin: auto;
     border-radius: 5%;
@@ -418,7 +411,7 @@
     border-radius: 5%;
   }
   .bestpicture4 {
-    width: 186px; 
+    width: 210px; 
     height: auto;
     margin: auto;
     border-radius: 5%;
@@ -435,21 +428,20 @@
     flex-direction: column;
   }
   .story_title {
-    width: 280px;
+    width: 680px;
     display: flex;
     margin: auto;
   }
   .story_title h2 {
-    width: 228px;
+    width: 628px;
     line-height: 40px;
     font-size: 20px;
   }
   .story {
-    width: 300px; 
+    width: 700px; 
     height: auto;
     margin-top: 10px;
     display: flex;
-    overflow: scroll;
     overflow: auto;
     white-space: nowrap;
   }
@@ -525,20 +517,19 @@
     margin: auto;
     border-radius: 10px;
   }
-  
 
   .review_title {
-    width: 300px;
+    width: 700px;
     display: flex;
     margin: auto;
     margin-top: 20px;
   }
   .review_title h2 {
-    width: 248px;
+    width: 648px;
     font-size: 20px;
   }
   .review {
-    width: 300px; 
+    width: 700px; 
     height: auto;
     display: flex;
     overflow: scroll;
@@ -547,7 +538,7 @@
   }
   .review::-webkit-scrollbar {display: none;}
   .reviewimg01 {
-    width: 300px; 
+    width: 350px; 
     height: auto;
     margin: auto;
     margin-right: 10px;
@@ -562,19 +553,19 @@
     margin: auto;
   }
   .reviewtext {
-    width: 300px; 
+    width: 350px; 
     height: auto;
     margin: auto;
     border-radius: 10px;
     font-size: 20px;
   }
   .reviewimg02 {
-    display: flex;
-    flex-wrap: wrap;
-    width: 300px; 
+    width: 350px; 
     height: auto;
     margin: auto;
     margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 10px;
   }
   .reviewimg02 img {
@@ -586,7 +577,7 @@
   
   /* #bestBox============================== */
   #bestBox {
-    width: 300px;
+    width: 700px;
     height: auto;
     box-sizing: border-box;
     background-color: #fff;
@@ -594,22 +585,28 @@
     margin-top: 70px;
   }
     #bestBox h2 {
-      width: 300px; 
+      width: 700px; 
       height: auto;
       margin: auto;
       font-size: 18px;
       text-align: center;
     }
     .bestbox_inner {
-      width: 300px; 
+      width: 700px; 
       height: auto;
+      margin: auto;
+    }
+    .bestbox_list {
+      width: auto;
+      height: auto;
+      margin: auto;
     }
     .bestbox_list ul {
       display: flex;
-      width: 310px; 
+      width: 680px; 
       height: auto;
+      margin: auto;
       margin-top: 30px;
-      overflow: scroll;
       overflow: auto;
       white-space: nowrap;
     }
@@ -624,14 +621,13 @@
       font-size: 15px;
     }
     .bestbox_img {
-      width: 300px;
+      width: 700px;
       height: auto;
     }
     .bestbox_img ul {
       width: 100%;
       display: flex;
       margin: auto;
-      overflow: scroll;
       overflow: auto;
       white-space: nowrap;
       /* -ms-overflow-style: none; */
@@ -641,7 +637,7 @@
       display: none;
     }
     .bestbox_img ul li:not(:last-child) {
-      width: 300px;
+      width: 700px;
       display: inline-block;
       vertical-align: top;
       margin-right: 30px;
@@ -653,12 +649,12 @@
       /* overflow: hidden; */
     }
     .img_inner img {
-      width: 300px;
+      width: 320px;
       margin: auto;
       margin-top: 30px;
     }
     .besttext p {
-      width: 300px;
+      width: 320px;
       margin: auto;
       margin-top: 20px;
       font-size: 15px;
@@ -672,14 +668,15 @@
     box-sizing: border-box; 
   }
   .mini_inner{
-    display: flex;
-    width: 300px; height: auto;
+    width: 700px; 
+    height: auto;
     margin: auto;
     margin-top: 70px;
     margin-bottom: 70px;
+    display: flex;
   }
   .deal {
-    width: 145px; 
+    width: 350px; 
     height: auto;
     margin-right: 10px;
   }
@@ -691,14 +688,14 @@
     text-align: center;
   }
   .dealimg {
-    width: 140px; 
+    width: 300px; 
     height: auto;
     margin: auto;
     border-radius: 10px;
   }
   .dealimg img {
     width: 100%;
-    height: 130px;
+    height: 170px;
   }
   .dealimg input[id="slide"]{
     display: none;
@@ -718,7 +715,7 @@
   }
   .slide_item li {
     width: 100%;
-    height: 160px;
+    height: 100%;
     display: inline-block;
     vertical-align: middle;
     transition: all .5s;
@@ -748,7 +745,7 @@
   }
   label.left {
     left: 0px;
-    top: 150px;
+    top: 95px;
     background-image: url('../../img/base/arrow_left.png');
     background-position: center center;
     background-size: 60%;
@@ -756,7 +753,7 @@
   }
   label.right {
     right: 0px;
-    top: 150px;
+    top: 95px;
     background-image: url('../../img/base/arrow_right.png');
     background-position: center center;
     background-size: 60%;
@@ -774,7 +771,7 @@
   .dealimg [id="slide03"]:checked ~ .slide_list .control03 {display: block;} */
   
   .planning {
-    width: 145px; 
+    width: 350px; 
     height: auto;
   }
   .planning h2 {
@@ -785,14 +782,14 @@
     text-align: center;
   }
   .planing_img {
-    width: 140px; 
+    width: 300px; 
     height: auto;
     margin: auto;
     border-radius: 10px;
   }
   .planing_img img {
     width: 100%;
-    height: 130px;
+    height: 170px;
   }
   .planing_img input {display: none;}
   .planing_img input [id="slide"]{
@@ -812,7 +809,7 @@
   }
   .planslide_item li {
     width: 100%;
-    height: 160px;
+    height: 100%;
     display: inline-block;
     vertical-align: middle;
     transition: all .5s;
@@ -849,18 +846,18 @@
   }
   .plan_left {
     left: 0px;
-    top: 150px;
-    background-image: url('../../img/base/arrow_left.png');
+    top: 95px;
+    background-image: url('../../img/base/left.png');
     background-position: center center;
-    background-size: 60%;
+    background-size: 100%;
     background-repeat: no-repeat;
   }
   .plan_right {
     right: 0px;
-    top: 150px;
-    background-image: url('../../img/base/arrow_right.png');
+    top: 95px;
+    background-image: url('../../img/base/right.png');
     background-position: center center;
-    background-size: 60%;
+    background-size: 100%;
     background-repeat: no-repeat;
   }
   .planing_img [id="plan_slide01"]:checked ~ .planslide_list .planslide_item li {transform: translateX(0);}

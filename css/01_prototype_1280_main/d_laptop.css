@@ -623,14 +623,15 @@
     box-sizing: border-box; 
   }
   .mini_inner{
-    display: flex;
     width: 1100px; height: auto;
     margin: auto;
     margin-top: 70px;
     margin-bottom: 70px;
+    display: flex;
   }
   .deal {
-    width: 550px; height: 100%;
+    width: 550px; 
+    height: 100%;
   }
   .deal h2 {
     width: 500px;
