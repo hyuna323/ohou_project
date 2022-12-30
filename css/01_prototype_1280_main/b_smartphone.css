@@ -39,7 +39,7 @@
   }
 
   #unbInner {
-    width: 44px;
+    width: 100%;
     padding: 0;
   }
   
@@ -86,9 +86,9 @@
     left: 40px;
   }
   #slide_menu {
-    position: fixed;
     width: 100%; min-width: 288px;
     height: 100%;
+    position: fixed;
     background-color: rgba(55, 185, 223, 0.9);
     text-transform: uppercase;
     left: 100%;
@@ -99,6 +99,22 @@
     box-sizing: border-box;
     overflow: auto;
   }
+
+  .button_part {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .button_part button {
+    width: 33.3333%; min-width: 100px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+  }
   
   input[id*="slide_btn"] {display: none;}
   input[id*="slide_btn"] + label {
@@ -108,24 +124,28 @@
     border-bottom: 1px solid #fff;
     font-size: 16px;
     color: #000;
-    font-weight: 400;
-    cursor: pointer;
+    font-weight: 500;
     position: relative;
+    cursor: pointer;
   }
   input[id*="slide_btn"] + label + div {
+    padding-left: 30px;
     max-height: 0;
     transition: all .35s;
     overflow: hidden;
     font-size: 16px;
-    font-weight: 300;
-    color: #fff;
+    font-weight: 400;
+    color: #000;
   }
   input[id*="slide_btn"] + label + div a {
-    display: inline-block;
-    padding: 10px;
+    width: 55%;
+    padding: 14px 14px 14px 30px;
     display: flex;
+    background-color: #78d7f4c1;
+    text-decoration: none;
   }
   input[id*="slide_btn"]:checked + label + div {
+    padding-top: 20px;
     max-height: inherit;
   }
   .head_inner02 {display: none;}
@@ -152,9 +172,9 @@
     width: 100%; min-width: 320px;
     height: 100%;
     margin-top: -50px;
-    color: #fff;
     font-size: 18px;
     font-weight: 500;
+    color: #fff;
     text-align: center;
   }
 
@@ -175,7 +195,7 @@
     margin: auto;
   }
   .shortcut01 {
-    width: 93.75%; min-width: 300px;
+    width: 100%; min-width: 300px;
     height: auto;
     margin-bottom: 10px;
     display: flex;
@@ -187,8 +207,8 @@
     position: relative;
   }
   .scimg01 img {
-    width: 120px; 
-    height: 120px;
+    width: 100%; 
+    height: 100%;
     vertical-align: middle;
   }
   .scimg02 {
@@ -198,8 +218,8 @@
     position: relative;
   }
   .scimg02 img {
-    width: 120px; 
-    height: 120px;
+    width: 100%; 
+    height: 100%;
     vertical-align: middle;
   }
   .scimg03 {
@@ -209,8 +229,8 @@
     position: relative;
   }
   .scimg03 img {
-    width: 120px; 
-    height: 120px;
+    width: 100%; 
+    height: 100%;
     vertical-align: middle;
   }
   .scimg04 {
@@ -220,8 +240,8 @@
     position: relative;
   }
   .scimg04 img {
-    width: 120px; 
-    height: 120px;
+    width: 100%; 
+    height: 100%;
     vertical-align: middle;
   }
   .scimg05 {
@@ -231,8 +251,8 @@
     position: relative;
   }
   .scimg05 img {
-    width: 120px; 
-    height: 120px;
+    width: 100%; 
+    height: 100%;
     vertical-align: middle;
   }
 
@@ -249,8 +269,8 @@
     position: relative;
   }
   .scimg06 img {
-    width: 120px; 
-    height: 120px;
+    width: 100%; 
+    height: 100%;
     vertical-align: middle;
   }
   .scimg07 {
@@ -260,8 +280,8 @@
     position: relative;
   }
   .scimg07 img {
-    width: 120px; 
-    height: 120px;
+    width: 100%; 
+    height: 100%;
     vertical-align: middle;
   }
   .scimg08 {
@@ -271,8 +291,8 @@
     position: relative;
   }
   .scimg08 img {
-    width: 120px; 
-    height: 120px;
+    width: 100%; 
+    height: 100%;
     vertical-align: middle;
   }
   .scimg09 {
@@ -282,8 +302,8 @@
     position: relative;
   }
   .scimg09 img {
-    width: 120px; 
-    height: 120px;
+    width: 100%; 
+    height: 100%;
     vertical-align: middle;
   }
   .scimg10 {
@@ -293,8 +313,8 @@
     position: relative;
   }
   .scimg10 img {
-    width: 120px; 
-    height: 120px;
+    width: 100%; 
+    height: 100%;
     vertical-align: middle;
   }
   .sctext {
@@ -323,7 +343,6 @@
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    background-color: #fff;
     overflow: hidden;
   }
   .community_inner {
@@ -349,7 +368,7 @@
     text-align: center;
   }
   .bestpicture {
-    width: 93.75%; min-width: 300px; 
+    width: 100%; min-width: 300px; 
     height: auto;
     margin-top: 10px;
     display: flex;
@@ -419,7 +438,7 @@
     font-size: 20px;
   }
   .story {
-    width: 93.75%; min-width: 300px;
+    width: 100%; min-width: 300px;
     height: auto;
     margin-top: 10px;
     display: flex;
@@ -610,9 +629,7 @@
     overflow: auto;
     white-space: nowrap;
   }
-  .bestbox_img ul::-webkit-scrollbar {
-    display: none;
-  }
+  .bestbox_img ul::-webkit-scrollbar {display: none;}
   .bestbox_img ul li:not(:last-child) {
     width: 93.75%; min-width: 300px;
     display: inline-block;
@@ -688,7 +705,7 @@
   }
   .slide_item li {
     width: 100%;
-    height: 160px;
+    height: 100%;
     display: inline-block;
     vertical-align: middle;
     transition: all .5s;
@@ -818,21 +835,18 @@
 
 
   #footBox {
-    display: none;
     float: left;
-    width: 100%; min-width: 1280px;
+    width: 100%; min-width: 320px;
     height: auto;
     border-top: 3px solid #37B9DF;
   }
   .foot_inner {
-    width: 85.7813%; min-width: 1098px; height: auto;
+    width: 93.75%; min-width: 300px; height: auto;
     margin: 30px auto;
     position: relative;
   }
-  
   .foot_main {
     color: #000;
-    /* text-align: center; */
     position: relative;
   }
   .foot_main h2 {
@@ -840,8 +854,8 @@
     margin-bottom: 18px;
   }
   .foot_main h2 button img {
-    width: 150px; 
-    height: 40px;
+    width: 80px; 
+    height: 30px;
     margin: auto;
     display: block;
   }
@@ -851,56 +865,47 @@
     margin-bottom: 30px;
   }
   .cs_part {
-    display: flex;
-    width: 772px;
-  }
-  .cs_part h3 {
-    width: 154px;
-    height: auto;
+    width: 93.3333%; min-width: 280px;
   }
   .cs_part button {
-    width: 100px;
+    width: 8.5714%; min-width: 60px;
     height: auto;
+    font-size: 16px;
     text-align: left;
   }
   .tel_part {
-    width: 134px;
-    font-size: 18px;
+    width: 42.6667%; min-width: 128px;
+    font-size: 16px;
     line-height: 28px;
   }
   .tel_part address {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
   }
   .inquiry_time {
-    width: 638px;
+    width: 98.3333%; min-width: 295px;
   }
   .inquiry_time li {
-    font-size: 18px;
+    font-size: 14px;
   }
-
-
   .foot_main .company_info {
-    width: 100%; min-width: 1098px;
+    width: 100%; min-width: 300px;
     height: auto;
   }
   .foot_main .company_info li {
-    font-size: 17px;
     display: inline-block;
+    font-size: 14px;
   }
-  .foot_main .company_info li::after {
-    padding: 0 14px;
-    content: 'l';
-  }
+  .foot_main .company_info li::after {display: none;}
   .foot_main p {
-    font-size: 15px;
+    font-size: 12px;
     margin-top: 26px;
     font-weight: 400;
     text-transform: uppercase;
   }
+  .last_li {display: none;}
   .footsubmenu {
-    width: 180px;
-    /* display: flex; */
+    width: 36.6667%; min-width: 110px;
     position: absolute;
     top: 0px;
     right: 0;
@@ -909,49 +914,37 @@
     width: 100%;
   }
   .brandsite_btn {
-    width: 100%; height: 42px;
+    width: 90.9091%; min-width: 110px; 
+    height: 42px;
     line-height: 42px;
     background-color: #37B9DF;
     border-radius: 5px;
-    color: #fff;
+    color: #000;
     font-size: 15px;
   }
   .brandsite_part ul {
-    display: none;
-    width: 100%; height: auto;
+    width: 100%; 
+    height: auto;
     margin-top: 10px;
-    padding: 5px 8px;
+    padding: 5px;
+    display: none;
+    position: relative;
     border: 1px solid #262626;
     background-color: #fff;
-    position: relative;
-    cursor: pointer;
     text-align: center;
+    cursor: pointer;
+  }
+  .brandsite_part li {
+    width: auto;
+    height: 35px;
+    line-height: 25px;
   }
   .brandsite_part ul.on {
     display: block;
     width: 100%; height: auto;
   }
-
-  .to_top {
-    display: none;
-    position: fixed;
-    bottom: 15px;
-    right: 4%;
-    z-index: 1;
-  }
-  .to_top.on {
-    display: block;
-  }
-  .to_top span {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    cursor: pointer;
-    background: url(../../img/to_top2color.svg)no-repeat center;
-    background-size: 60px;
-  }
-  .to_top span:hover {
-    background: url(../../img/to_top_fill.svg)no-repeat center;
-    background-size: 60px;
+  .brandsite_part ul button {
+    font-weight: 400;
+    font-size: 14px;
   }
 }

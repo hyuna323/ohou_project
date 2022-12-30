@@ -902,27 +902,4 @@
     display: block;
     width: 100%; height: auto;
   }
-  
-  .to_top {
-    display: none;
-    position: fixed;
-    bottom: 15px;
-    right: 4%;
-    z-index: 1;
-  }
-  .to_top.on {
-    display: block;
-  }
-  .to_top span {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    cursor: pointer;
-    background: url(../../img/base/to_top2color.svg)no-repeat center;
-    background-size: 60px;
-  }
-  .to_top span:hover {
-    background: url(../../img/base/to_top_fill.svg)no-repeat center;
-    background-size: 60px;
-  }
 }
