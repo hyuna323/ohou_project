@@ -186,8 +186,7 @@
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    background-color: #fff;
-    overflow-x: scroll;
+    overflow-x: auto;
   }
   .shortcut_outer {
     width: 100%; 
@@ -196,14 +195,14 @@
   }
   .shortcut01 {
     width: 100%; min-width: 300px;
-    height: auto;
+    height: 120px;
     margin-bottom: 10px;
     display: flex;
   }
   .scimg01 {
-    width: 120px;
-    height: 120px;
-    margin: 0 8px;
+    width: 40%; min-width: 120px;
+    height: 100%;
+    margin: 0 8px 0 0;
     position: relative;
   }
   .scimg01 img {
@@ -212,8 +211,8 @@
     vertical-align: middle;
   }
   .scimg02 {
-    width: 120px; 
-    height: 120px;
+    width: 40%; min-width: 120px;
+    height: auto;
     margin: 0 8px;
     position: relative;
   }
@@ -223,8 +222,8 @@
     vertical-align: middle;
   }
   .scimg03 {
-    width: 120px; 
-    height: 120px;
+    width: 40%; min-width: 120px;
+    height: auto;
     margin: 0 8px;
     position: relative;
   }
@@ -234,8 +233,8 @@
     vertical-align: middle;
   }
   .scimg04 {
-    width: 120px; 
-    height: 120px;
+    width: 40%; min-width: 120px;
+    height: auto;
     margin: 0 8px;
     position: relative;
   }
@@ -245,8 +244,8 @@
     vertical-align: middle;
   }
   .scimg05 {
-    width: 120px; 
-    height: 120px;
+    width: 40%; min-width: 120px;
+    height: auto;
     margin-left: 8px;
     position: relative;
   }
@@ -257,15 +256,14 @@
   }
 
   .shortcut02 {
-    width: 93.75%; min-width: 300px;
-    height: auto;
-    margin-bottom: 8px;
+    width: 100%; min-width: 300px;
+    height: 120px;
     display: flex;
   }
   .scimg06 {
-    width: 120px; 
-    height: 120px;
-    margin: 0 8px;
+    width: 40%; min-width: 120px;
+    height: auto;
+    margin: 0 8px 0 0;
     position: relative;
   }
   .scimg06 img {
@@ -274,8 +272,8 @@
     vertical-align: middle;
   }
   .scimg07 {
-    width: 120px; 
-    height: 120px;
+    width: 40%; min-width: 120px;
+    height: 100%;
     margin: 0 8px;
     position: relative;
   }
@@ -285,8 +283,8 @@
     vertical-align: middle;
   }
   .scimg08 {
-    width: 120px; 
-    height: 120px;
+    width: 40%; min-width: 120px;
+    height: 100%;
     margin: 0 8px;
     position: relative;
   }
@@ -296,8 +294,8 @@
     vertical-align: middle;
   }
   .scimg09 {
-    width: 120px; 
-    height: 120px;
+    width: 40%; min-width: 120px;
+    height: 100%;
     margin: 0 8px;
     position: relative;
   }
@@ -307,8 +305,8 @@
     vertical-align: middle;
   }
   .scimg10 {
-    width: 120px; 
-    height: 120px;
+    width: 40%; min-width: 120px;
+    height: 100%;
     margin-left: 8px;
     position: relative;
   }

@@ -54,7 +54,7 @@
     height: auto;
   }
   #searchInput {
-    width: 220px;
+    width: 11.4583%; min-width: 220px;
     height: 44px;
     margin: auto;
     margin-right: 8px;
@@ -64,56 +64,56 @@
     border: 1px solid #aaaaaa;
   }
   .search_btn {
-    width: 100px;
+    width: 30.4878%; min-width: 100px;
     height: 44px;
     border-radius: 5px;
-    /* border: 1px solid #fff; */
     background-color: #37B9DF;
     color: #000;
     font-size: 16px;
     text-transform: capitalize;
   }
   .shopping_part {
-    width: 100px;
+    width: 5.2083%; min-width: 100px;
     height: 50px;
     font-size: 19px;
     line-height: 46px;
   }
   .shopping_part a {
-    display: block;
     width: auto;
     height: 100%;
+    display: block;
     text-decoration: none;
   }
   .login_part {
-    width: 100px;
+    width: 5.2083%; min-width: 100px;
     height: 50px;
     font-size: 19px;
     line-height: 46px;
   }
   .login_part a {
-    display: block;
     width: auto;
     height: 100%;
+    display: block;
     text-decoration: none;
   }
   .join_part {
-    width: 100px;
+    width: 5.2083%; min-width: 100px;
     height: 50px;
     font-size: 19px;
     line-height: 46px;
   }
   .join_part a {
-    display: block;
     width: auto;
     height: 100%;
+    display: block;
     text-decoration: none;
   }
 
 
   /* ---------------------------------- */
   .head_inner02 {
-    width: 100%; height: 50%;
+    width: 100%; 
+    height: 50%;
     background-color: #fff;
     margin: auto;
     box-sizing: border-box;
@@ -121,11 +121,11 @@
   }
 
   .gnb {
-    display: flex;
-    justify-content: space-between;
-    width: 1260px; 
+    width: 67.7083%; min-width: 1300px;
     height: 100%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
   }
 
   .submenu_part {
@@ -133,18 +133,18 @@
     display: inline-block;
   }
   .btn_part {
-    width: 140px;
+    width: 11.0769%; min-width: 144px;
     height: 100%;
     line-height: 68px;
     border-radius: 4px;
-    font-weight: 300;
-    cursor: pointer;
     font-size: 21px;
+    font-weight: 300;
     text-align: center;
+    cursor: pointer;
   }
   .header_m {display: none;}
 
-
+  /* #adViewBox ========================== */
   #adViewBox {
     width: 100%;
     height: 742px;
@@ -156,14 +156,15 @@
   }
   .viewport {
     width: 100%;
-    height: 742px;
+    height: 100%;
     }
   .viewport > img {
     width: 100%;
-    height: 742px;
+    height: 100%;
   }
   .viewtext {
-    width: 100%; height: 20px;
+    width: 100%; min-width: 1920px;
+    height: 20px;
     text-align: center;
     margin-top: -100px;
     color: #fff;
@@ -172,12 +173,12 @@
   }
 
   #shortcutBox {
-    width: 1600px;
+    width: 83.3333%; min-width: 1600px;
     height: auto;
-    box-sizing: border-box;
-    background-color: #fff;
     margin: auto;
     margin-top: 100px;
+    box-sizing: border-box;
+    background-color: #fff;
   }
   .shortcut_outer {
     width: 100%; 
@@ -185,15 +186,16 @@
     margin: auto;
   }
   .shortcut01 {
-    display: flex;
-    width: 1600px;
+    width: 100%; min-width: 1600px;
     height: auto;
     margin-bottom: 10px;
+    display: flex;
   }
   .scimg01 {
-    width: 300px;
-    height: 300px;
-    margin: 0 10px;
+    width: 18.75%; min-width: 300px;
+    height: 100%;
+    margin: 0 10px 0 0;
+    position: relative;
   }
   .scimg01 img {
     width: 100%; 
@@ -201,9 +203,10 @@
     vertical-align: middle;
   }
   .scimg02 {
-    width: 300px; 
-    height: 300px;
+    width: 18.75%; min-width: 300px;
+    height: 100%;
     margin: 0 10px;
+    position: relative;
   }
   .scimg02 img {
     width: 100%; 
@@ -211,9 +214,10 @@
     vertical-align: middle;
   }
   .scimg03 {
-    width: 300px; 
-    height: 300px;
+    width: 18.75%; min-width: 300px;
+    height: 100%;
     margin: 0 10px;
+    position: relative;
   }
   .scimg03 img {
     width: 100%; 
@@ -221,9 +225,10 @@
     vertical-align: middle;
   }
   .scimg04 {
-    width: 300px; 
-    height: 300px;
+    width: 18.75%; min-width: 300px;
+    height: 100%;
     margin: 0 10px;
+    position: relative;
   }
   .scimg04 img {
     width: 100%; 
@@ -231,9 +236,10 @@
     vertical-align: middle;
   }
   .scimg05 {
-    width: 300px; 
-    height: 300px;
+    width: 18.75%; min-width: 300px;
+    height: 100%;
     margin-left: 10px;
+    position: relative;
   }
   .scimg05 img {
     width: 100%; 
@@ -242,15 +248,16 @@
   }
 
   .shortcut02 {
-    display: flex;
-    width: 1600px;
+    width: 100%; min-width: 1600px;
     height: auto;
+    display: flex;
     margin-bottom: 10px;
   }
   .scimg06 {
-    width: 300px; 
-    height: 300px;
+    width: 18.75%; min-width: 300px;
+    height: 100%;
     margin: 0 10px;
+    position: relative;
   }
   .scimg06 img {
     width: 100%; 
@@ -258,9 +265,10 @@
     vertical-align: middle;
   }
   .scimg07 {
-    width: 300px; 
-    height: 300px;
+    width: 18.75%; min-width: 300px;
+    height: 100%;
     margin: 0 10px;
+    position: relative;
   }
   .scimg07 img {
     width: 100%; 
@@ -268,9 +276,10 @@
     vertical-align: middle;
   }
   .scimg08 {
-    width: 300px; 
-    height: 300px;
+    width: 18.75%; min-width: 300px;
+    height: 100%;
     margin: 0 10px;
+    position: relative;
   }
   .scimg08 img {
     width: 100%; 
@@ -278,9 +287,10 @@
     vertical-align: middle;
   }
   .scimg09 {
-    width: 300px; 
-    height: 300px;
+    width: 18.75%; min-width: 300px;
+    height: 100%;
     margin: 0 10px;
+    position: relative;
   }
   .scimg09 img {
     width: 100%; 
@@ -288,9 +298,10 @@
     vertical-align: middle;
   }
   .scimg10 {
-    width: 300px; 
-    height: 300px;
+    width: 18.75%; min-width: 300px;
+    height: 100%;
     margin-left: 10px;
+    position: relative;
   }
   .scimg10 img {
     width: 100%; 
@@ -298,11 +309,10 @@
     vertical-align: middle;
   }
   .sctext {
-    width: 300px; 
-    height: 300px;
-    line-height: 300px;
-    text-align: center;
+    width: 100%; 
+    height: auto;
     margin: auto;
+    top: 46%;
     color: #fff;
     font-size: 26px;
     font-weight: 500;
@@ -317,47 +327,43 @@
   }
 
   #communityBox {
-    display: flex;
-    width: 1600px; 
+    width: 83.3333%; min-width: 1600px; 
     height: auto;
     margin: auto;
-    background-color: #fff;
     margin-top: 100px;
-    /* padding: 35px 90px; */
+    display: flex;
   }
   .community_inner {
     width: 100%; 
     height: auto;
   }
   .bestpicture_title {
-    width: 730px;
+    width: 45.625%; min-width: 730px;
     display: flex;
     margin: auto;
   }
   .bestpicture_title h2 {
-    width: 630px;
-    line-height: 60px;
+    width: 100%; min-width: 630px;
+    line-height: 40px;
     font-size: 24px;
   }
   .moretx {
-    width: 100px; 
+    width: 51px; 
     height: 60px;
-    line-height: 60px;
     text-align: center;
   }
   .moretx button {
     font-size: 22px;
   }
   .bestpicture {
-    /* display: flex; */
-    width: 800px; 
+    width: 50%; min-width: 800px; 
     height: auto;
     margin-top: 25px;
   }
   .bestpicture_top {display: flex;}
   .bestpicture1 {
-    width: 340px; 
-    height: 340px;
+    width: 43.75%; min-width: 350px; 
+    height: auto;
     margin: auto;
     border-radius: 5%;
   }
@@ -366,8 +372,8 @@
     border-radius: 5%;
   }
   .bestpicture2 {
-    width: 340px; 
-    height: 340px;
+    width: 43.75%; min-width: 350px; 
+    height: auto;
     margin: auto;
     border-radius: 5%;
   }
@@ -380,8 +386,8 @@
     margin-top: 30px;
   }
   .bestpicture3 {
-    width: 340px; 
-    height: 340px;
+    width: 43.75%; min-width: 350px; 
+    height: auto;
     margin: auto;
     border-radius: 5%;
   }
@@ -390,8 +396,8 @@
     border-radius: 5%;
   }
   .bestpicture4 {
-    width: 340px; 
-    height: 340px;
+    width: 43.75%; min-width: 350px; 
+    height: auto;
     margin: auto;
     border-radius: 5%;
   }
@@ -399,45 +405,49 @@
     width: 100%;
     border-radius: 5%;
   }
-  .community_inner {
-    width: 100%; 
-    height: auto;
-  }
   .community_inner02 {
-    width: 100%;
+    width: 100%; min-width: 800px;
+    height: auto;
+    margin-top: 20px;
     display: flex;
-    flex-wrap: wrap;
-  }
-  .story {
-    width: 100%; 
-    height: 435px;
-    /* margin-left: 10px; */
+    flex-direction: column;
   }
   .story_title {
-    width: 730px;
-    height: auto;
+    width: 45.625%; min-width: 730px;
     display: flex;
     margin: auto;
   }
   .story_title h2 {
-    width: 630px;
+    width: 100%; min-width: 630px;
     height: auto;
-    line-height: 50px;
+    line-height: 40px;
     font-size: 24px;
   }
-  .storyimg {
-    display: flex;
-    flex-wrap: wrap;
-    width: 720px; 
+  .story {
+    width: 96.4286%;
+    min-width: 675px;
     height: auto;
     margin: auto;
-    margin-top: 30px;
-    /* margin: 25px 20px 5px 50px; */
+    margin-top: 10px;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .story_inner {
+    width: 100%; min-width: 725px;
+    height: 100%;
+  }
+  .storyimg01 {
+    width: 700px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 10px;
   }
-  .storyimg img {
+  .storyimg01 img {
     width: 100%;
-    height: 275px;
+    height: auto;
     margin: auto;
   }
   .storytext {
@@ -452,22 +462,24 @@
     height: 30px;
     font-size: 20px;
   }
-  .storyimg_02 {
+  .storyimg02 {
+    width: 730px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  .storyimg02 img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .storyimg03 {
     display: none;
   }
-  .storytext_02 {
-    display: none;
-  }
-  .storyimg_03 {
-    display: none;
-  }
-  .storytext_03 {
-    display: none;
-  }
-  .storyimg_04 {
-    display: none;
-  }
-  .storytext_04 {
+  .storyimg04 {
     display: none;
   }
   .review {

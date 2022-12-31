@@ -331,7 +331,8 @@
   .shortcut_outer li:nth-last-child(1){margin-bottom: 0; margin-right: 10px;}
 
   #content_box_wrap{
-  width: 100%; height: auto;
+  width: 100%; 
+  height: auto;
   }
   /* #communityBox =============================== */
   #communityBox {
@@ -340,7 +341,7 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
+    overflow: auto;
   }
   .community_inner {
     width: 100%; min-width: 700px;
