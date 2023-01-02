@@ -186,7 +186,6 @@
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    background-color: #fff;
   }
   .shortcut_outer {
     width: 100%; 
