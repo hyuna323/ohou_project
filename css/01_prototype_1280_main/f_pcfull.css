@@ -429,8 +429,7 @@
     font-size: 24px;
   }
   .story {
-    width: 96.4286%;
-    min-width: 675px;
+    width: 96.4286%; min-width: 675px;
     height: auto;
     margin: auto;
   }

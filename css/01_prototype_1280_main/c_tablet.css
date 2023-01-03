@@ -13,7 +13,7 @@
     background-color: #fff;
   }
   .head_inner {
-    width: 100%; min-width: 700px;
+    width: 100%; min-width: 700px; max-width: 1279px;
     height: 100%;
     display: flex;
     box-sizing: border-box;
@@ -148,7 +148,10 @@
     padding-top: 20px;
     max-height: inherit;
   }
+
   .head_inner02 {display: none;}
+
+  /* #adViewBox ============================= */
   #adViewBox {
     width: 100%; min-width: 768px;
     height: 100%;
@@ -174,10 +177,11 @@
     margin-top: -70px;
     font-size: 18px;
     font-weight: 500;
-    color: #fff;
     text-align: center;
+    color: #fff;
   }
 
+  /* #shortcutBox ========================== */
   #shortcutBox {
     width: 91.1458%; min-width: 700px;
     height: auto;
@@ -319,20 +323,22 @@
     height: auto;
     margin: auto;
     top: 38%;
-    color: #fff;
+    box-sizing: border-box;
     font-size: 18px;
     font-weight: 400;
-    box-sizing: border-box;
     text-align: center;
+    color: #fff;
     position: absolute;
   }
   .shortcut_outer li:nth-last-of-type(-n+5){margin-bottom: 0;}
   .shortcut_outer li:nth-last-child(1){margin-bottom: 0; margin-right: 10px;}
 
-  #content_box_wrap{
+  /* #content_box_wrap ============================= */
+  #content_box_wrap {
   width: 100%; 
   height: auto;
   }
+  
   /* #communityBox =============================== */
   #communityBox {
     width: 91.1458%; min-width: 700px;
@@ -417,7 +423,7 @@
     width: 90%;
     border-radius: 5%;
   }
-  .community_inner02 {
+  #community_inner02 {
     width: 100%; min-width: 700px;
     height: auto;
     margin-top: 20px;
@@ -875,22 +881,22 @@
   .cs_part {
     width: 96%; min-width: 672px;
   }
-  .cs_part button {
-    width: 10.4167%; min-width: 70px;
-    height: auto;
-    text-align: left;
-  }
   .tel_part {
     width: 90%; min-width: 630px;
     font-size: 18px;
     line-height: 28px;
+  }
+  .cs_part button {
+    width: 10.4167%; min-width: 70px;
+    height: auto;
+    text-align: left;
   }
   .tel_part address {
     font-size: 18px;
     font-weight: 400;
   }
   .inquiry_time {
-    width: 91.1429%; min-width: 638px;
+    width: 100%;
   }
   .inquiry_time li {
     font-size: 18px;
