@@ -8,69 +8,37 @@
   #headBox { 
     width: 100%; min-width: 1920px;
     height: 140px; 
-    box-sizing:border-box;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
   }
   .head_inner {
     width: 100%; min-width: 1920px;
     height: 50%;
-    margin: auto; box-sizing: border-box;
+    margin: auto;
     padding: 12px;
     display: flex;
-    background-color: #fff;
   }
   h1 {
-    width: 1254px; 
+    width: 65.3125%; min-width: 1254px;
     height: 46px;
     margin: auto;
   }
-  h1 > button {
+  h1 button {
     width: auto;
     height: 100%;
   }
-  h1 > button > img {
-    width: 100%; 
+  h1 button img {
     height: 100%;
   }
   .unb {
-    display: flex;
     width: auto; 
-    height: 46px;
+    height: auto;
+    margin: auto;
+    display: flex;
     text-transform: uppercase;
     text-align: center;
-  }
-  .search_part {
-    width: auto;
-    height: auto;
-    margin: auto;
-    margin-left: 10px;
-  }
-  .search_part form {
-    width: auto;
-    height: auto;
-  }
-  .search_part fieldset {
-    display: flex;
-    width: auto;
-    height: auto;
-  }
-  #searchInput {
-    width: 11.4583%; min-width: 220px;
-    height: 44px;
-    margin: auto;
-    margin-right: 8px;
-    padding-left: 10px;
-    border-radius: 4px;
-    font-size: 16px;
-    border: 1px solid #aaaaaa;
-  }
-  .search_btn {
-    width: 30.4878%; min-width: 100px;
-    height: 44px;
-    border-radius: 5px;
-    background-color: #37B9DF;
-    color: #000;
-    font-size: 16px;
-    text-transform: capitalize;
   }
   .shopping_part {
     width: 5.2083%; min-width: 100px;
@@ -108,18 +76,50 @@
     display: block;
     text-decoration: none;
   }
-
-
+  .search_part {
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-left: 10px;
+  }
+  .search_part form {
+    width: auto;
+    height: auto;
+  }
+  .search_part fieldset {
+    width: auto;
+    height: auto;
+    display: flex;
+  }
+  #searchInput {
+    width: 11.4583%; min-width: 220px;
+    height: 44px;
+    margin: auto;
+    margin-right: 8px;
+    padding-left: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid #aaaaaa;
+  }
+  .search_btn {
+    width: 30.4878%; min-width: 100px;
+    height: 44px;
+    border-radius: 5px;
+    background-color: #37B9DF;
+    color: #000;
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  
+  
   /* ---------------------------------- */
   .head_inner02 {
     width: 100%; 
     height: 50%;
-    background-color: #fff;
     margin: auto;
     box-sizing: border-box;
     border-top: 2px solid #333;
   }
-
   .gnb {
     width: 67.7083%; min-width: 1300px;
     height: 100%;
@@ -127,7 +127,6 @@
     display: flex;
     justify-content: space-between;
   }
-
   .submenu_part {
     position: relative;
     display: inline-block;
@@ -146,39 +145,43 @@
 
   /* #adViewBox ========================== */
   #adViewBox {
-    width: 100%;
-    height: 742px;
+    width: 100%; min-width: 1920px;
+    height: 100%;
+    padding-top: 140px;
     box-sizing: border-box;
   }
   .view_outer {
-    width: 100%; height: 742px;
+    width: 100%; min-width: 1920px;
+    height: 742px;
     margin: auto;
   }
   .viewport {
-    width: 100%;
+    width: 100%; min-width: 1920px;
     height: 100%;
     }
-  .viewport > img {
+  .viewport img {
     width: 100%;
     height: 100%;
   }
   .viewtext {
     width: 100%; min-width: 1920px;
     height: 20px;
-    text-align: center;
     margin-top: -100px;
-    color: #fff;
     font-size: 26px;
     font-weight: 500;
+    text-align: center;
+    color: #fff;
   }
 
+  /* #shortcutBox ========================== */
   #shortcutBox {
     width: 83.3333%; min-width: 1600px;
     height: auto;
     margin: auto;
     margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
     box-sizing: border-box;
-    background-color: #fff;
   }
   .shortcut_outer {
     width: 100%; 
@@ -256,7 +259,7 @@
   .scimg06 {
     width: 18.75%; min-width: 300px;
     height: 100%;
-    margin: 0 10px;
+    margin: 0 10px 0 0;
     position: relative;
   }
   .scimg06 img {
@@ -313,20 +316,21 @@
     height: auto;
     margin: auto;
     top: 46%;
-    color: #fff;
+    box-sizing: border-box;
     font-size: 26px;
     font-weight: 500;
-    box-sizing: border-box;
     text-align: center;
+    color: #fff;
     position: absolute;
   }
 
+  /* #content_box_wrap ============================= */
   #content_box_wrap{
     width: 100%; 
     height: auto;
   }
   .community {
-    width: 83.3333%; min-width: 1600px; 
+    width: 83.3333%; min-width: 1600px;
     height: auto;
     margin: auto;
     display: grid;
@@ -334,7 +338,7 @@
   }
 
   #communityBox {
-    width: 800px; 
+    width: 50%; min-width: 800px; 
     height: auto;
     margin: auto;
     margin-top: 100px;
@@ -344,18 +348,18 @@
     height: auto;
   }
   .bestpicture_title {
-    width: 45.625%; min-width: 730px;
+    width: 91.25%; min-width: 730px;
     margin: auto;
     display: flex;
   }
   .bestpicture_title h2 {
-    width: 100%; min-width: 630px;
+    width: 100%;
     line-height: 40px;
     font-size: 24px;
   }
   .moretx {
     width: 51px; 
-    height: 60px;
+    height: auto;
     text-align: center;
   }
   .moretx button {
@@ -371,7 +375,6 @@
     width: 43.75%; min-width: 350px; 
     height: auto;
     margin: auto;
-    border-radius: 5%;
   }
   .bestpicture1 img {
     width: 100%;
@@ -381,21 +384,19 @@
     width: 43.75%; min-width: 350px; 
     height: auto;
     margin: auto;
-    border-radius: 5%;
   }
   .bestpicture2 img {
     width: 100%;
     border-radius: 5%;
   }
   .bestpicture_bottom {
-    display: flex;
     margin-top: 30px;
+    display: flex;
   }
   .bestpicture3 {
     width: 43.75%; min-width: 350px; 
     height: auto;
     margin: auto;
-    border-radius: 5%;
   }
   .bestpicture3 img {
     width: 100%;
@@ -405,56 +406,55 @@
     width: 43.75%; min-width: 350px; 
     height: auto;
     margin: auto;
-    border-radius: 5%;
   }
   .bestpicture4 img {
     width: 100%;
     border-radius: 5%;
   }
   #community_inner02 {
-    width: 800px;
+    width: 50%; min-width: 800px;
     height: auto;
     margin: auto;
     margin-top: 100px;
   }
   .story_title {
-    width: 45.625%; min-width: 730px;
+    width: 91.25%; min-width: 730px;
     margin: auto;
     display: flex;
   }
   .story_title h2 {
-    width: 100%; min-width: 630px;
+    width: 100%;
     height: auto;
     line-height: 40px;
     font-size: 24px;
   }
   .story {
-    width: 96.4286%; min-width: 675px;
+    width: 100%;
     height: auto;
     margin: auto;
   }
   .story_img {
     width: auto;
+    height: auto;
+    margin: auto;
     margin-top: 25px;
     display: flex;
     overflow: auto;
   }
   .storyimg01 {
-    width: 770px;
+    width: 96.25%; min-width: 770px;
     height: auto;
-    margin: auto;
-    margin-right: 10px;
+    margin: 20px;
     display: flex;
     flex-wrap: wrap;
-    border-radius: 10px;
   }
   .storyimg01 img {
-    width: 770px;
+    width: 100%; min-width: 770px;
     height: auto;
     margin: auto;
   }
   .storytext {
-    width: 100%; min-width: 330px;
+    width: 100%;
     height: auto;
     margin: auto;
     border-radius: 10px;
@@ -466,63 +466,58 @@
     font-size: 20px;
   }
   .storyimg02 {
-    width: 770px;
+    width: 96.25%; min-width: 770px;
     height: auto;
-    margin: auto;
-    margin-right: 10px;
+    margin: 20px;
     display: flex;
     flex-wrap: wrap;
-    border-radius: 10px;
   }
   .storyimg02 img {
-    width: 770px;
+    width: 100%; min-width: 770px;
     height: auto;
     margin: auto;
   }
   .storyimg03 {
-    width: 770px;
+    width: 96.25%; min-width: 770px;
     height: auto;
-    margin: auto;
-    margin-right: 10px;
+    margin: 20px;
     display: flex;
     flex-wrap: wrap;
-    border-radius: 10px;
   }
   .storyimg03 img {
-    width: 770px;
+    width: 100%; min-width: 770px;
     height: auto;
     margin: auto;
   }
   .storyimg04 {
-    width: 770px;
+    width: 96.25%; min-width: 770px;
     height: auto;
-    margin: auto;
-    margin-right: 10px;
+    margin: 20px;
     display: flex;
     flex-wrap: wrap;
-    border-radius: 10px;
   }
   .storyimg04 img {
-    width: 770px;
+    width: 100%; min-width: 770px;
     height: auto;
     margin: auto;
   }
+
+  /* .review --------------- */
   .review {
-    width: 96.4286%;
-    min-width: 675px;
+    width: 100%;
     height: auto;
     margin: auto;
     margin-top: 10px;
   }
   .review_title {
-    width: 45.625%; min-width: 730px;
+    width: 91.25%; min-width: 730px;
     margin: auto;
     display: flex;
   }
   .review_title h2 {
-    width: 100%; min-width: 630px;
+    width: 100%;
     height: auto;
-    line-height: 40px;
+    margin-left: 24px;
     font-size: 24px;
   }
   .review_img {
@@ -531,128 +526,135 @@
     overflow: auto;
   }
   .reviewimg01 {
-    width: 770px;
+    width: 96.25%; min-width: 770px;
     height: 300px;
-    margin: auto;
-    margin-right: 10px;
+    margin: 20px;
     display: flex;
     flex-wrap: wrap;
   }
   .reviewimg01 img {
-    width: 770px;
+    width: 100%; min-width: 770px;
     height: 80%;
     margin: auto;
-    border-radius: 10px;
+  }
+  .reviewimg02 {
+    width: 96.25%; min-width: 770px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .reviewimg02 img {
+    width: 100%; min-width: 770px;
+    height: 80%;
+    margin: auto;
   }
   .reviewtext {
-    width: 100%; min-width: 330px;
+    width: 100%;
     height: auto;
     margin: auto;
     border-radius: 10px;
     font-size: 20px;
   }
-  .reviewimg02 {
-    width: 770px;
-    height: 300px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 10px;
-  }
-  .reviewimg02 img {
-    width: 770px;
-    height: 80%;
-    margin: auto;
-  }
-  
   
   /* #bestBox============================== */
   #bestBox {
-    width: 1600px;
-    height: 685px;
-    box-sizing: border-box;
-    background-color: #fff;
+    width: 83.3333%; min-width: 1600px;
+    height: auto;
     margin: auto;
     margin-top: 70px;
+    box-sizing: border-box;
   }
-    #bestBox h2 {
-      width: 1600px; height: auto;
-      text-align: center;
-      margin: auto;
-    }
-    .bestbox_inner {
-      width: 1600px; height: auto;
-      float: left;
-    }
-    .bestbox_list ul {
-      display: flex;
-      width: 1200px; 
-      height: auto;
-      margin: auto;
-      margin-top: 30px;
-    }
-    .bestbox_list ul li {
-      width: 110px;
-      height: 50px;
-      line-height: 50px;
-      text-align: center;
-    }
-    .bestbox_list ul li button {
-      width: 100px;
-      font-size: 19px;
-    }
-    .bestbox_img ul {
-      display: flex;
-      width: 1460px;
-      margin: auto;
-      font-size: 0;
-    }
-    .bestbox_img ul li:not(:last-child) {
-      display: inline-block;
-      vertical-align: top;
-      width: 448px;
-      margin-right: 50px;
-    }
-    .img_inner {
-      width: 448px;
-      height: auto;
-      position: relative;
-      overflow: hidden;
-    }
-    .img_inner img {
-      width: 100%;
-      margin: auto;
-      margin-top: 30px;
-    }
-    .besttext {
-      width: 448px;
-      font-size: 21px;
-      text-align: center;
-      margin: auto;
-      margin-top: 20px;
-    }
+  #bestBox h2 {
+    width: 83.3333%; min-width: 1600px;
+    height: auto;
+    margin: auto;
+    font-size: 24px;
+    text-align: center;
+  }
+  .bestbox_inner {
+    width: 83.3333%; min-width: 1600px;
+    height: auto;
+    margin: auto;
+  }
+  .bestbox_list ul {
+    width: 83.3333%; min-width: 1600px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: -20px;
+    display: flex;
+  }
+  .bestbox_list ul li {
+    width: 9.125%; min-width: 146px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .bestbox_list ul li button {
+    width: auto;
+    font-size: 19px;
+  }
+  .bestbox_img ul {
+    width: 93.75%; min-width: 1500px;
+    margin: auto;
+    display: flex;
+  }
+  .bestbox_img ul li {
+    width: 31.0667%; min-width: 466px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .bestbox_img ul li:not(:last-child) {
+    margin-right: 50px;
+  }
+  .img_inner {
+    width: auto;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+  }
+  .img_inner img {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .besttext {
+    width: 100%; min-width: 448px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .besttext p {
+    font-size: 18px;
+  }
+
+  /* #miniAdBox ========================== */
   #miniAdBox {
-    height: 100%; 
+    height: 100%;
     box-sizing: border-box; 
   }
   .mini_inner{
-    display: flex;
-    width: 1600px; height: auto;
+    width: 83.3333%; min-width: 1600px;
+    height: auto;
     margin: auto;
     margin-top: 70px;
     margin-bottom: 70px;
+    display: flex;
   }
   .deal {
-    width: 800px; height: 100%;
+    width: 50%; min-width: 800px;
+    height: 100%;
   }
   .deal h2 {
-    width: 700px;
+    width: 87.5%; min-width: 700px;
     text-align: center;
     margin: auto;
     margin-bottom: 50px;
+    font-size: 24px;
   }
   .dealimg {
-    width: 700px; 
+    width: 87.5%; min-width: 700px;
     height: auto;
     margin: auto;
     border-radius: 10px;
@@ -661,26 +663,24 @@
     width: 100%;
     height: 360px;
   }
-  .dealimg input[id="slide"]{
-    display: none;
-  }
+  .dealimg input[id="slide"]{display: none;}
   .dealimg input {display: none;}
+
   .slide_list {
     white-space: nowrap;
-    font-size: 0;
     overflow: hidden;
   }
   .slide_item {
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
     width: 100%;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
     transition: all .35s;
   }
   .slide_item li {
+    width: 100%;
     display: inline-block;
     vertical-align: middle;
-    width: 100%;
     transition: all .5s;
   }
   .textbox {
@@ -689,12 +689,12 @@
     margin-top: 20px;
   }
   .textbox span {
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 500;
   }
   .textbox p {
+    font-size: 20px;
     text-align: center;
-    font-size: 21px;
     color:#000;
     transition:all .5s;
   }
@@ -703,12 +703,12 @@
     position: relative;
   }
   .slide_item label {
-    position: absolute;
-    z-index: 1;
     top: 50%;
-    transform: translateY(-50%);
     padding: 20px;
+    position: absolute;
+    transform: translateY(-50%);
     border-radius: 50%;
+    z-index: 1;
     cursor: pointer;
   }
   label.left {
@@ -717,7 +717,7 @@
     background-color: #5f5f5f;
     background-image: url('../../img/base/left.png');
     background-position: center center;
-    background-size: 50%;
+    background-size: 70%;
     background-repeat: no-repeat;
   }
   label.right {
@@ -726,32 +726,27 @@
     background-color: #5f5f5f;
     background-image: url('../../img/base/right.png');
     background-position: center center;
-    background-size: 50%;
+    background-size: 70%;
     background-repeat: no-repeat;
   }
-  
   
   .dealimg [id="slide01"]:checked ~ .slide_list .slide_item li {transform: translateX(0);}
   .dealimg [id="slide02"]:checked ~ .slide_list .slide_item li {transform: translateX(-100%);}
   .dealimg [id="slide03"]:checked ~ .slide_list .slide_item li {transform: translateX(-202%);}
   
-  /* .dealimg .slide_control [class*="control"] {display: none;}
-  .dealimg [id="slide01"]:checked ~ .slide_list .control01 {display: block;}
-  .dealimg [id="slide02"]:checked ~ .slide_list .control02 {display: block;}
-  .dealimg [id="slide03"]:checked ~ .slide_list .control03 {display: block;} */
-  
   .planning {
-    width: 800px; 
+    width: 50%; min-width: 800px;
     height: 100%;
   }
   .planning h2 {
-    width: 700px;
+    width: 87.5%; min-width: 700px;
     text-align: center;
     margin: auto;
     margin-bottom: 50px;
+    font-size: 24px;
   }
   .planing_img {
-    width: 700px; 
+    width: 87.5%; min-width: 700px;
     height: auto;
     margin: auto;
     border-radius: 10px;
@@ -761,25 +756,22 @@
     height: 360px;
   }
   .planing_img input {display: none;}
-  .planing_img input [id="slide"]{
-    display: none;
-  }
+  .planing_img input [id="slide"]{display: none;}
   .planslide_list {
     white-space: nowrap;
-    font-size: 0;
     overflow: hidden;
   }
   .planslide_item {
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
     width: 100%;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
     transition: all .35s;
   }
   .planslide_item li {
+    width: 100%;
     display: inline-block;
     vertical-align: middle;
-    width: 100%;
     transition: all .5s;
   }
   .plantext {
@@ -787,33 +779,27 @@
     height: auto;
     margin-top: 20px;
   }
-  .plantext {
+  .plantext p {
     width: 100%;
     text-align: center;
     transition:all .5s;
+    font-size: 20px;
     color:#000;
   }
   .plantext span {
-    /* text-align: center; */
     font-weight: 500;
-    font-size: 21px;
-  }
-  .plantext p {
-    font-size: 21px;
-    width: auto;
-    height: auto;
+    font-size: 20px;
   }
   .planslide_item li a {
     display: block;
     position: relative;
   }
   .planslide_item label {
-    position: absolute;
-    z-index: 1;
-    /* top: 50%; */
-    transform: translateY(-50%);
     padding: 20px;
+    position: absolute;
+    transform: translateY(-50%);
     border-radius: 50%;
+    z-index: 1;
     cursor: pointer;
   }
   .plan_left {
@@ -822,7 +808,7 @@
     background-color: #5f5f5f;
     background-image: url('../../img/base/left.png');
     background-position: center center;
-    background-size: 50%;
+    background-size: 70%;
     background-repeat: no-repeat;
   }
   .plan_right {
@@ -831,31 +817,28 @@
     background-color: #5f5f5f;
     background-image: url('../../img/base/right.png');
     background-position: center center;
-    background-size: 50%;
+    background-size: 70%;
     background-repeat: no-repeat;
   }
   .planing_img [id="plan_slide01"]:checked ~ .planslide_list .planslide_item li {transform: translateX(0);}
   .planing_img [id="plan_slide02"]:checked ~ .planslide_list .planslide_item li {transform: translateX(-100%);}
   .planing_img [id="plan_slide03"]:checked ~ .planslide_list .planslide_item li {transform: translateX(-202%);}
 
-
+  /* #footBox ======================== */
   #footBox {
-    float: left;
     width: 100%; min-width: 1920px;
     height: auto;
     border-top: 3px solid #37B9DF;
   }
   .foot_inner {
-    width: 1600px; 
+    width: 83.3333%; min-width: 1600px;
     height: auto;
     margin: 30px auto;
     position: relative;
   }
-  
   .foot_main {
-    color: #000;
-    /* text-align: center; */
     position: relative;
+    color: #000;
   }
   .foot_main h2 {
     width: auto;
@@ -873,61 +856,60 @@
     margin-bottom: 30px;
   }
   .cs_part {
-    width: 772px;
-  }
-  .cs_part button {
-    width: 120px;
-    height: auto;
-    font-size: 22px;
-    text-align: left;
+    width: auto;
+    display: flex;
   }
   .tel_part {
-    width: 154px;
+    width: auto;
+    font-size: 20px;
     line-height: 32px;
+  }
+  .cs_part button {
+    width: auto;
+    height: auto;
+    text-align: left;
   }
   .tel_part address {
     font-size: 20px;
     font-weight: 400;
   }
   .inquiry_time {
-    width: 638px;
+    width: 100%;
   }
   .inquiry_time li {
     font-size: 21px;
   }
-
-
   .foot_main .company_info {
-    width: 100%; min-width: 1098px;
+    width: 100%; min-width: 1600px;
     height: auto;
   }
   .foot_main .company_info li {
-    font-size: 20px;
     display: inline-block;
+    font-size: 20px;
   }
   .foot_main .company_info li::after {
     padding: 0 14px;
     content: 'l';
   }
   .foot_main p {
-    font-size: 18px;
     margin-top: 26px;
+    font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
   }
   .footsubmenu {
-    width: 200px;
+    width: 12.0048%; min-width: 200px;
     height: auto;
-    /* display: flex; */
-    position: absolute;
     top: 0px;
     right: 0;
+    position: absolute;
   }
   .brandsite_part {
     width: 100%;
   }
   .brandsite_btn {
-    width: 100%; height: 52px;
+    width: 100%;
+    height: 52px;
     line-height: 52px;
     background-color: #37B9DF;
     border-radius: 5px;
@@ -936,18 +918,24 @@
     font-weight: 500;
   }
   .brandsite_part ul {
-    display: none;
-    width: 100%; height: auto;
+    width: 100%;
+    height: auto;
     margin-top: 10px;
     padding: 5px 8px;
-    /* border: 1px solid #262626; */
+    border: 1px solid #262626;
+    display: none;
     background-color: #fff;
     position: relative;
-    cursor: pointer;
     text-align: center;
+    cursor: pointer;
   }
   .brandsite_part ul.on {
     display: block;
-    width: 100%; height: auto;
+    width: 100%;
+    height: auto;
+  }
+  .brandsite_part ul button {
+    font-weight: 400;
+    font-size: 20px;
   }
 }
