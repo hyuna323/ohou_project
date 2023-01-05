@@ -21,41 +21,177 @@
       <div class="head_inner">
         <h1>
           <a href="./a_content.html" class="blind">오늘의집</a>
-          <button onclick="home()"><img src="../img/base/ohoulogo.png" alt="오늘의집로고" style="width:100%; height:50px;"></button>
+          <button onclick="home()"><img src="../img/base/ohoulogo.png" alt="오늘의집로고"></button>
         </h1>
         <nav class="unb">
-          <h2 class="blind">사용자 개인 메뉴</h2>
-          <ul class="clearfix">
-            <li><a href="#">검색</a></li>
-            <li><a href="#">장바구니</a></li>
-            <li onclick="login()"><a href="../html/02_prototype_1280_loginPage.html">로그인</a>
-            <li><a href="#">회원가입</a></li>
-            <li><button>글쓰기</button></li>
-          </ul>
+          <h2 class="blind">유틸리티네비게이션</h2>
+          <div class="shopping_part">
+            <a href="#">
+              <span onclick="about()">장바구니</span>
+            </a>
+          </div>
+          <div class="login_part">
+            <a href="../html/02_prototype_1280_loginPage.html">
+              <span onclick="login()">로그인</span>
+            </a>
+          </div>
+          <div class="join_part">
+            <a href="#">
+              <span onclick="about()">회원가입</span>
+            </a>
+          </div>
+          <div class="search_part">
+            <h3 class="blind">search navigation</h3>
+            <form action="." method="GET">
+              <fieldset>
+                <legend class="blind">search area</legend>
+                <label for="searchInput" class="blind">원하시는 상품을 검색하세요.</label>
+                <input type="search" id="searchInput" name="search__Input" value="" placeholder="원하시는 상품을 검색하세요.">
+                <button type="button" class="search_btn">search</button>
+              </fieldset>
+            </form>
+          </div>
         </nav>
+        <div class="header_m">
+          <nav id="unbInner">
+            <h2 class="blind">user navigation</h2>
+              <input type="checkbox" id="check_box">
+              <label for="check_box">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+              <div id="slide_menu">
+                <div class="button_part">
+                  <button onclick="login()">로그인</button>
+                  <button>회원가입</button>
+                </div>
+                <div class="slide_inner">
+                  <input type="checkbox" id="slide_btn01">
+                  <label for="slide_btn01">커뮤니티</label>
+                  <div>
+                    <a href="#">홈</a>
+                    <a href="#">팔로잉</a>
+                    <a href="#">사진</a>
+                    <a href="#">집들이</a>
+                    <a href="#">노하우</a>
+                    <a href="#">전문가집들이</a>
+                    <a href="#">셀프가이드</a>
+                    <a href="#">질문과답변</a>
+                    <a href="#">3d인테리어</a>
+                    <a href="#">이벤트</a>
+                  </div>
+                  <input type="checkbox" id="slide_btn02">
+                  <label for="slide_btn02">스토어</label>
+                  <div>
+                    <a href="#">스토어홈</a>
+                    <a href="#">카테고리</a>
+                    <a href="#">베스트</a>
+                    <a href="#">오늘의딜</a>
+                    <a href="#">리퍼마켓</a>
+                    <a href="#">굿즈</a>
+                    <a href="#">빠른배송</a>
+                    <a href="#">쇼룸</a>
+                    <a href="#">프리미엄</a>
+                    <a href="#">기획전</a>
+                  </div>
+                  <input type="checkbox" id="slide_btn03">
+                  <label for="slide_btn03">이사/시공/수리</label>
+                  <div>
+                    <a href="#">홈</a>
+                    <a href="#">인테리어시공</a>
+                    <a href="#">이사</a>
+                    <a href="#">설치수리</a>
+                    <a href="#">우리동네아파트</a>
+                  </div>
+                  <input type="checkbox" id="slide_btn04">
+                  <label for="slide_btn04"><a>마이페이지</a></label>
+                </div>
+              </div>
+          </nav>
+        </div>
       </div>
       <div class="head_inner02">
         <nav class="gnb">
-          <h2 class="blind">사용메뉴</h2>
-          <ul class="clearfix">
-            <li><a href="#">홈</a></li>
-            <li><a href="#">팔로잉</a></li>
-            <li><a href="#">사진</a></li>
-            <li><a href="#">집들이</a></li>
-            <li><a href="#">노하우</a></li>
-            <li><a href="#">전문가 집들이</a></li>
-            <li><a href="#">셀프 가이드</a></li>
-            <li><a href="#">질문과 답변</a></li>
-            <li><a href="#">이벤트</a></li>
-          </ul>
+          <h2 class="blind">글로벌네비게이션</h2>
+          <div class="submenu_part">
+            <button class="btn_part">홈</button>
+          </div>
+          <div class="submenu_part">
+            <button class="btn_part">팔로잉</button>
+          </div>
+          <div class="submenu_part">
+            <button class="btn_part">사진</button>
+          </div>
+          <div class="submenu_part">
+            <button class="btn_part">집들이</button>
+          </div>
+          <div class="submenu_part">
+            <button class="btn_part">노하우</button>
+          </div>
+          <div class="submenu_part">
+            <button class="btn_part">전문가 집들이</button>
+          </div>
+          <div class="submenu_part">
+            <button class="btn_part">셀프 가이드</button>
+          </div>
+          <div class="submenu_part">
+            <button class="btn_part">질문과 답변</button>
+          </div>
+          <div class="submenu_part">
+            <button class="btn_part">이벤트</button>
+          </div>
         </nav>
       </div>
     </header>
-      <!-- // #headBox -->
+    <!-- // #headBox -->
 
-      <section id="loginBox">
-        <h2 class="logintxet">login</h2>
-        <div class="login_area">
+    <!-- #loginBox -->
+    <section id="loginBox">
+      <h2 class="logintxet">login</h2>
+      <div class="login_area">
+        <form action="#" method="POST">
+          <fieldset class="privite">
+            <legend class="blind">개인 로그인정보 입력창</legend>
+            <ul>
+              <li class="button_content">
+                <button type="button" title="로그인" class="login_content">로그인</button>
+                <button type="button" title="비회원 주문조회" class="nonmember_content">비회원 주문조회</button>
+              </li>
+              <li class="input_content">
+                <input type="text" id="userId" name="user__Id" value="" placeholder="이메일">
+                <input type="password" id="userPw" name="user__Pw" value="" placeholder="비밀번호">
+              </li>
+            </ul>
+          </fieldset>
+        </form>
+        <div class="checkbox_content">
+          <fieldset class="check">
+            <input class="blind" type="checkbox" name="login__check" id="idcheck" value="logincheck-true">
+            <label for="idcheck">
+              <i></i>
+              <span>아이디 저장</span>
+            </label>
+          </fieldset>
+          <fieldset class="auto_login">
+            <input class="blind" type="checkbox" name="login__check" id="logincheck" value="logincheck-true">
+            <label for="logincheck">
+              <i></i>
+              <span>자동로그인</span>
+            </label>
+          </fieldset>
+        </div>
+        <!-- <div class="emailBox"></div>
+        <div class="pwBox"></div> -->
+        <!-- <div class="check">아이디저장</div> -->
+        <fieldset class="login_btn">
+          <legend class="blind">로그인처리</legend>
+          <div class="login">
+            <button type="submit">로그인</button>
+          </div>
+        </fieldset>
+        <!-- // 로그인컨텐츠 -->
+        <div class="nonMember_area">
           <form action="#" method="POST">
             <fieldset class="privite">
               <legend class="blind">개인 로그인정보 입력창</legend>
@@ -65,88 +201,124 @@
                   <button type="button" title="비회원 주문조회" class="nonmember_content">비회원 주문조회</button>
                 </li>
                 <li>
-                  <input type="text" id="userId" name="user__Id" value="" placeholder="이메일">
+                  <input type="text" id="userNumber" name="user__Number" value="" placeholder="주문번호">
                 </li>
                 <li>
-                  <input type="password" id="userPw" name="user__Pw" value="" placeholder="비밀번호">
+                  <input type="text" id="userEmail" name="user__Email" value="" placeholder="이메일">
                 </li>
               </ul>
             </fieldset>
           </form>
-            <fieldset class="check">
-              <input class="blind" type="checkbox" name="login__check" id="idcheck" value="logincheck-true">
-              <label for="idcheck">
-                <i><span>아이디 저장</span></i>
-              </label>
-              <input class="blind" type="checkbox" name="login__check" id="logincheck" value="logincheck-true">
-              <label for="logincheck">
-                <i><span>자동로그인</span></i>
-              </label>
-            </fieldset>
-          <!-- <div class="emailBox"></div>
-          <div class="pwBox"></div> -->
-          <!-- <div class="check">아이디저장</div> -->
+        
           <fieldset class="login_btn">
-            <legend class="blind">로그인처리</legend>
+            <legend class="blind">확인처리</legend>
             <div class="login">
-              <button type="submit">로그인</button>
+              <button type="submit">확인</button>
             </div>
           </fieldset>
-          <!-- // 로그인컨텐츠 -->
-          <div class="nonMember_area">
-            <form action="#" method="POST">
-              <fieldset class="privite">
-                <legend class="blind">개인 로그인정보 입력창</legend>
-                <ul>
-                  <li>
-                    <button type="button" title="로그인" class="login_content">로그인</button>
-                    <button type="button" title="비회원 주문조회" class="nonmember_content">비회원 주문조회</button>
-                  </li>
-                  <li>
-                    <input type="text" id="userNumber" name="user__Number" value="" placeholder="주문번호">
-                  </li>
-                  <li>
-                    <input type="text" id="userEmail" name="user__Email" value="" placeholder="이메일">
-                  </li>
-                </ul>
-              </fieldset>
-            </form>
-          
-            <fieldset class="login_btn">
-              <legend class="blind">확인처리</legend>
-              <div class="login">
-                <button type="submit">확인</button>
+        </div>
+        <!-- // 비회원주문조회컨텐츠 -->
+      
+        <div class="etcBox">
+          <ul>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">아이디찾기</a></li>
+            <li><a href="#">비밀번호찾기</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="snsLogin_area">
+        <span class="snsLogin_content">sns 계정으로 간편로그인</span>
+        <div class="sns_part">
+          <div class="facebook"><a href="#"></a></div>
+          <div class="naver"><a href="#"></a></div>
+          <div class="kakaotalk"><a href="#"></a></div>
+        </div>
+      </div>
+    </section>
+    <!-- // #loginBox -->
+    <footer id="footBox">
+      <div class="foot_inner">
+        <div class="foot_main">
+          <h2>
+            <button onclick="home()"><img src="../img/base/ohoulogo.png" alt="오늘의집 로고"></button>
+          </h2>
+          <div class="cs_box">
+            <div class="cs_part">
+              <div class="tel_part">
+                <button>고객센터</button>
+                <address>
+                  <a href="tel:010.6481.5231">1670-0876</a>
+                </address>
+                <span>09:00 ~ 18:00</span>
+                <div class="inquiry_time">
+                  <ul>
+                    <li>평일: 전체 문의 상담 가능</li>
+                    <li>주말, 공휴일: 오늘의집 직접배송, 이사/시공/수리 문의 상담 가능</li>
+                  </ul>
+                </div>
               </div>
-            </fieldset>
+            </div>
           </div>
-          <!-- // 비회원주문조회컨텐츠 -->
-        
-          <div class="etcBox">
+          <div class="company_info">
             <ul>
-              <li><a href="#">회원가입</a></li>
-              <li><a href="#">아이디찾기</a></li>
-              <li><a href="#">비밀번호찾기</a></li>
+              <li>(주)버킷플레이스</li>
+              <li>이메일: (고객문의) cs@bucketplace.net (제휴문의) contact@bucketplace.net</li>
+              <li>대표이사: 이승재</li>
+              <li>서울 서초구 서초대로74길 4 삼성생명서초타워 25, 27층</li>
+              <li>사업자등록번호: 119-86-91245</li>
+            </ul>
+            <ul class="last_li">
+              <li>통신판매업: 신고번호제2018-서울서초-0580호 사업자정보확인</li>
+              <li>(주)버킷플레이스는 통신판매중개자로 거래 당사자가 아니므로, 판매자가 등록한 상품정보 및 거래 등에 대해 책임을 지지 않습니다. 단, (주)버킷플레이스가 판매자로 등록 판매한 상품은 판매자로서 책임을 부담합니다.</li>
+            </ul>
+            <P>Copyright 2014. bucketplace, Co. Ltd. All rights reserved</p>
+          </div>
+        </div>
+        <div class="footsubmenu">
+          <div class="brandsite_part">
+            <button type="button" class="brandsite_btn">
+              <span>관련사이트</span>
+            </button>
+            <ul>
+              <li>
+                <button type="button">회사소개</button>
+              </li>
+              <li>
+                <button type="button">채용정보</button>
+              </li>
+              <li>
+                <button type="button">이용약관</button>
+              </li>
+              <li>
+                <button type="button">공지사항</button>
+              </li>
+              <li>
+                <button type="button">안전거래센터</button>
+              </li>
+              <li>
+                <button type="button">입점신청</button>
+              </li>
+              <li>
+                <button type="button">제휴/광고문의</button>
+              </li>
+              <li>
+                <button type="button">사업자 구매 회원</button>
+              </li>
+              <li>
+                <button type="button">시공파트너 안내</button>
+              </li>
+              <li>
+                <button type="button">상품광고 소개</button>
+              </li>
+              <li>
+                <button type="button">고객의 소리</button>
+              </li>
             </ul>
           </div>
         </div>
-        <div class="snsLogin_area">
-          <div class="snsLogin_content">sns 계정으로 간편로그인</div>
-            <div class="facebook"><a href="#"></a></div>
-            <div class="naver"><a href="#"></a></div>
-            <div class="kakaotalk"><a href="#"></a></div>
-        </div>
-      </section>
-      <!-- // #loginBox -->
-      <footer id="footBox">
-        <h2 class="blind">오늘의 집 info</h2>
-        <address>
-          <p class="blind">주소</p>
-          <p class="blind">연락처</p>
-          <p>©  bucketplace, Co., Ltd.. All Rights Reserved</p>
-        </address>
-      </footer>
-
-
+      </div>
+    </footer>
   </div>
 
     <!-- script -->

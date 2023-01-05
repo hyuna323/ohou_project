@@ -2,7 +2,7 @@
 
 /* 1920px ~ */
 @media all and (min-width:1920px) {
-  #wrap {width: 100%; min-width: 1920px; }
+  #wrap {width: 100%; min-width: 1920px;}
 
   /* #headBox =================================== */
   #headBox { 
