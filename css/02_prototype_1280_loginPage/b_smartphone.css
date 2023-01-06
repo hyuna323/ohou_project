@@ -23,15 +23,16 @@
     height: 100%;
   }
   .head_inner h1 button {
+    width: 90px;
     height: 100%;
   }
   .head_inner h1 img {
-    width: 34.8837%; min-width: 90px;
+    width: 100%;
     height: 100%;
   }
   .unb { display: none; }
   .header_m {
-    width: 42px; 
+    width: auto; 
     height: 26px;
     margin: auto;
     margin-top: 10px;
@@ -150,358 +151,357 @@
   }
   .head_inner02 {display: none;}
 
-  /* ================================ */
-#loginBox {
-  width: 100%; min-width: 320px; max-width: 767px;
-  height: auto;
-  padding: 0;
-  margin: auto;
-}
-.logintxet {
-  width: 300px;
-  height: auto;
-  margin: auto;
-  padding-top: 112px;
-  font-size: 25px;
-  text-align: center;
-  color: #353535;
-}
-.login_area {
-  width: 300px;
-  height: auto;
-  margin: auto;
-  padding: 20px;
-}
-.login_area form {
-  width: 100%;
-}
-.privite {
-  width: auto;
-  height: auto;
-  margin: auto;
-  padding: 0;
-  border: none;
-}
-.privite ul {
-  width: 100%;
-}
-.button_content {
-  width: 100%;
-  margin: auto;
-  display: flex;
-}
-.button_content button {
-  width: 50%;
-  height: 50px;
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: 500;
-  text-align: center;
-}
-.login_content {
-  background-color: #fff;
-  border: 1px solid #37B9DF;
-}
-.login_content:hover {
-  background-color: #37B9DF;
-  color: #000;
-}
-.nonmember_content {
-  background-color: #fff;
-  border: 1px solid #37B9DF;
-}
-.nonmember_content:hover {
-  background-color: #37B9DF;
-}
-.input_content {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-}
-.privite li input {
-  width: 100%;
-  height: 65px;
-  padding: 12px 8px;
-  border: 1px solid #000;
-  border-radius: 5px;
-  font-size: 18px;
-}
-.nonMember_area {display: none;}
-
-/* ==================================== */
-
-.check {
-  width: 120px;
-  height: auto;
-  border: none;
-}
-.checkbox_content {
-  padding: 10px;
-  display: flex;
-}
-.check label {
-  display: flex;
-  width: auto;
-  height: 100%;
-  cursor: pointer;
-}
-.check label i {
-  width: 16px;
-  height: 16px;
-  margin-right: 3px;
-  margin-top: 0.35rem;
-  border: 1px solid #777;
-  font-size: 16px;
-}
-.checkbox_content span {
-  width: auto;
-  padding: 10px;
-  font-size: 16px;
-  font-weight: 400;
-}
-#idcheck:checked + label > i {
-  position: relative;
-  background: url(../../img/loginpage/check.svg) 50% no-repeat;
-}
-#logincheck:checked + label > i { 
-  position: relative;
-  background: url(../../img/loginpage/check.svg) 50% no-repeat;
-}
-.auto_login {
-  width: 120px;
-  height: auto;
-  border: none;
-}
-.auto_login label {
-  display: flex;
-  width: auto;
-  height: 100%;
-  cursor: pointer;
-}
-.auto_login label i {
-  width: 16px;
-  height: 16px;
-  margin-right: 3px;
-  margin-top: 0.35rem;
-  border: 1px solid #777;
-  font-size: 16px;
-}
+  /* #loginBox ================================ */
+  #loginBox {
+    width: 100%; min-width: 320px; max-width: 767px;
+    height: auto;
+    padding: 0;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  .logintxet {
+    width: 93.75%; min-width: 300px;
+    height: auto;
+    margin: auto;
+    padding-top: 112px;
+    font-size: 25px;
+    text-align: center;
+    color: #353535;
+  }
+  .login_area {
+    width: 93.75%; min-width: 300px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+  }
+  .login_area form {
+    width: 100%;
+  }
+  .privite {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 0;
+    border: none;
+  }
+  .privite ul {
+    width: 100%;
+  }
+  .button_content {
+    width: 100%;
+    margin: auto;
+    display: flex;
+  }
+  .button_content button {
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .login_content {
+    background-color: #fff;
+    border: 1px solid #37B9DF;
+  }
+  .login_content:hover {
+    background-color: #37B9DF;
+    color: #000;
+  }
+  .nonmember_content {
+    background-color: #fff;
+    border: 1px solid #37B9DF;
+  }
+  .nonmember_content:hover {
+    background-color: #37B9DF;
+  }
+  .input_content {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .privite li input {
+    width: 100%;
+    height: 60px;
+    padding: 12px 8px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  .nonMember_area {display: none;}
 
 
-/* ==================================== */
-.login_btn {
-  margin-top: 10px;
-  border: none;
-  padding: 0;
-}
-.login {
-  width: 200px;
-  height: 50px;
-  margin: auto;
-}
-.login button{
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  background-color: #37B9DF;
-  color: #000; 
-  border-radius: 8px;
-  font-size: 20px;
-  font-weight: 500;
-  text-align: center;
-}
-.etcBox {
-  width: 260px;
-  height: auto;
-  margin: auto;
-  margin-top: 30px;
-}
-.etcBox ul {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-.etcBox li {
-  width: 90px;
-  height: auto;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 400;
-}
-.etcBox li:first-child {
-  width: 60px;
-  margin-left: 0;
-}
-.snsLogin_area {
-  width: 50%; min-width: 320px; max-width: 767px;
-  height: auto;
-  margin: auto;
-  margin-top: 20px;
-  padding: 0;
-  text-align: center;
-}
-.snsLogin_content {
-  width: 100%;
-  height: 90px;
-  margin: auto;
-  font-size: 18px;
-  font-weight: 500;
-}
-.sns_part {
-  width: 260px;
-  height: auto;
-  margin: auto;
-  display: flex;
-}
-.facebook {
-  width: 80px; height: 80px;
-  margin: auto;
-  margin-right: 10px;
-  border-radius: 50%;
-  cursor: pointer;
-  background-image: url(../../img/loginpage/f_logo_RGB-Blue_58.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 50px;
-  /* background-color: #213C5D; */
-}
-.naver {
-  width: 80px; height: 80px;
-  margin: auto;
-  margin-right: 10px;
-  border-radius: 50%;
-  cursor: pointer;
-  background-image: url(../../img/loginpage/naver_iconcicle.png);
-  background-position: center;
-  background-size: 50px;
-  background-repeat: no-repeat;
-}
-.kakaotalk {
-  width: 80px; height: 80px;
-  border-radius: 50%;
-  cursor: pointer;
-  background-image: url(../../img/loginpage/kakaotalk_logo.png);
-  background-position: center;
-  background-size: 50px;
-  background-repeat: no-repeat;
-  /* background-color: #FFBD55; */
-}
-#footBox {
-  float: left;
-  width: 100%; min-width: 320px;
-  height: auto;
-  border-top: 3px solid #37B9DF;
-}
-.foot_inner {
-  width: 93.75%; min-width: 300px; height: auto;
-  margin: 30px auto;
-  position: relative;
-}
-.foot_main {
-  color: #000;
-  position: relative;
-}
-.foot_main h2 {
-  width: auto;
-  margin-bottom: 18px;
-}
-.foot_main h2 button img {
-  width: 80px; 
-  height: 30px;
-  margin: auto;
-  display: block;
-}
-.cs_box {
-  width: 100%;
-  height: auto;
-  margin-bottom: 30px;
-}
-.cs_part {
-  width: 93.3333%; min-width: 280px;
-}
-.cs_part button {
-  width: 8.5714%; min-width: 60px;
-  height: auto;
-  font-size: 16px;
-  text-align: left;
-}
-.tel_part {
-  width: 42.6667%; min-width: 128px;
-  font-size: 16px;
-  line-height: 28px;
-}
-.tel_part address {
-  font-size: 16px;
-  font-weight: 400;
-}
-.inquiry_time {
-  width: 98.3333%; min-width: 295px;
-}
-.inquiry_time li {
-  font-size: 14px;
-}
-.foot_main .company_info {
-  width: 100%; min-width: 300px;
-  height: auto;
-}
-.foot_main .company_info li {
-  display: inline-block;
-  font-size: 14px;
-}
-.foot_main .company_info li::after {display: none;}
-.foot_main p {
-  font-size: 12px;
-  margin-top: 26px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-.last_li {display: none;}
-.footsubmenu {
-  width: 36.6667%; min-width: 110px;
-  position: absolute;
-  top: 0px;
-  right: 0;
-}
-.brandsite_part {
-  width: 100%;
-}
-.brandsite_btn {
-  width: 90.9091%; min-width: 110px; 
-  height: 42px;
-  line-height: 42px;
-  background-color: #37B9DF;
-  border-radius: 5px;
-  color: #000;
-  font-size: 15px;
-}
-.brandsite_part ul {
-  width: 100%; 
-  height: auto;
-  margin-top: 10px;
-  padding: 5px;
-  display: none;
-  position: relative;
-  border: 1px solid #262626;
-  background-color: #fff;
-  text-align: center;
-  cursor: pointer;
-}
-.brandsite_part li {
-  width: auto;
-  height: 35px;
-  line-height: 25px;
-}
-.brandsite_part ul.on {
-  display: block;
-  width: 100%; height: auto;
-}
-.brandsite_part ul button {
-  font-weight: 400;
-  font-size: 14px;
-}
+  .check {
+    width: 120px;
+    height: auto;
+    border: none;
+  }
+  .checkbox_content {
+    padding: 10px;
+    display: flex;
+  }
+  .check label {
+    width: auto;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+  }
+  .check label i {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    margin-top: 0.35rem;
+    border: 1px solid #777;
+    font-size: 16px;
+  }
+  .checkbox_content span {
+    width: auto;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  #idcheck:checked + label > i {
+    position: relative;
+    background: url(../../img/loginpage/check.svg) 50% no-repeat;
+  }
+  #logincheck:checked + label > i { 
+    position: relative;
+    background: url(../../img/loginpage/check.svg) 50% no-repeat;
+  }
+  .auto_login {
+    width: 120px;
+    height: auto;
+    border: none;
+  }
+  .auto_login label {
+    width: auto;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+  }
+  .auto_login label i {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    margin-top: 0.35rem;
+    border: 1px solid #777;
+    font-size: 16px;
+  }
+
+  .login_btn {
+    margin-top: 10px;
+    border: none;
+    padding: 0;
+  }
+  .login {
+    width: 76.9231%; min-width: 200px;
+    height: 50px;
+    margin: auto;
+  }
+  .login button{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #000; 
+    border-radius: 8px;
+    background-color: #37B9DF;
+  }
+  .etcBox {
+    width: 86.6667%; min-width: 260px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .etcBox ul {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .etcBox li {
+    width: 90px;
+    height: auto;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .etcBox li:first-child {
+    width: 60px;
+    margin-left: 0;
+  }
+  .snsLogin_area {
+    width: 50%; min-width: 320px; max-width: 767px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+  }
+  .snsLogin_content {
+    width: 100%;
+    height: 90px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .sns_part {
+    width: 81.25%; min-width: 260px;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+  }
+  .facebook {
+    width: 30.7692%; min-width: 80px; height: 80px;
+    margin: auto;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url(../../img/loginpage/f_logo_RGB-Blue_58.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+  }
+  .naver {
+    width: 30.7692%; min-width: 80px; height: 80px;
+    margin: auto;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url(../../img/loginpage/naver_iconcicle.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+  }
+  .kakaotalk {
+    width: 30.7692%; min-width: 80px; height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url(../../img/loginpage/kakaotalk_logo.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+  }
+
+  /* #footBox ======================= */
+  #footBox {
+    width: 100%; min-width: 320px;
+    height: auto;
+    border-top: 3px solid #37B9DF;
+  }
+  .foot_inner {
+    width: 93.75%; min-width: 300px; height: auto;
+    margin: 30px auto;
+    position: relative;
+  }
+  .foot_main {
+    color: #000;
+    position: relative;
+  }
+  .foot_main h2 {
+    width: auto;
+    margin-bottom: 18px;
+  }
+  .foot_main h2 button img {
+    width: 80px; 
+    height: 30px;
+    margin: auto;
+    display: block;
+  }
+  .cs_box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .cs_part {
+    width: 93.3333%; min-width: 280px;
+  }
+  .cs_part button {
+    width: 8.5714%; min-width: 60px;
+    height: auto;
+    font-size: 16px;
+    text-align: left;
+  }
+  .tel_part {
+    width: 42.6667%; min-width: 128px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .tel_part address {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .inquiry_time {
+    width: 98.3333%; min-width: 295px;
+  }
+  .inquiry_time li {
+    font-size: 14px;
+  }
+  .foot_main .company_info {
+    width: 100%; min-width: 300px;
+    height: auto;
+  }
+  .foot_main .company_info li {
+    display: inline-block;
+    font-size: 14px;
+  }
+  .foot_main .company_info li::after {display: none;}
+  .foot_main p {
+    font-size: 12px;
+    margin-top: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .last_li {display: none;}
+  .footsubmenu {
+    width: 36.6667%; min-width: 110px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+  }
+  .brandsite_part {
+    width: 100%;
+  }
+  .brandsite_btn {
+    width: 90.9091%; min-width: 110px; 
+    height: 42px;
+    line-height: 42px;
+    background-color: #37B9DF;
+    border-radius: 5px;
+    color: #000;
+    font-size: 15px;
+  }
+  .brandsite_part ul {
+    width: 90.9091%; min-width: 110px; 
+    height: auto;
+    margin-top: 10px;
+    padding: 5px;
+    display: none;
+    position: relative;
+    border: 1px solid #262626;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+  .brandsite_part li {
+    width: auto;
+    height: 35px;
+    line-height: 25px;
+  }
+  .brandsite_part ul.on {
+    width: 90.9091%; min-width: 110px; 
+    height: auto;
+    display: block;
+  }
+  .brandsite_part ul button {
+    font-weight: 400;
+    font-size: 14px;
+  }
 }

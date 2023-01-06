@@ -1,0 +1,511 @@
+/* c_tablet.css */
+
+/* (width: 768px ~ 959px) / design 기준: 768px */
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #wrap {width: 100%; min-height: 600px;}
+  #headBox {
+    width: 100%; min-width: 768px;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 10px;
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
+  }
+  .head_inner {
+    width: 100%; min-width: 700px; max-width: 1279px;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .head_inner h1 {
+    width: 100%;
+    height: 100%;
+  }
+  .head_inner h1 button {
+    height: 100%;
+  }
+  .head_inner h1 img {
+    width: 12.8571%; min-width: 90px;
+    height: 100%;
+  }
+  .unb { display: none; }
+  .header_m {
+    width: 38px;
+    height: 26px;
+    margin: auto;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  #unbInner {
+    width: 100%;
+    padding: 0;
+  }
+  #check_box {display: none;}
+  #check_box + label {
+    position: relative;
+    display: block;
+    width: 4.9479%; min-width: 38px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 100;
+    margin: auto;
+  }
+  #check_box + label > span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+    transition: all 300ms;
+  }
+  #check_box:checked + label > span:nth-child(1) {
+    top: 50%;
+    transform: translate(0, -50%);
+    transform: rotate(45deg);
+  }
+  #check_box + label > span:nth-child(2) {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  #check_box:checked + label > span:nth-child(2) {
+    opacity: 0;
+  }
+  #check_box + label > span:nth-child(3) {
+    bottom: 0;
+  }
+  #check_box:checked + label > span:nth-child(3) {
+    top: 50%;
+    transform: translate(0, -50%);
+    transform: rotate(-45deg);
+  }
+  #check_box:checked + label + #slide_menu {
+    left: 40px;
+  }
+  #slide_menu {
+    width: 100%; min-width: 739px;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(55, 185, 223, 0.9);
+    text-transform: uppercase;
+    left: 100%;
+    transition: all 300ms;
+    z-index: 1;
+    top: 0px;
+    padding: 60px 16px 20px 16px;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+
+  .button_part {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .button_part button {
+    width: 21.4286%; min-width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  input[id*="slide_btn"] {display: none;}
+  input[id*="slide_btn"] + label {
+    width: auto;
+    padding: 30px;
+    display: block;
+    border-bottom: 1px solid #fff;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    position: relative;
+    cursor: pointer;
+  }
+  input[id*="slide_btn"] + label + div {
+    padding-left: 30px;
+    max-height: 0;
+    transition: all .35s;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+  }
+  input[id*="slide_btn"] + label + div a {
+    width: 84%;
+    padding: 14px 14px 14px 30px;
+    display: flex;
+    background-color: #78d7f4c1;
+    text-decoration: none;
+  }
+  input[id*="slide_btn"]:checked + label + div {
+    padding-top: 20px;
+    max-height: inherit;
+  }
+
+  .head_inner02 {display: none;}
+
+  /* ================================ */
+  #loginBox {
+    width: 100%; min-width: 768px; max-width: 1279px;
+    height: auto;
+    padding: 0;
+    margin: auto;
+    margin-bottom: 70px;
+  }
+  .logintxet {
+    width: 700px;
+    height: auto;
+    margin: auto;
+    padding-top: 112px;
+    font-size: 25px;
+    text-align: center;
+    color: #353535;
+  }
+  .login_area {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .login_area form {
+    width: 100%;
+  }
+  .privite {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 0;
+    border: none;
+  }
+  .privite ul {
+    width: 100%;
+  }
+  .button_content {
+    width: 100%;
+    margin: auto;
+    display: flex;
+  }
+  .button_content button {
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .login_content {
+    background-color: #fff;
+    border: 1px solid #37B9DF;
+  }
+  .login_content:hover {
+    background-color: #37B9DF;
+    color: #000;
+  }
+  .nonmember_content {
+    background-color: #fff;
+    border: 1px solid #37B9DF;
+  }
+  .nonmember_content:hover {
+    background-color: #37B9DF;
+  }
+  .input_content {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .privite li input {
+    width: 100%;
+    height: 55px;
+    padding: 12px 8px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  .nonMember_area {display: none;}
+
+  /* ==================================== */
+
+  .checkbox_content {
+    width: auto;
+    padding: 10px;
+    display: flex;
+  }
+  .check {
+    width: 120px;
+    height: auto;
+    border: none;
+  }
+  .check label {
+    width: auto;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+  }
+  .check label i {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    margin-top: 0.35rem;
+    border: 1px solid #777;
+    font-size: 16px;
+  }
+  .checkbox_content span {
+    width: auto;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  #idcheck:checked + label > i {
+    position: relative;
+    background: url(../../img/loginpage/check.svg) 50% no-repeat;
+  }
+  #logincheck:checked + label > i { 
+    position: relative;
+    background: url(../../img/loginpage/check.svg) 50% no-repeat;
+  }
+  .auto_login {
+    width: 120px;
+    height: auto;
+    border: none;
+  }
+  .auto_login label {
+    width: auto;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+  }
+  .auto_login label i {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    margin-top: 0.35rem;
+    border: 1px solid #777;
+    font-size: 16px;
+  }
+
+
+  /* ==================================== */
+  .login_btn {
+    margin-top: 10px;
+    border: none;
+    padding: 0;
+  }
+  .login {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+  }
+  .login button{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: #37B9DF;
+    color: #000; 
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .etcBox {
+    width: 460px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .etcBox ul {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .etcBox li {
+    width: 120px;
+    height: auto;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .etcBox li:first-child {
+    width: 120px;
+    margin-left: 0;
+  }
+  .snsLogin_area {
+    width: 100%; min-width: 768px; max-width: 1279px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+  }
+  .snsLogin_content {
+    width: 100%;
+    height: 90px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .sns_part {
+    width: 431px;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+  }
+  .facebook {
+    width: 137px; height: 110px;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url(../../img/loginpage/f_logo_RGB-Blue_58.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70px;
+    /* background-color: #213C5D; */
+  }
+  .naver {
+    width: 137px; height: 110px;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url(../../img/loginpage/naver_iconcicle.png);
+    background-position: center;
+    background-size: 70px;
+    background-repeat: no-repeat;
+  }
+  .kakaotalk {
+    width: 137px; height: 110px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url(../../img/loginpage/kakaotalk_logo.png);
+    background-position: center;
+    background-size: 70px;
+    background-repeat: no-repeat;
+  }
+
+  /* #footBox ========================== */
+  #footBox {
+    width: 100%; min-width: 768px;
+    height: auto;
+    border-top: 3px solid #37B9DF;
+  }
+  .foot_inner {
+    width: 91.1458%; min-width: 700px;
+    height: auto;
+    margin: 30px auto;
+    position: relative;
+  }
+  .foot_main {
+    color: #000;
+    position: relative;
+  }
+  .foot_main h2 {
+    width: auto;
+    margin-bottom: 18px;
+  }
+  .foot_main h2 button img {
+    width: 150px;
+    height: 45px;
+    margin: auto;
+    display: block;
+  }
+  .cs_box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .cs_part {
+    width: 96%; min-width: 672px;
+  }
+  .tel_part {
+    width: 90%; min-width: 630px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .cs_part button {
+    width: 10.4167%; min-width: 70px;
+    height: auto;
+    text-align: left;
+  }
+  .tel_part address {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .inquiry_time {
+    width: 100%;
+  }
+  .inquiry_time li {
+    font-size: 18px;
+  }
+  .foot_main .company_info {
+    width: 100%; min-width: 700px;
+    height: auto;
+  }
+  .foot_main .company_info li {
+    display: inline-block;
+    font-size: 17px;
+  }
+  .foot_main .company_info li:not(:last-child)::after {
+    padding: 0 14px;
+    content: 'l';
+  }
+  .foot_main p {
+    margin-top: 26px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .footsubmenu {
+    width: 25.7143%; min-width: 180px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .brandsite_part {
+    width: 100%;
+  }
+  .brandsite_btn {
+    width: 100%; min-width: 180px;
+    height: 42px;
+    line-height: 42px;
+    background-color: #37B9DF;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #000;
+  }
+  .brandsite_part ul {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    padding: 5px 8px;
+    display: none;
+    position: relative;
+    border: 1px solid #262626;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+  .brandsite_part li {
+    width: auto;
+    height: 35px;
+    line-height: 25px;
+  }
+  .brandsite_part ul.on {
+    display: block;
+    width: 100%; 
+    height: auto;
+  }
+  .brandsite_part ul button {
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
