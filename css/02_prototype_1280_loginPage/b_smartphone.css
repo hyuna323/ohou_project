@@ -233,14 +233,15 @@
   .nonMember_area {display: none;}
 
 
+  .checkbox_content {
+    width: auto;
+    padding: 10px;
+    display: flex;
+  }
   .check {
     width: 120px;
     height: auto;
     border: none;
-  }
-  .checkbox_content {
-    padding: 10px;
-    display: flex;
   }
   .check label {
     width: auto;
