@@ -253,7 +253,7 @@
     width: 16px;
     height: 16px;
     margin-right: 3px;
-    margin-top: 0.35rem;
+    margin-top: 16px;
     border: 1px solid #777;
     font-size: 16px;
   }
@@ -367,9 +367,9 @@
     border-radius: 50%;
     cursor: pointer;
     background-image: url(../../img/loginpage/f_logo_RGB-Blue_58.png);
+    background-size: 54%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 54%;
   }
   .naver {
     width: 31.7865%; min-width: 137px; height: 110px;
