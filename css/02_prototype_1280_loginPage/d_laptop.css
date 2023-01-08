@@ -154,7 +154,7 @@
     margin-bottom: 100px;
   }
   .logintxet {
-    width: 1100px;
+    width: 85.9375%; min-width: 1100px;
     height: auto;
     margin: auto;
     padding-top: 212px;
@@ -163,7 +163,7 @@
     color: #000;
   }
   .login_area {
-    width: 700px;
+    width: 54.6875%; min-width: 700px;
     height: auto;
     margin: auto;
     margin-top: 100px;
@@ -309,14 +309,14 @@
     background-color: #37B9DF;
   }
   .etcBox {
-    width: 660px;
+    width: 94.2857%; min-width: 660px;
     height: auto;
     margin: auto;
     margin-top: 40px;
   }
   .etcBox ul {
     width: 100%;
-    height: 50px;
+    height: auto;
     margin: auto;
     line-height: 50px;
     display: flex;
@@ -334,7 +334,7 @@
     width: 100%; min-width: 1280px; max-width: 1439px;
     height: auto;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 80px;
     padding: 0;
     text-align: center;
   }
@@ -346,14 +346,14 @@
     font-weight: 500;
   }
   .sns_part {
-    width: 530px;
+    width: 41.4063%; min-width: 530px;
     height: auto;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex;
   }
   .facebook {
-    width: 170px; height: 180px;
+    width: 32.0755%; min-width: 170px; height: 180px;
     margin-right: 10px;
     border-radius: 50%;
     cursor: pointer;
@@ -363,7 +363,7 @@
     background-repeat: no-repeat;
   }
   .naver {
-    width: 170px; height: 180px;
+    width: 32.0755%; min-width: 170px; height: 180px;
     margin-right: 10px;
     border-radius: 50%;
     cursor: pointer;
@@ -373,7 +373,7 @@
     background-repeat: no-repeat;
   }
   .kakaotalk {
-    width: 170px; height: 180px;
+    width: 32.0755%; min-width: 170px; height: 180px;
     border-radius: 50%;
     cursor: pointer;
     background-image: url(../../img/loginpage/kakaotalk_logo.png);

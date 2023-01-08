@@ -1,0 +1,497 @@
+/* e_pc.css */
+
+/* (width:1440px ~ 1919px) / design 기준 :1440px */
+@media all and (min-width:1440px) and (max-width:1919px) {
+  #wrap {width: 100%; min-width: 1440px;}
+
+  /* #headBox =================================== */
+  #headBox { 
+    width: 100%; min-width: 1440px;
+    height: 140px; 
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
+  }
+  .head_inner {
+    width: 100%; min-width: 1440px; max-width: 1919px;
+    height: 50%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+  }
+  h1 {
+    width: 68.1538%; min-width: 886px; 
+    height: 46px;
+    margin: auto;
+  }
+  h1 button {
+    width: auto;
+    height: 100%;
+  }
+  h1 button img {
+    height: 100%;
+  }
+  .unb {
+    width: auto; 
+    height: auto;
+    margin: auto;
+    display: flex;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .shopping_part {
+    width: 15.0943%; min-width: 80px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 46px;
+  }
+  .shopping_part a {
+    width: auto;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+  }
+  .login_part {
+    width: 15.0943%; min-width: 80px;
+    height: 50px;
+    line-height: 46px;
+    font-size: 16px;
+  }
+  .login_part a {
+    width: auto;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+  }
+  .join_part {
+    width: 15.0943%; min-width: 80px;
+    height: 50px;
+    line-height: 46px;
+    font-size: 16px;
+  }
+  .join_part a {
+    width: auto;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+  }
+  .search_part {
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-left: 10px;
+  }
+  .search_part form {
+    width: auto;
+    height: auto;
+  }
+  .search_part fieldset {
+    width: auto;
+    height: auto;
+    display: flex;
+  }
+  #searchInput {
+    width: 36.2264%; min-width: 192px;
+    height: 38px;
+    margin: auto;
+    margin-right: 8px;
+    padding-left: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 1px solid #aaaaaa;
+  }
+  .search_btn {
+    width: 28.571%; min-width: 80px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #37B9DF;
+    color: #000;
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  
+  /* .head_inner02 ---------------------------------- */
+  .head_inner02 {
+    width: 100%; 
+    height: 50%;
+    margin: auto;
+    box-sizing: border-box;
+    border-top: 2px solid #333;
+  }
+  .gnb {
+    width: 87.5%; min-width: 1260px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .submenu_part {
+    position: relative;
+    display: inline-block;
+  }
+  .btn_part {
+    width: 11.1111%; min-width: 140px;
+    height: 100%;
+    line-height: 48px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .header_m {display: none;}
+
+    /* loginBox ============================ */
+    #loginBox {
+      width: 100%; min-width: 1280px; max-width: 1439px;
+      height: auto;
+      padding: 0;
+      margin: auto;
+      margin-bottom: 100px;
+    }
+    .logintxet {
+      width: 85.9375%; min-width: 1100px;
+      height: auto;
+      margin: auto;
+      padding-top: 212px;
+      font-size: 30px;
+      text-align: center;
+      color: #000;
+    }
+    .login_area {
+      width: 54.6875%; min-width: 700px;
+      height: auto;
+      margin: auto;
+      margin-top: 100px;
+    }
+    .login_area form {
+      width: 100%;
+    }
+    .privite {
+      width: auto; 
+      height: auto;
+      margin: auto;
+      padding: 0;
+      border: none;
+    }
+    .privite ul {
+      width: 100%;
+    }
+    .button_content {
+      width: 100%;
+      margin: auto;
+      display: flex;
+    }
+    .button_content button {
+      width: 50%;
+      height: 70px;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 500;
+      text-align: center;
+    }
+    .login_content {
+      background-color: #fff;
+      border: 1px solid #37B9DF;
+    }
+    .login_content:hover {
+      background-color: #37B9DF;
+      color: #000;
+    }
+    .nonmember_content {
+      background-color: #fff;
+      border: 1px solid #37B9DF;
+    }
+    .nonmember_content:hover {
+      background-color: #37B9DF;
+    }
+    .input_content {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .privite li input {
+      width: 100%;
+      height: 75px;
+      padding: 12px;
+      border: 1px solid #000;
+      border-radius: 5px;
+      font-size: 18px;
+    }
+    .nonMember_area {display: none;}
+    
+    /* ==================================== */
+    .checkbox_content {
+      width: auto;
+      padding: 10px;
+      display: flex;
+    }
+    .check {
+      width: 150px;
+      height: auto;
+      border: none;
+    }
+    .check label {
+      width: auto;
+      height: 100%;
+      display: flex;
+      cursor: pointer;
+    }
+    .check label i { 
+      width: 20px;
+      height: 20px;
+      margin-right: 3px;
+      margin-top: 18px;
+      border: 1px solid #777;
+      font-size: 16px; 
+    }
+    .checkbox_content span {
+      width: auto;
+      padding: 20px 10px;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    #idcheck:checked + label > i { 
+      position: relative; 
+      background: url(../../img/loginpage/check.svg) 50% no-repeat;
+    }
+    #logincheck:checked + label > i { 
+      position: relative; 
+      background: url(../../img/loginpage/check.svg) 50% no-repeat;
+    }
+    .auto_login {
+      width: 150px;
+      height: auto;
+      border: none;
+    }
+    .auto_login label {
+      width: auto;
+      height: 100%;
+      display: flex;
+      cursor: pointer;
+    }
+    .auto_login label i {
+      width: 20px;
+      height: 20px;
+      margin-right: 3px;
+      margin-top: 18px;
+      border: 1px solid #777;
+      font-size: 16px; 
+    }
+    
+    
+    /* ==================================== */
+    .login_btn {
+      margin-top: 10px;
+      border: none;
+      padding: 0;
+    }
+    .login {
+      width: 100%;
+      height: 80px;
+      margin: auto;
+    }
+    .login button{
+      width: 100%;
+      height: 100%;
+      margin: auto;
+      font-size: 22px;
+      font-weight: 500;
+      text-align: center;
+      color: #000;
+      border-radius: 8px;
+      background-color: #37B9DF;
+    }
+    .etcBox {
+      width: 94.2857%; min-width: 660px;
+      height: auto;
+      margin: auto;
+      margin-top: 40px;
+    }
+    .etcBox ul {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    .etcBox li {
+      width: 200px;
+      height: auto;
+      display: inline-block;
+      font-size: 19px;
+      font-weight: 400;
+    }
+    .snsLogin_area {
+      width: 100%; min-width: 1280px; max-width: 1439px;
+      height: auto;
+      margin: auto;
+      margin-top: 80px;
+      padding: 0;
+      text-align: center;
+    }
+    .snsLogin_content {
+      width: 100%;
+      height: 90px;
+      margin: auto;
+      font-size: 24px;
+      font-weight: 500;
+    }
+    .sns_part {
+      width: 41.4063%; min-width: 530px;
+      height: auto;
+      margin: auto;
+      margin-top: 15px;
+      display: flex;
+    }
+    .facebook {
+      width: 32.0755%; min-width: 170px; height: 180px;
+      margin-right: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+      background-image: url(../../img/loginpage/f_logo_RGB-Blue_58.png);
+      background-size: 58%;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .naver {
+      width: 32.0755%; min-width: 170px; height: 180px;
+      margin-right: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+      background-image: url(../../img/loginpage/naver_iconcicle.png);
+      background-position: center;
+      background-size: 58%;
+      background-repeat: no-repeat;
+    }
+    .kakaotalk {
+      width: 32.0755%; min-width: 170px; height: 180px;
+      border-radius: 50%;
+      cursor: pointer;
+      background-image: url(../../img/loginpage/kakaotalk_logo.png);
+      background-position: center;
+      background-size: 58%;
+      background-repeat: no-repeat;
+    }
+
+  /* #footBox ======================== */
+  #footBox {
+    width: 100%; min-width: 1440px;
+    height: auto;
+    border-top: 3px solid #37B9DF;
+  }
+  .foot_inner {
+    width: 83.3333%; min-width: 1200px;
+    height: auto;
+    margin: 30px auto;
+    position: relative;
+  }
+  .foot_main {
+    position: relative;
+    color: #000;
+  }
+  .foot_main h2 {
+    width: auto;
+    margin-bottom: 18px;
+  }
+  .foot_main h2 button img {
+    width: 150px;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+  .cs_box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .cs_part {
+    width: auto;
+    display: flex;
+  }
+  .tel_part {
+    width: auto;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .cs_part button {
+    width: auto;
+    height: auto;
+    text-align: left;
+  }
+  .tel_part address {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .inquiry_time {
+    width: 100%;
+  }
+  .inquiry_time li {
+    font-size: 18px;
+  }
+  .foot_main .company_info {
+    width: 100%; min-width: 1200px;
+    height: auto;
+  }
+  .foot_main .company_info li {
+    display: inline-block;
+    font-size: 17px;
+  }
+  .foot_main .company_info li::after {
+    padding: 0 14px;
+    content: 'l';
+  }
+  .foot_main p {
+    margin-top: 26px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .footsubmenu {
+    width: 15%; min-width: 180px;
+    height: auto;
+    top: 0px;
+    right: 0;
+    position: absolute;
+  }
+  .brandsite_part {
+    width: 100%;
+  }
+  .brandsite_btn {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #37B9DF;
+    border-radius: 5px;
+    color: #000;
+    font-size: 19px;
+    font-weight: 500;
+  }
+  .brandsite_part ul {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    padding: 5px 8px;
+    border: 1px solid #262626;
+    display: none;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+  }
+  .brandsite_part ul.on {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .brandsite_part ul button {
+    font-weight: 400;
+    font-size: 18px;
+  }
+}
