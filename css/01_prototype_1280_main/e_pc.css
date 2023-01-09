@@ -7,7 +7,7 @@
   /* #headBox =================================== */
   #headBox { 
     width: 100%; min-width: 1440px;
-    height: 140px; 
+    height: 140px;
     box-sizing: border-box;
     position: fixed;
     z-index: 1000;
@@ -140,7 +140,6 @@
     border-radius: 4px;
     cursor: pointer;
   }
-
   .header_m {display: none;}
 
   /* #adViewBox ============================= */
@@ -249,7 +248,6 @@
     height: 100%;
     vertical-align: middle;
   }
-
   .shortcut02 {
     width: 100%; min-width: 1200px;
     height: auto;
@@ -325,7 +323,7 @@
   }
 
   /* #content_box_wrap ============================= */
-  #content_box_wrap{
+  #content_box_wrap {
   width: 100%; 
   height: auto;
   }
@@ -412,6 +410,7 @@
   .bestpicture4 img {
     width: 100%;
   }
+
   #community_inner02 {
     width: 48.3333%; min-width: 580px;
     height: auto;
@@ -635,7 +634,7 @@
     height: 100%; 
     box-sizing: border-box; 
   }
-  .mini_inner{
+  .mini_inner {
     width: 83.3333%; min-width: 1200px;
     height: auto;
     margin: auto;
@@ -695,8 +694,8 @@
   .textbox p {
     font-size: 18px;
     text-align: center;
-    color:#000;
-    transition:all .5s;
+    color: #000;
+    transition: all .5s;
   }
   .slide_item li a {
     display: block;
@@ -729,7 +728,6 @@
     background-size: 60%;
     background-repeat: no-repeat;
   }
-  
   .dealimg [id="slide01"]:checked ~ .slide_list .slide_item li {transform: translateX(0);}
   .dealimg [id="slide02"]:checked ~ .slide_list .slide_item li {transform: translateX(-100%);}
   .dealimg [id="slide03"]:checked ~ .slide_list .slide_item li {transform: translateX(-202%);}
@@ -755,7 +753,7 @@
     height: 300px;
   }
   .planing_img input {display: none;}
-  .planing_img input [id="slide"]{display: none;}
+  .planing_img input [id="slide"] {display: none;}
 
   .planslide_list {
     white-space: nowrap;
@@ -782,8 +780,8 @@
   .plantext p {
     width: 100%;
     text-align: center;
-    color:#000;
-    transition:all .5s;
+    color: #000;
+    transition: all .5s;
   }
   .plantext span {
     font-size: 18px;

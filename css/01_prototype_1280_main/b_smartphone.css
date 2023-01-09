@@ -29,7 +29,7 @@
     width: 34.8837%; min-width: 90px;
     height: 100%;
   }
-  .unb { display: none; }
+  .unb {display: none;}
   .header_m {
     width: 42px; 
     height: 26px;
@@ -42,7 +42,6 @@
     width: 100%;
     padding: 0;
   }
-  
   #check_box {display: none;}
   #check_box + label {
     position: relative;
@@ -99,7 +98,6 @@
     box-sizing: border-box;
     overflow: auto;
   }
-
   .button_part {
     width: 100%;
     height: auto;
@@ -115,7 +113,6 @@
     font-size: 16px;
     font-weight: 500;
   }
-  
   input[id*="slide_btn"] {display: none;}
   input[id*="slide_btn"] + label {
     width: auto;
@@ -257,7 +254,6 @@
     height: 100%;
     vertical-align: middle;
   }
-
   .shortcut02 {
     width: 100%; min-width: 300px;
     height: 120px;
@@ -330,13 +326,19 @@
     text-align: center;
     color: #fff;
   }
-  .shortcut_outer li:nth-last-of-type(-n+5){margin-bottom: 0;}
-  .shortcut_outer li:nth-last-child(1){margin-bottom: 0; margin-right: 10px;}
+  .shortcut_outer li:nth-last-of-type(-n+5) {
+    margin-bottom: 0;
+  }
+  .shortcut_outer li:nth-last-child(1) {
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
 
-  #content_box_wrap{
+  #content_box_wrap {
     width: 100%; 
     height: auto;
   }
+
   /* #communityBox =============================== */
   #communityBox {
     width: 93.75%; min-width: 300px; 
@@ -573,7 +575,6 @@
     margin: auto;
   }
   
-  
   /* #bestBox============================== */
   #bestBox {
     width: 93.75%; min-width: 300px;
@@ -656,12 +657,12 @@
     text-decoration: none;
   }
 
-    /* #miniAdBox ============================== */
+  /* #miniAdBox ============================== */
   #miniAdBox {
     height: 100%; 
     box-sizing: border-box; 
   }
-  .mini_inner{
+  .mini_inner {
     width: 93.75%; min-width: 300px; 
     height: auto;
     margin: auto;
@@ -691,7 +692,7 @@
     width: 100%;
     height: 130px;
   }
-  .dealimg input[id="slide"]{display: none;}
+  .dealimg input[id="slide"] {display: none;}
   .dealimg input {display: none;}
   .slide_list {
     white-space: nowrap;
@@ -744,12 +745,10 @@
     background-size: 60%;
     background-repeat: no-repeat;
   }
-  
-  
   .dealimg [id="slide01"]:checked ~ .slide_list .slide_item li {transform: translateX(0);}
   .dealimg [id="slide02"]:checked ~ .slide_list .slide_item li {transform: translateX(-100%);}
   .dealimg [id="slide03"]:checked ~ .slide_list .slide_item li {transform: translateX(-202%);}
-  
+
   .planning {
     width: 48.3333%; min-width: 145px; 
     height: auto;
@@ -772,7 +771,7 @@
     height: 130px;
   }
   .planing_img input {display: none;}
-  .planing_img input [id="slide"]{display: none;}
+  .planing_img input [id="slide"] {display: none;}
   .planslide_list {
     white-space: nowrap;
     overflow: hidden;
@@ -794,8 +793,8 @@
   .plantext {
     width: 100%;
     text-align: center;
-    transition:all .5s;
-    color:#000;
+    transition: all .5s;
+    color: #000;
   }
   .plantext span {
     font-weight: 500;
@@ -834,7 +833,7 @@
   .planing_img [id="plan_slide02"]:checked ~ .planslide_list .planslide_item li {transform: translateX(-100%);}
   .planing_img [id="plan_slide03"]:checked ~ .planslide_list .planslide_item li {transform: translateX(-202%);}
 
-
+/* #footBox ============================ */
   #footBox {
     float: left;
     width: 100%; min-width: 320px;
@@ -842,7 +841,8 @@
     border-top: 3px solid #37B9DF;
   }
   .foot_inner {
-    width: 93.75%; min-width: 300px; height: auto;
+    width: 93.75%; min-width: 300px;
+    height: auto;
     margin: 30px auto;
     position: relative;
   }
@@ -941,8 +941,9 @@
     line-height: 25px;
   }
   .brandsite_part ul.on {
+    width: 100%;
+    height: auto;
     display: block;
-    width: 100%; height: auto;
   }
   .brandsite_part ul button {
     font-weight: 400;

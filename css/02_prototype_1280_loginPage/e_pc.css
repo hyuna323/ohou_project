@@ -140,245 +140,248 @@
     border-radius: 4px;
     cursor: pointer;
   }
-
   .header_m {display: none;}
 
-    /* loginBox ============================ */
-    #loginBox {
-      width: 100%; min-width: 1280px; max-width: 1439px;
-      height: auto;
-      padding: 0;
-      margin: auto;
-      margin-bottom: 100px;
-    }
-    .logintxet {
-      width: 85.9375%; min-width: 1100px;
-      height: auto;
-      margin: auto;
-      padding-top: 212px;
-      font-size: 30px;
-      text-align: center;
-      color: #000;
-    }
-    .login_area {
-      width: 54.6875%; min-width: 700px;
-      height: auto;
-      margin: auto;
-      margin-top: 100px;
-    }
-    .login_area form {
-      width: 100%;
-    }
-    .privite {
-      width: auto; 
-      height: auto;
-      margin: auto;
-      padding: 0;
-      border: none;
-    }
-    .privite ul {
-      width: 100%;
-    }
-    .button_content {
-      width: 100%;
-      margin: auto;
-      display: flex;
-    }
-    .button_content button {
-      width: 50%;
-      height: 70px;
-      border-radius: 5px;
-      font-size: 16px;
-      font-weight: 500;
-      text-align: center;
-    }
-    .login_content {
-      background-color: #fff;
-      border: 1px solid #37B9DF;
-    }
-    .login_content:hover {
-      background-color: #37B9DF;
-      color: #000;
-    }
-    .nonmember_content {
-      background-color: #fff;
-      border: 1px solid #37B9DF;
-    }
-    .nonmember_content:hover {
-      background-color: #37B9DF;
-    }
-    .input_content {
-      width: 100%;
-      height: auto;
-      margin: auto;
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .privite li input {
-      width: 100%;
-      height: 75px;
-      padding: 12px;
-      border: 1px solid #000;
-      border-radius: 5px;
-      font-size: 18px;
-    }
-    .nonMember_area {display: none;}
-    
-    /* ==================================== */
-    .checkbox_content {
-      width: auto;
-      padding: 10px;
-      display: flex;
-    }
-    .check {
-      width: 150px;
-      height: auto;
-      border: none;
-    }
-    .check label {
-      width: auto;
-      height: 100%;
-      display: flex;
-      cursor: pointer;
-    }
-    .check label i { 
-      width: 20px;
-      height: 20px;
-      margin-right: 3px;
-      margin-top: 18px;
-      border: 1px solid #777;
-      font-size: 16px; 
-    }
-    .checkbox_content span {
-      width: auto;
-      padding: 20px 10px;
-      font-size: 16px;
-      font-weight: 400;
-    }
-    #idcheck:checked + label > i { 
-      position: relative; 
-      background: url(../../img/loginpage/check.svg) 50% no-repeat;
-    }
-    #logincheck:checked + label > i { 
-      position: relative; 
-      background: url(../../img/loginpage/check.svg) 50% no-repeat;
-    }
-    .auto_login {
-      width: 150px;
-      height: auto;
-      border: none;
-    }
-    .auto_login label {
-      width: auto;
-      height: 100%;
-      display: flex;
-      cursor: pointer;
-    }
-    .auto_login label i {
-      width: 20px;
-      height: 20px;
-      margin-right: 3px;
-      margin-top: 18px;
-      border: 1px solid #777;
-      font-size: 16px; 
-    }
-    
-    
-    /* ==================================== */
-    .login_btn {
-      margin-top: 10px;
-      border: none;
-      padding: 0;
-    }
-    .login {
-      width: 100%;
-      height: 80px;
-      margin: auto;
-    }
-    .login button{
-      width: 100%;
-      height: 100%;
-      margin: auto;
-      font-size: 22px;
-      font-weight: 500;
-      text-align: center;
-      color: #000;
-      border-radius: 8px;
-      background-color: #37B9DF;
-    }
-    .etcBox {
-      width: 94.2857%; min-width: 660px;
-      height: auto;
-      margin: auto;
-      margin-top: 40px;
-    }
-    .etcBox ul {
-      width: 100%;
-      height: auto;
-      margin: auto;
-      line-height: 50px;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-    }
-    .etcBox li {
-      width: 200px;
-      height: auto;
-      display: inline-block;
-      font-size: 19px;
-      font-weight: 400;
-    }
-    .snsLogin_area {
-      width: 100%; min-width: 1280px; max-width: 1439px;
-      height: auto;
-      margin: auto;
-      margin-top: 80px;
-      padding: 0;
-      text-align: center;
-    }
-    .snsLogin_content {
-      width: 100%;
-      height: 90px;
-      margin: auto;
-      font-size: 24px;
-      font-weight: 500;
-    }
-    .sns_part {
-      width: 41.4063%; min-width: 530px;
-      height: auto;
-      margin: auto;
-      margin-top: 15px;
-      display: flex;
-    }
-    .facebook {
-      width: 32.0755%; min-width: 170px; height: 180px;
-      margin-right: 10px;
-      border-radius: 50%;
-      cursor: pointer;
-      background-image: url(../../img/loginpage/f_logo_RGB-Blue_58.png);
-      background-size: 58%;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-    .naver {
-      width: 32.0755%; min-width: 170px; height: 180px;
-      margin-right: 10px;
-      border-radius: 50%;
-      cursor: pointer;
-      background-image: url(../../img/loginpage/naver_iconcicle.png);
-      background-position: center;
-      background-size: 58%;
-      background-repeat: no-repeat;
-    }
-    .kakaotalk {
-      width: 32.0755%; min-width: 170px; height: 180px;
-      border-radius: 50%;
-      cursor: pointer;
-      background-image: url(../../img/loginpage/kakaotalk_logo.png);
-      background-position: center;
-      background-size: 58%;
-      background-repeat: no-repeat;
-    }
+  /* loginBox ============================ */
+  #loginBox {
+    width: 100%; min-width: 1440px; max-width: 1919px;
+    height: auto;
+    padding: 0;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  .logintxet {
+    width: 90.2778%; min-width: 1300px;
+    height: auto;
+    margin: auto;
+    padding-top: 212px;
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+  }
+  .login_area {
+    width: 41.6667%; min-width: 600px;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .login_area form {
+    width: 100%;
+  }
+  .privite {
+    width: auto; 
+    height: auto;
+    margin: auto;
+    padding: 0;
+    border: none;
+  }
+  .privite ul {
+    width: 100%;
+  }
+  .button_content {
+    width: 100%;
+    margin: auto;
+    display: flex;
+  }
+  .button_content button {
+    width: 50%;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .login_content {
+    background-color: #fff;
+    border: 1px solid #37B9DF;
+  }
+  .login_content:hover {
+    background-color: #37B9DF;
+    color: #000;
+  }
+  .nonmember_content {
+    background-color: #fff;
+    border: 1px solid #37B9DF;
+  }
+  .nonmember_content:hover {
+    background-color: #37B9DF;
+  }
+  .input_content {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .privite li input {
+    width: 100%;
+    height: 75px;
+    padding: 12px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  .nonMember_area {display: none;}
+  
+  /* ==================================== */
+  .checkbox_content {
+    width: auto;
+    padding: 10px;
+    display: flex;
+  }
+  .check {
+    width: 150px;
+    height: auto;
+    border: none;
+  }
+  .check label {
+    width: auto;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+  }
+  .check label i { 
+    width: 22px;
+    height: 22px;
+    margin-right: 3px;
+    margin-top: 18px;
+    border: 1px solid #777;
+  }
+  .checkbox_content span {
+    width: auto;
+    padding: 20px 10px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  #idcheck:checked + label > i { 
+    position: relative; 
+    background: url(../../img/loginpage/check.svg) 50% no-repeat;
+  }
+  #logincheck:checked + label > i { 
+    position: relative; 
+    background: url(../../img/loginpage/check.svg) 50% no-repeat;
+  }
+  .auto_login {
+    width: 150px;
+    height: auto;
+    border: none;
+  }
+  .auto_login label {
+    width: auto;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+  }
+  .auto_login label i {
+    width: 22px;
+    height: 22px;
+    margin-right: 3px;
+    margin-top: 18px;
+    border: 1px solid #777;
+  }
+  
+  /* ==================================== */
+  .login_btn {
+    margin-top: 10px;
+    border: none;
+    padding: 0;
+  }
+  .login {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+  }
+  .login button {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: #000;
+    border-radius: 8px;
+    background-color: #37B9DF;
+  }
+  .etcBox {
+    width: 93.3333%; min-width: 560px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .etcBox ul {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .etcBox li {
+    width: 190px;
+    height: auto;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .etcBox li:first-child {
+    width: 180px;
+    margin-left: 0;
+  }
+  .snsLogin_area {
+    width: 100%; min-width: 1440px; max-width: 1919px;
+    height: auto;
+    margin: auto;
+    margin-top: 80px;
+    padding: 0;
+    text-align: center;
+  }
+  .snsLogin_content {
+    width: 100%;
+    height: 90px;
+    margin: auto;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .sns_part {
+    width: 36.8056%; min-width: 530px;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+  }
+  .facebook {
+    width: 32.0755%; min-width: 170px;
+    height: 180px;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url(../../img/loginpage/f_logo_RGB-Blue_58.png);
+    background-size: 58%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .naver {
+    width: 32.0755%; min-width: 170px;
+    height: 180px;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url(../../img/loginpage/naver_iconcicle.png);
+    background-position: center;
+    background-size: 58%;
+    background-repeat: no-repeat;
+  }
+  .kakaotalk {
+    width: 32.0755%; min-width: 170px;
+    height: 180px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url(../../img/loginpage/kakaotalk_logo.png);
+    background-position: center;
+    background-size: 58%;
+    background-repeat: no-repeat;
+  }
 
   /* #footBox ======================== */
   #footBox {
