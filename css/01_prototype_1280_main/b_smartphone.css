@@ -3,6 +3,8 @@
 /* max-width: 767px / design 기준: 320px */
 @media all and (max-width: 767px) {
   #wrap {width: 100%; min-height: 600px;}
+
+  /* #headBox ====================== */
   #headBox {
     width: 100%; min-width: 320px;
     height: 60px;
@@ -30,6 +32,8 @@
     height: 100%;
   }
   .unb {display: none;}
+
+  /* .header_m ------------------ */
   .header_m {
     width: 42px; 
     height: 26px;
@@ -37,7 +41,6 @@
     margin-top: 10px;
     box-sizing: border-box;
   }
-
   #unbInner {
     width: 100%;
     padding: 0;
@@ -84,6 +87,8 @@
   #check_box:checked + label + #slide_menu {
     left: 40px;
   }
+
+  /* #slide_menu ====================== */
   #slide_menu {
     width: 100%; min-width: 288px;
     height: 100%;
@@ -254,6 +259,8 @@
     height: 100%;
     vertical-align: middle;
   }
+
+  /* shortcut 하단 ------------------- */
   .shortcut02 {
     width: 100%; min-width: 300px;
     height: 120px;
@@ -314,6 +321,7 @@
     height: 100%;
     vertical-align: middle;
   }
+  /* shortcut 텍스트 */
   .sctext {
     width: 120px; 
     height: 120px;
@@ -334,6 +342,7 @@
     margin-right: 10px;
   }
 
+  /* #content_box_wrap =========================== */
   #content_box_wrap {
     width: 100%; 
     height: auto;
@@ -348,6 +357,8 @@
     margin: auto;
     overflow: hidden;
   }
+
+  /* .bestpicture --------------------- */
   .community_inner {
     width: 100%; min-width: 300px;
     height: auto;
@@ -370,6 +381,7 @@
     height: 40px;
     text-align: center;
   }
+  /* bestpicture 내용 */
   .bestpicture {
     width: 100%; min-width: 300px; 
     height: auto;
@@ -423,6 +435,8 @@
     width: 90%;
     border-radius: 5%;
   }
+
+  /* story, riview part */
   .community_inner02 {
     width: 100%; min-width: 300px;
     height: auto;
@@ -430,6 +444,7 @@
     display: flex;
     flex-direction: column;
   }
+  /* .story ---------------------------- */
   .story_title {
     width: 93.3333%; min-width: 280px;
     display: flex;
@@ -440,6 +455,7 @@
     line-height: 40px;
     font-size: 20px;
   }
+  /* story 내용 */
   .story {
     width: 100%; min-width: 300px;
     height: auto;
@@ -520,6 +536,8 @@
     margin: auto;
     border-radius: 10px;
   }
+
+  /* .review ------------------------- */
   .review_title {
     width: 93.3333%; min-width: 280px;
     margin: auto;
@@ -670,6 +688,7 @@
     margin-bottom: 70px;
     display: flex;
   }
+  /* .deal ---------------------------- */
   .deal {
     width: 48.3333%; min-width: 145px; 
     height: auto;
@@ -729,7 +748,9 @@
     border-radius: 50%;
     cursor: pointer;
   }
-  label.left {
+
+  /* deal arrow */
+  .left {
     left: 0px;
     top: 150px;
     background-image: url('../../img/base/arrow_left.png');
@@ -737,7 +758,7 @@
     background-size: 60%;
     background-repeat: no-repeat;
   }
-  label.right {
+  .right {
     right: 0px;
     top: 150px;
     background-image: url('../../img/base/arrow_right.png');
@@ -745,10 +766,13 @@
     background-size: 60%;
     background-repeat: no-repeat;
   }
+
+  /* deal 페이지 전환 */
   .dealimg [id="slide01"]:checked ~ .slide_list .slide_item li {transform: translateX(0);}
   .dealimg [id="slide02"]:checked ~ .slide_list .slide_item li {transform: translateX(-100%);}
-  .dealimg [id="slide03"]:checked ~ .slide_list .slide_item li {transform: translateX(-202%);}
+  .dealimg [id="slide03"]:checked ~ .slide_list .slide_item li {transform: translateX(-204%);}
 
+  /* .planning ------------------------ */
   .planning {
     width: 48.3333%; min-width: 145px; 
     height: auto;
@@ -790,6 +814,7 @@
     vertical-align: middle;
     transition: all .5s;
   }
+  /* plan 텍스트 */
   .plantext {
     width: 100%;
     text-align: center;
@@ -801,6 +826,7 @@
     font-size: 16px;
   }
   .plantext p {display: none;}
+
   .planslide_item li a {
     display: block;
     position: relative;
@@ -808,32 +834,37 @@
   .planslide_item label {
     position: absolute;
     z-index: 1;
+    top: 43%;
     transform: translateY(-50%);
     padding: 20px;
     border-radius: 50%;
     cursor: pointer;
   }
+
+  /* plan arrow */
   .plan_left {
     left: 0px;
     top: 150px;
-    background-image: url('../../img/base/arrow_left.png');
+    background-image: url('../../img/base/left.png');
     background-position: center center;
-    background-size: 60%;
+    background-size: 90%;
     background-repeat: no-repeat;
   }
   .plan_right {
     right: 0px;
     top: 150px;
-    background-image: url('../../img/base/arrow_right.png');
+    background-image: url('../../img/base/right.png');
     background-position: center center;
-    background-size: 60%;
+    background-size: 90%;
     background-repeat: no-repeat;
   }
+
+  /* plan 페이지 전환 */
   .planing_img [id="plan_slide01"]:checked ~ .planslide_list .planslide_item li {transform: translateX(0);}
   .planing_img [id="plan_slide02"]:checked ~ .planslide_list .planslide_item li {transform: translateX(-100%);}
-  .planing_img [id="plan_slide03"]:checked ~ .planslide_list .planslide_item li {transform: translateX(-202%);}
+  .planing_img [id="plan_slide03"]:checked ~ .planslide_list .planslide_item li {transform: translateX(-204%);}
 
-/* #footBox ============================ */
+  /* #footBox ============================ */
   #footBox {
     float: left;
     width: 100%; min-width: 320px;
@@ -905,6 +936,8 @@
     text-transform: uppercase;
   }
   .last_li {display: none;}
+
+  /* footer 관련사이트 ----------------- */
   .footsubmenu {
     width: 36.6667%; min-width: 110px;
     position: absolute;
@@ -940,6 +973,7 @@
     height: 35px;
     line-height: 25px;
   }
+  /* brandsite_part click inner */
   .brandsite_part ul.on {
     width: 100%;
     height: auto;
