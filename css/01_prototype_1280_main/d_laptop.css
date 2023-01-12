@@ -32,6 +32,8 @@
   h1 button img { 
     height: 100%;
   }
+
+  /* user navigation */
   .unb {
     width: auto; 
     height: auto;
@@ -40,6 +42,7 @@
     text-transform: uppercase;
     text-align: center;
   }
+  /* page 이동 */
   .shopping_part {
     width: 15.0943%; min-width: 80px;
     height: auto;
@@ -76,6 +79,7 @@
     display: block;
     text-decoration: none;
   }
+  /* search */
   .search_part {
     width: auto;
     height: auto;
@@ -120,6 +124,7 @@
     box-sizing: border-box;
     border-top: 2px solid #333;
   }
+  /* global navigaition */
   .gnb {
     width: 91.4063%; min-width: 1170px;
     height: 100%;
@@ -188,6 +193,8 @@
     height: auto;
     margin: auto;
   }
+
+  /* shortcut 상단 ---------------- */
   .shortcut01 {
     width: 100%; min-width: 1100px;
     height: auto;
@@ -250,6 +257,8 @@
     height: 100%;
     vertical-align: middle;
   }
+  
+  /* shortcut 하단 ------------------- */
   .shortcut02 {
     width: 100%; min-width: 1100px;
     height: auto;
@@ -311,6 +320,7 @@
     height: 100%;
     vertical-align: middle;
   }
+  /* shortcut text */
   .sctext {
     width: 100%; 
     height: auto;
@@ -344,10 +354,13 @@
     margin: auto;
     margin-top: 70px;
   }
+  /* .bestpicture */
   .community_inner {
     width: 100%; 
     height: auto;
   }
+
+  /* bestpicture ---------------------- */
   .bestpicture_title {
     width: 84.3333%; min-width: 506px;
     margin: auto;
@@ -369,6 +382,8 @@
     font-size: 17px;
     font-weight: 300;
   }
+
+  /* bestpicture 내용 */
   .bestpicture {
     width: 90%; min-width: 540px; 
     height: auto;
@@ -417,12 +432,16 @@
     border-radius: 5%;
   }
 
+  /* #community_inner02 =============== */
+  /* story, riview part */
   #community_inner02 {
     width: 45.4545%; min-width: 500px;
     height: auto;
     margin: auto;
     margin-top: 70px;
   }
+
+  /* .story ---------------------------- */
   .story_title {
     width: 98%; min-width: 490px;
     margin: auto;
@@ -435,6 +454,7 @@
     font-size: 20px;
     font-weight: 500;
   }
+  /* story 내용 */
   .story {
     width: 100%; 
     height: auto;
@@ -655,6 +675,8 @@
     margin-bottom: 70px;
     display: flex;
   }
+
+  /* deal ------------------------- */
   .deal {
     width: 50%; min-width: 550px;
     height: 100%;
@@ -723,6 +745,8 @@
     z-index: 1;
     cursor: pointer;
   }
+
+  /* deal arrow */
   label.left {
     left: 20px;
     top: 130px;
@@ -741,10 +765,13 @@
     background-size: 50%;
     background-repeat: no-repeat;
   }
+
+  /* deal 페이지 전환 */
   .dealimg [id="slide01"]:checked ~ .slide_list .slide_item li {transform: translateX(0);}
   .dealimg [id="slide02"]:checked ~ .slide_list .slide_item li {transform: translateX(-100%);}
   .dealimg [id="slide03"]:checked ~ .slide_list .slide_item li {transform: translateX(-202%);}
   
+  /* .planning ------------------------ */
   .planning {
     width: 50%; min-width: 550px;
     height: 100%;
@@ -784,6 +811,13 @@
     vertical-align: middle;
     transition: all .5s;
   }
+  
+  /* plan text */
+  .plantext {
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+  }
   .plantext p {
     width: 100%;
     text-align: center;
@@ -807,6 +841,8 @@
     z-index: 1;
     cursor: pointer;
   }
+
+  /* plan arrow */
   .plan_left {
     left: 20px;
     top: 130px;
@@ -825,6 +861,8 @@
     background-size: 50%;
     background-repeat: no-repeat;
   }
+  
+  /* plan 페이지 전환 */
   .planing_img [id="plan_slide01"]:checked ~ .planslide_list .planslide_item li {transform: translateX(0);}
   .planing_img [id="plan_slide02"]:checked ~ .planslide_list .planslide_item li {transform: translateX(-100%);}
   .planing_img [id="plan_slide03"]:checked ~ .planslide_list .planslide_item li {transform: translateX(-202%);}
@@ -902,6 +940,8 @@
     font-weight: 400;
     text-transform: uppercase;
   }
+  
+  /* footer 관련사이트 ----------------- */
   .footsubmenu {
     width: 14.4014%; min-width: 160px;
     top: 0px;

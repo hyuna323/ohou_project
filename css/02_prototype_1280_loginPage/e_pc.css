@@ -32,6 +32,8 @@
   h1 button img {
     height: 100%;
   }
+  
+  /* user navigation */
   .unb {
     width: auto; 
     height: auto;
@@ -40,6 +42,7 @@
     text-transform: uppercase;
     text-align: center;
   }
+  /* page 이동 */
   .shopping_part {
     width: 15.0943%; min-width: 80px;
     height: 50px;
@@ -76,6 +79,7 @@
     display: block;
     text-decoration: none;
   }
+  /* search */
   .search_part {
     width: auto;
     height: auto;
@@ -168,6 +172,8 @@
   .login_area form {
     width: 100%;
   }
+  
+  /* login main ------------------ */
   .privite {
     width: auto; 
     height: auto;
@@ -191,6 +197,8 @@
     font-weight: 500;
     text-align: center;
   }
+  
+  /* 로그인, 비회원 주문조회 버튼 */
   .login_content {
     background-color: #fff;
     border: 1px solid #37B9DF;
@@ -223,7 +231,7 @@
   }
   .nonMember_area {display: none;}
   
-  /* ==================================== */
+  /* 아이디 저장, 자동 로그인 ------------ */
   .checkbox_content {
     width: auto;
     padding: 10px;
@@ -280,7 +288,7 @@
     border: 1px solid #777;
   }
   
-  /* ==================================== */
+  /* login button --------------------- */
   .login_btn {
     margin-top: 10px;
     border: none;
@@ -302,6 +310,8 @@
     border-radius: 8px;
     background-color: #37B9DF;
   }
+  
+  /* 회원가입, 아이디 찾기, 비밀번호 찾기 button */
   .etcBox {
     width: 93.3333%; min-width: 560px;
     height: auto;
@@ -328,6 +338,8 @@
     width: 180px;
     margin-left: 0;
   }
+  
+  /* sns login button */
   .snsLogin_area {
     width: 100%; min-width: 1440px; max-width: 1919px;
     height: auto;
@@ -456,6 +468,8 @@
     font-weight: 400;
     text-transform: uppercase;
   }
+  
+  /* footer 관련사이트 ----------------- */
   .footsubmenu {
     width: 15%; min-width: 180px;
     height: auto;

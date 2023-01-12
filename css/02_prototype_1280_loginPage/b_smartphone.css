@@ -3,6 +3,8 @@
 /* max-width: 767px / design 기준: 320px */
 @media all and (max-width: 767px) {
   #wrap {width: 100%; min-height: 600px;}
+
+  /* #headBox =================================== */
   #headBox {
     width: 100%; min-width: 320px;
     height: 60px;
@@ -31,6 +33,8 @@
     height: 100%;
   }
   .unb {display: none;}
+
+  /* .header_m ------------------ */
   .header_m {
     width: auto; 
     height: 26px;
@@ -38,11 +42,12 @@
     margin-top: 10px;
     box-sizing: border-box;
   }
-
   #unbInner {
     width: 100%;
     padding: 0;
   }
+  
+  /* slide menu button */
   #check_box {display: none;}
   #check_box + label {
     position: relative;
@@ -85,6 +90,8 @@
   #check_box:checked + label + #slide_menu {
     left: 40px;
   }
+  
+  /* #slide_menu ====================== */
   #slide_menu {
     width: 100%; min-width: 288px;
     height: 100%;
@@ -174,6 +181,8 @@
   .login_area form {
     width: 100%;
   }
+
+  /* login main ------------------ */
   .privite {
     width: auto;
     height: auto;
@@ -197,6 +206,8 @@
     font-weight: 500;
     text-align: center;
   }
+
+  /* 로그인, 비회원 주문조회 버튼 */
   .login_content {
     background-color: #fff;
     border: 1px solid #37B9DF;
@@ -227,6 +238,8 @@
     border-radius: 5px;
   }
   .nonMember_area {display: none;}
+  
+  /* 아이디 저장, 자동 로그인 ------------ */
   .checkbox_content {
     width: auto;
     padding: 10px;
@@ -282,6 +295,8 @@
     margin-top: 0.35rem;
     border: 1px solid #777;
   }
+
+  /* login button --------------------- */
   .login_btn {
     margin-top: 10px;
     border: none;
@@ -303,6 +318,8 @@
     border-radius: 8px;
     background-color: #37B9DF;
   }
+  
+  /* 회원가입, 아이디 찾기, 비밀번호 찾기 button */
   .etcBox {
     width: 86.6667%; min-width: 260px;
     height: auto;
@@ -328,6 +345,8 @@
     width: 60px;
     margin-left: 0;
   }
+
+  /* sns login button */
   .snsLogin_area {
     width: 50%; min-width: 320px; max-width: 767px;
     height: auto;
@@ -456,6 +475,8 @@
     text-transform: uppercase;
   }
   .last_li {display: none;}
+
+  /* footer 관련사이트 ----------------- */
   .footsubmenu {
     width: 36.6667%; min-width: 110px;
     position: absolute;

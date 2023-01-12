@@ -32,6 +32,8 @@
   h1 button img {
     height: 100%;
   }
+  
+  /* user navigation */
   .unb {
     width: auto; 
     height: auto;
@@ -40,6 +42,7 @@
     text-transform: uppercase;
     text-align: center;
   }
+  /* page 이동 */
   .shopping_part {
     width: 5.2083%; min-width: 100px;
     height: 50px;
@@ -76,6 +79,7 @@
     display: block;
     text-decoration: none;
   }
+  /* search */
   .search_part {
     width: auto;
     height: auto;
@@ -111,7 +115,7 @@
     text-transform: capitalize;
   }
   
-  /* ---------------------------------- */
+  /* .head_inner02 ---------------------------------- */
   .head_inner02 {
     width: 100%; 
     height: 50%;
@@ -119,6 +123,7 @@
     box-sizing: border-box;
     border-top: 2px solid #333;
   }
+  /* global navigaition */
   .gnb {
     width: 67.7083%; min-width: 1300px;
     height: 100%;
@@ -187,6 +192,8 @@
     height: auto;
     margin: auto;
   }
+  
+  /* shortcut 상단 ---------------- */
   .shortcut01 {
     width: 100%; min-width: 1600px;
     height: auto;
@@ -248,6 +255,8 @@
     height: 100%;
     vertical-align: middle;
   }
+  
+  /* shortcut 하단 ------------------- */
   .shortcut02 {
     width: 100%; min-width: 1600px;
     height: auto;
@@ -309,6 +318,7 @@
     height: 100%;
     vertical-align: middle;
   }
+  /* shortcut text */
   .sctext {
     width: 100%; 
     height: auto;
@@ -342,10 +352,13 @@
     margin: auto;
     margin-top: 100px;
   }
+  /* .bestpicture */
   .community_inner {
     width: 100%; 
     height: auto;
   }
+  
+  /* bestpicture ---------------------- */
   .bestpicture_title {
     width: 91.25%; min-width: 730px;
     margin: auto;
@@ -364,6 +377,8 @@
   .moretx button {
     font-size: 22px;
   }
+  
+  /* bestpicture 내용 */
   .bestpicture {
     width: 50%; min-width: 800px; 
     height: auto;
@@ -411,12 +426,16 @@
     border-radius: 5%;
   }
 
+  /* #community_inner02 =============== */
+  /* story, riview part */
   #community_inner02 {
     width: 50%; min-width: 800px;
     height: auto;
     margin: auto;
     margin-top: 100px;
   }
+  
+  /* .story ---------------------------- */
   .story_title {
     width: 91.25%; min-width: 730px;
     margin: auto;
@@ -428,6 +447,7 @@
     line-height: 40px;
     font-size: 24px;
   }
+  /* story 내용 */
   .story {
     width: 100%;
     height: auto;
@@ -642,6 +662,8 @@
     margin-bottom: 70px;
     display: flex;
   }
+  
+  /* deal ------------------------- */
   .deal {
     width: 50%; min-width: 800px;
     height: 100%;
@@ -710,6 +732,8 @@
     z-index: 1;
     cursor: pointer;
   }
+  
+  /* deal arrow */
   label.left {
     left: 20px;
     top: 180px;
@@ -728,10 +752,13 @@
     background-size: 70%;
     background-repeat: no-repeat;
   }
+  
+  /* deal 페이지 전환 */
   .dealimg [id="slide01"]:checked ~ .slide_list .slide_item li {transform: translateX(0);}
   .dealimg [id="slide02"]:checked ~ .slide_list .slide_item li {transform: translateX(-100%);}
   .dealimg [id="slide03"]:checked ~ .slide_list .slide_item li {transform: translateX(-202%);}
   
+  /* .planning ------------------------ */
   .planning {
     width: 50%; min-width: 800px;
     height: 100%;
@@ -772,6 +799,8 @@
     vertical-align: middle;
     transition: all .5s;
   }
+  
+  /* plan text */
   .plantext {
     width: auto;
     height: auto;
@@ -800,6 +829,8 @@
     z-index: 1;
     cursor: pointer;
   }
+  
+  /* plan arrow */
   .plan_left {
     left: 20px;
     top: 180px;
@@ -818,6 +849,8 @@
     background-size: 70%;
     background-repeat: no-repeat;
   }
+
+  /* plan 페이지 전환 */
   .planing_img [id="plan_slide01"]:checked ~ .planslide_list .planslide_item li {transform: translateX(0);}
   .planing_img [id="plan_slide02"]:checked ~ .planslide_list .planslide_item li {transform: translateX(-100%);}
   .planing_img [id="plan_slide03"]:checked ~ .planslide_list .planslide_item li {transform: translateX(-202%);}
@@ -895,6 +928,8 @@
     font-weight: 400;
     text-transform: uppercase;
   }
+  
+  /* footer 관련사이트 ----------------- */
   .footsubmenu {
     width: 12.0048%; min-width: 200px;
     height: auto;

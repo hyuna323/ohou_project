@@ -3,6 +3,8 @@
 /* (width: 768px ~ 959px) / design 기준: 768px */
 @media all and (min-width: 768px) and (max-width: 1279px) {
   #wrap {width: 100%; min-height: 600px;}
+
+  /* #headBox =================================== */
   #headBox {
     width: 100%; min-width: 768px;
     height: 60px;
@@ -30,6 +32,8 @@
     height: 100%;
   }
   .unb {display: none;}
+
+  /* .header_m ------------------ */
   .header_m {
     width: 38px;
     height: 26px;
@@ -41,6 +45,8 @@
     width: 100%;
     padding: 0;
   }
+  
+  /* slide menu button */
   #check_box {display: none;}
   #check_box + label {
     position: relative;
@@ -83,6 +89,8 @@
   #check_box:checked + label + #slide_menu {
     left: 40px;
   }
+  
+  /* #slide_menu ====================== */
   #slide_menu {
     width: 100%; min-width: 739px;
     height: 100%;
@@ -146,7 +154,7 @@
   }
   .head_inner02 {display: none;}
 
-  /* ================================ */
+  /* #loginBox ================================ */
   #loginBox {
     width: 100%; min-width: 768px; max-width: 1279px;
     height: auto;
@@ -173,6 +181,8 @@
   .login_area form {
     width: 100%;
   }
+  
+  /* login main ------------------ */
   .privite {
     width: auto;
     height: auto;
@@ -196,6 +206,8 @@
     font-weight: 500;
     text-align: center;
   }
+  
+  /* 로그인, 비회원 주문조회 버튼 */
   .login_content {
     background-color: #fff;
     border: 1px solid #37B9DF;
@@ -228,7 +240,7 @@
   }
   .nonMember_area {display: none;}
 
-  /* ==================================== */
+  /* 아이디 저장, 자동 로그인 ------------ */
   .checkbox_content {
     width: auto;
     padding: 10px;
@@ -285,7 +297,7 @@
     border: 1px solid #777;
   }
 
-  /* ==================================== */
+  /* login button --------------------- */
   .login_btn {
     margin-top: 10px;
     border: none;
@@ -307,6 +319,8 @@
     border-radius: 8px;
     background-color: #37B9DF;
   }
+  
+  /* 회원가입, 아이디 찾기, 비밀번호 찾기 button */
   .etcBox {
     width: 92%; min-width: 460px;
     height: auto;
@@ -332,6 +346,8 @@
     width: 120px;
     margin-left: 0;
   }
+  
+  /* sns login button */
   .snsLogin_area {
     width: 100%; min-width: 768px; max-width: 1279px;
     height: auto;
@@ -459,6 +475,8 @@
     font-weight: 400;
     text-transform: uppercase;
   }
+  
+  /* footer 관련사이트 ----------------- */
   .footsubmenu {
     width: 25.7143%; min-width: 180px;
     position: absolute;
