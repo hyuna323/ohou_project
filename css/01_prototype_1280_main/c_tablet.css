@@ -383,12 +383,12 @@
     margin: auto;
   }
   .bestpicture_title h2 {
-    width: 100%; min-width: 634px;
+    width: 93.2353%; min-width: 634px;
     line-height: 40px;
     font-size: 20px;
   }
   .moretx {
-    width: 52px;
+    width: 46px;
     height: 40px;
     text-align: center;
   }
@@ -461,17 +461,17 @@
   /* .story ---------------------------- */
   .story_title {
     width: 97.1429%; min-width: 680px;
-    margin: auto;
     display: flex;
+    margin: auto;
   }
   .story_title h2 {
-    width: 100%; min-width: 634px;
+    width: 93.2353%; min-width: 634px;
     line-height: 40px;
     font-size: 20px;
   }
   /* story 내용 */
   .story {
-    width: 96.4286%; min-width: 675px;
+    width: 100%; min-width: 700px;
     height: auto;
     margin: auto;
     margin-top: 10px;
@@ -505,7 +505,7 @@
     height: auto;
     margin: auto;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .storytextid {
     width: 100%; 
@@ -566,12 +566,12 @@
     display: flex;
   }
   .review_title h2 {
-    width: 100%; min-width: 648px;
+    width: 91.7647%; min-width: 624px;
     font-size: 20px;
   }
   /* review 내용 */
   .review {
-    width: 96.4286%; min-width: 675px;
+    width: 100%; min-width: 700px;
     height: auto;
     margin: auto;
     margin-top: 10px;
@@ -605,7 +605,7 @@
     width: 50%; min-width: 350px;
     height: auto;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .reviewimg02 {
     width: 50%; min-width: 350px;
