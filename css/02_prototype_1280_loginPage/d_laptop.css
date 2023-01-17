@@ -8,8 +8,8 @@
   #headBox { 
     width: 100%; min-width: 1280px;
     height: 110px;
-    box-sizing: border-box;
     position: fixed;
+    box-sizing: border-box;
     z-index: 1000;
     background-color: #fff;
   }
@@ -58,8 +58,8 @@
   .login_part {
     width: 15.0943%; min-width: 80px;
     height: auto;
-    font-size: 14px;
     line-height: 38px;
+    font-size: 14px;
   }
   .login_part a {
     width: auto;
@@ -70,8 +70,8 @@
   .join_part {
     width: 15.0943%; min-width: 80px;
     height: auto;
-    font-size: 14px;
     line-height: 38px;
+    font-size: 14px;
   }
   .join_part a {
     width: auto;
@@ -101,19 +101,19 @@
     margin: auto;
     margin-right: 8px;
     padding-left: 10px;
-    border-radius: 4px;
-    font-size: 14px;
     border: 1px solid #aaaaaa;
+    font-size: 14px;
+    border-radius: 4px;
   }
   .search_btn {
     width: 28.571%; min-width: 80px;
     height: 32px;
     margin: auto;
-    border-radius: 5px;
-    background-color: #37B9DF;
-    color: #000;
     font-size: 16px;
     text-transform: capitalize;
+    color: #000;
+    border-radius: 5px;
+    background-color: #37B9DF;
   }
   
   /* .head_inner02 ---------------------------------- */
@@ -121,8 +121,8 @@
     width: 100%;
     height: 50%;
     margin: auto;
-    box-sizing: border-box;
     border-top: 2px solid #333;
+    box-sizing: border-box;
   }
   /* global navigaition */
   .gnb {
@@ -133,18 +133,18 @@
     justify-content: space-between;
   }
   .submenu_part {
-    position: relative;
     display: inline-block;
+    position: relative;
   }
   .btn_part {
     width: 11.1111%; min-width: 130px;
     height: 100%;
     line-height: 48px;
-    border-radius: 4px;
-    font-weight: 300;
-    cursor: pointer;
     font-size: 18px;
+    font-weight: 300;
     text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
   }
   .header_m {display: none;}
   
@@ -152,9 +152,9 @@
   #loginBox {
     width: 100%; min-width: 1280px; max-width: 1439px;
     height: auto;
-    padding: 0;
     margin: auto;
     margin-bottom: 100px;
+    padding: 0;
   }
   .logintxet {
     width: 85.9375%; min-width: 1100px;
@@ -194,24 +194,24 @@
   .button_content button {
     width: 50%;
     height: 70px;
-    border-radius: 5px;
     font-size: 16px;
     font-weight: 500;
     text-align: center;
+    border-radius: 5px;
   }
   
   /* 로그인, 비회원 주문조회 버튼 */
   .login_content {
-    background-color: #fff;
     border: 1px solid #37B9DF;
+    background-color: #fff;
   }
   .login_content:hover {
-    background-color: #37B9DF;
     color: #000;
+    background-color: #37B9DF;
   }
   .nonmember_content {
-    background-color: #fff;
     border: 1px solid #37B9DF;
+    background-color: #fff;
   }
   .nonmember_content:hover {
     background-color: #37B9DF;
@@ -228,8 +228,8 @@
     height: 75px;
     padding: 12px;
     border: 1px solid #000;
-    border-radius: 5px;
     font-size: 18px;
+    border-radius: 5px;
   }
   .nonMember_area {display: none;}
   
@@ -328,8 +328,8 @@
     margin: auto;
     line-height: 50px;
     display: flex;
-    justify-content: center;
     text-align: center;
+    justify-content: center;
   }
   .etcBox li {
     width: 190px;
@@ -371,32 +371,32 @@
     height: 180px;
     margin-right: 10px;
     border-radius: 50%;
-    cursor: pointer;
     background-image: url(../../img/loginpage/f_logo_RGB-Blue_58.png);
     background-size: 58%;
     background-position: center;
     background-repeat: no-repeat;
+    cursor: pointer;
   }
   .naver {
     width: 32.0755%; min-width: 170px;
     height: 180px;
     margin-right: 10px;
     border-radius: 50%;
-    cursor: pointer;
     background-image: url(../../img/loginpage/naver_iconcicle.png);
     background-position: center;
     background-size: 58%;
     background-repeat: no-repeat;
+    cursor: pointer;
   }
   .kakaotalk {
     width: 32.0755%; min-width: 170px;
     height: 180px;
     border-radius: 50%;
-    cursor: pointer;
     background-image: url(../../img/loginpage/kakaotalk_logo.png);
     background-position: center;
     background-size: 58%;
     background-repeat: no-repeat;
+    cursor: pointer;
   }
 
   /* #footBox ======================== */
@@ -436,8 +436,8 @@
   }
   .tel_part {
     width: auto;
-    font-size: 16px;
     line-height: 28px;
+    font-size: 16px;
   }
   .cs_part button {
     width: auto;
@@ -487,11 +487,11 @@
     width: 100%;
     height: 42px;
     line-height: 42px;
-    background-color: #37B9DF;
-    border-radius: 5px;
-    color: #000;
     font-size: 15px;
     font-weight: 500;
+    color: #000;
+    border-radius: 5px;
+    background-color: #37B9DF;
   }
   .brandsite_part ul {
     width: 100%;
@@ -499,11 +499,11 @@
     margin-top: 5px;
     padding: 5px 8px;
     display: none;
-    border: 1px solid #262626;
-    background-color: #fff;
     position: relative;
-    cursor: pointer;
+    border: 1px solid #262626;
     text-align: center;
+    cursor: pointer;
+    background-color: #fff;
   }
   .brandsite_part ul.on {
     width: 100%;
@@ -511,7 +511,7 @@
     display: block;
   }
   .brandsite_part ul button {
-    font-weight: 400;
     font-size: 16px;
+    font-weight: 400;
   }
 }

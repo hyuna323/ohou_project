@@ -8,8 +8,8 @@
   #headBox { 
     width: 100%; min-width: 1440px;
     height: 140px;
-    box-sizing: border-box;
     position: fixed;
+    box-sizing: border-box;
     z-index: 1000;
     background-color: #fff;
   }
@@ -39,15 +39,15 @@
     height: auto;
     margin: auto;
     display: flex;
-    text-transform: uppercase;
     text-align: center;
+    text-transform: uppercase;
   }
   /* page 이동 */
   .shopping_part {
     width: 15.0943%; min-width: 80px;
     height: 50px;
-    font-size: 16px;
     line-height: 46px;
+    font-size: 16px;
   }
   .shopping_part a {
     width: auto;
@@ -101,18 +101,18 @@
     margin: auto;
     margin-right: 8px;
     padding-left: 10px;
-    border-radius: 4px;
-    font-size: 14px;
     border: 1px solid #aaaaaa;
+    font-size: 14px;
+    border-radius: 4px;
   }
   .search_btn {
     width: 28.571%; min-width: 80px;
     height: 38px;
-    border-radius: 5px;
-    background-color: #37B9DF;
-    color: #000;
     font-size: 16px;
     text-transform: capitalize;
+    color: #000;
+    border-radius: 5px;
+    background-color: #37B9DF;
   }
   
   /* .head_inner02 ---------------------------------- */
@@ -411,19 +411,19 @@
     width: 48.3333%; min-width: 290px;
     height: auto;
     margin: auto;
-    border-radius: 5%;
   }
   .bestpicture3 img {
     width: 100%;
+    border-radius: 5%;
   }
   .bestpicture4 {
     width: 48.3333%; min-width: 290px;
     height: auto;
     margin: auto;
-    border-radius: 5%;
   }
   .bestpicture4 img {
     width: 100%;
+    border-radius: 5%;
   }
 
   /* #community_inner02 =============== */
@@ -472,12 +472,12 @@
     width: 100%; min-width: 540px;
     height: auto;
     margin: auto;
+    border-radius: 10px;
   }
   .storytext {
     width: 100%; 
     height: auto;
     margin: auto;
-    border-radius: 10px;
     font-size: 20px;
   }
   .storytextid {
@@ -496,6 +496,7 @@
     width: 100%; min-width: 540px;
     height: auto;
     margin: auto;
+    border-radius: 10px;
   }
   .storyimg03 {
     width: 93.1034%; min-width: 540px;
@@ -508,6 +509,7 @@
     width: 100%; min-width: 540px;
     height: auto;
     margin: auto;
+    border-radius: 10px;
   }
   .storyimg04 {
     width: 93.1034%; min-width: 540px;
@@ -520,6 +522,7 @@
     width: 100%; min-width: 540px;
     height: auto;
     margin: auto;
+    border-radius: 10px;
   }
   
   /* .review --------------- */
@@ -558,6 +561,7 @@
     width: 100%; min-width: 540px;
     height: 80%;
     margin: auto;
+    border-radius: 10px;
   }
   .reviewimg02 {
     width: 93.1034%; min-width: 540px;
@@ -570,12 +574,12 @@
     width: 100%; min-width: 540px;
     height: 80%;
     margin: auto;
+    border-radius: 10px;
   }
   .reviewtext {
     width: 100%; 
     height: auto;
     margin: auto;
-    border-radius: 10px;
     font-size: 20px;
   }
   
@@ -678,7 +682,6 @@
     width: 91.6667%; min-width: 550px;
     height: auto;
     margin: auto;
-    border-radius: 10px;
   }
   .dealimg img {
     width: 100%;
@@ -694,14 +697,14 @@
     width: 100%;
     display: inline-block;
     position: relative;
-    vertical-align: middle;
     transition: all .35s;
+    vertical-align: middle;
   }
   .slide_item li {
     width: 100%;
     display: inline-block;
-    vertical-align: middle;
     transition: all .5s;
+    vertical-align: middle;
   }
   .textbox {
     width: auto;
@@ -713,10 +716,10 @@
     font-weight: 500;
   }
   .textbox p {
+    transition: all .5s;
     font-size: 18px;
     text-align: center;
     color: #000;
-    transition: all .5s;
   }
   .slide_item li a {
     display: block;
@@ -734,22 +737,22 @@
   
   /* deal arrow */
   label.left {
-    left: 20px;
     top: 160px;
-    background-color: #5f5f5f;
+    left: 20px;
     background-image: url('../../img/base/left.png');
     background-position: center center;
-    background-size: 60%;
+    background-size: 70%;
     background-repeat: no-repeat;
+    background-color: #5f5f5f;
   }
   label.right {
-    right: 20px;
     top: 160px;
-    background-color: #5f5f5f;
+    right: 20px;
     background-image: url('../../img/base/right.png');
     background-position: center center;
-    background-size: 60%;
+    background-size: 70%;
     background-repeat: no-repeat;
+    background-color: #5f5f5f;
   }
   
   /* deal 페이지 전환 */
@@ -772,7 +775,6 @@
     width: 91.6667%; min-width: 550px;
     height: auto;
     margin: auto;
-    border-radius: 10px;
   }
   .planing_img img {
     width: 100%;
@@ -782,21 +784,21 @@
   .planing_img input [id="slide"] {display: none;}
 
   .planslide_list {
-    white-space: nowrap;
     overflow: hidden;
+    white-space: nowrap;
   }
   .planslide_item {
     width: 100%;
     display: inline-block;
     position: relative;
-    vertical-align: middle;
     transition: all .35s;
+    vertical-align: middle;
   }
   .planslide_item li {
     width: 100%;
     display: inline-block;
-    vertical-align: middle;
     transition: all .5s;
+    vertical-align: middle;
   }
   
   /* plan text */
@@ -807,9 +809,9 @@
   }
   .plantext p {
     width: 100%;
+    transition: all .5s;
     text-align: center;
     color: #000;
-    transition: all .5s;
   }
   .plantext span {
     font-size: 18px;
@@ -832,20 +834,20 @@
   .plan_left {
     left: 20px;
     top: 160px;
-    background-color: #5f5f5f;
     background-image: url('../../img/base/left.png');
     background-position: center center;
-    background-size: 50%;
+    background-size: 70%;
     background-repeat: no-repeat;
+    background-color: #5f5f5f;
   }
   .plan_right {
     right: 20px;
     top: 160px;
-    background-color: #5f5f5f;
     background-image: url('../../img/base/right.png');
     background-position: center center;
-    background-size: 50%;
+    background-size: 70%;
     background-repeat: no-repeat;
+    background-color: #5f5f5f;
   }
   
   /* plan 페이지 전환 */
@@ -890,8 +892,8 @@
   }
   .tel_part {
     width: auto;
-    font-size: 18px;
     line-height: 28px;
+    font-size: 18px;
   }
   .cs_part button {
     width: auto;
@@ -931,9 +933,9 @@
   .footsubmenu {
     width: 15%; min-width: 180px;
     height: auto;
+    position: absolute;
     top: 0px;
     right: 0;
-    position: absolute;
   }
   .brandsite_part {
     width: 100%;
@@ -942,31 +944,31 @@
     width: 100%;
     height: 50px;
     line-height: 50px;
-    background-color: #37B9DF;
-    border-radius: 5px;
-    color: #000;
     font-size: 19px;
     font-weight: 500;
+    color: #000;
+    border-radius: 5px;
+    background-color: #37B9DF;
   }
   .brandsite_part ul {
     width: 100%;
     height: auto;
     margin-top: 10px;
     padding: 5px 8px;
-    border: 1px solid #262626;
     display: none;
-    background-color: #fff;
     position: relative;
+    border: 1px solid #262626;
     text-align: center;
     cursor: pointer;
+    background-color: #fff;
   }
   .brandsite_part ul.on {
-    display: block;
     width: 100%;
     height: auto;
+    display: block;
   }
   .brandsite_part ul button {
-    font-weight: 400;
     font-size: 18px;
+    font-weight: 400;
   }
 }

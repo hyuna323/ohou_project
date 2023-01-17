@@ -8,9 +8,9 @@
   #headBox {
     width: 100%; min-width: 320px;
     height: 60px;
-    box-sizing: border-box;
     padding: 10px;
     position: fixed;
+    box-sizing: border-box;
     z-index: 1000;
     background-color: #fff;
   }
@@ -50,22 +50,22 @@
   /* slide menu button */
   #check_box {display: none;}
   #check_box + label {
-    position: relative;
-    display: block;
     width: 11.875%; min-width: 38px;
     height: 20px;
-    cursor: pointer;
-    z-index: 100;
     margin: auto;
+    display: block;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
   }
   #check_box + label > span {
-    position: absolute;
-    display: block;
     width: 100%;
     height: 3px;
-    background: black;
-    border-radius: 5px;
+    display: block;
+    position: absolute;
     transition: all 300ms;
+    border-radius: 5px;
+    background: black;
   }
   #check_box:checked + label > span:nth-child(1) {
     top: 50%;
@@ -95,16 +95,16 @@
   #slide_menu {
     width: 100%; min-width: 288px;
     height: 100%;
-    position: fixed;
-    background-color: rgba(55, 185, 223, 0.9);
-    text-transform: uppercase;
-    left: 100%;
-    transition: all 300ms;
-    z-index: 1;
-    top: 0px;
     padding: 60px 16px 20px 16px;
+    position: fixed;
+    top: 0px;
+    left: 100%;
     box-sizing: border-box;
+    transition: all 300ms;
+    text-transform: uppercase;
     overflow: auto;
+    z-index: 1;
+    background-color: rgba(55, 185, 223, 0.9);
   }
   .button_part {
     width: 100%;
@@ -114,28 +114,28 @@
   .button_part button {
     width: 33.3333%; min-width: 100px;
     height: 35px;
-    line-height: 35px;
-    background-color: #fff;
-    border-radius: 5px;
     margin-left: 10px;
+    line-height: 35px;
     font-size: 16px;
     font-weight: 500;
+    border-radius: 5px;
+    background-color: #fff;
   }
   input[id*="slide_btn"] {display: none;}
   input[id*="slide_btn"] + label {
     width: auto;
     display: block;
     padding: 10px;
+    position: relative;
     border-bottom: 1px solid #fff;
     font-size: 16px;
-    color: #000;
     font-weight: 500;
-    position: relative;
+    color: #000;
     cursor: pointer;
   }
   input[id*="slide_btn"] + label + div {
-    padding-left: 30px;
     max-height: 0;
+    padding-left: 30px;
     transition: all .35s;
     overflow: hidden;
     font-size: 16px;
@@ -146,8 +146,8 @@
     width: 55%;
     padding: 14px 14px 14px 30px;
     display: flex;
-    background-color: #78d7f4c1;
     text-decoration: none;
+    background-color: #78d7f4c1;
   }
   input[id*="slide_btn"]:checked + label + div {
     padding-top: 20px;
@@ -159,9 +159,9 @@
   #loginBox {
     width: 100%; min-width: 320px; max-width: 767px;
     height: auto;
-    padding: 0;
     margin: auto;
     margin-bottom: 50px;
+    padding: 0;
   }
   .logintxet {
     width: 93.75%; min-width: 300px;
@@ -201,24 +201,24 @@
   .button_content button {
     width: 50%;
     height: 50px;
-    border-radius: 5px;
     font-size: 16px;
     font-weight: 500;
     text-align: center;
+    border-radius: 5px;
   }
 
   /* 로그인, 비회원 주문조회 버튼 */
   .login_content {
-    background-color: #fff;
     border: 1px solid #37B9DF;
+    background-color: #fff;
   }
   .login_content:hover {
-    background-color: #37B9DF;
     color: #000;
+    background-color: #37B9DF;
   }
   .nonmember_content {
-    background-color: #fff;
     border: 1px solid #37B9DF;
+    background-color: #fff;
   }
   .nonmember_content:hover {
     background-color: #37B9DF;
@@ -331,8 +331,8 @@
     height: auto;
     margin: auto;
     display: flex;
-    justify-content: center;
     text-align: center;
+    justify-content: center;
   }
   .etcBox li {
     width: 90px;
@@ -375,11 +375,11 @@
     margin: auto;
     margin-right: 10px;
     border-radius: 50%;
-    cursor: pointer;
     background-image: url(../../img/loginpage/f_logo_RGB-Blue_58.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 70%;
+    cursor: pointer;
   }
   .naver {
     width: 30.7692%; min-width: 80px;
@@ -387,21 +387,21 @@
     margin: auto;
     margin-right: 10px;
     border-radius: 50%;
-    cursor: pointer;
     background-image: url(../../img/loginpage/naver_iconcicle.png);
     background-position: center;
     background-size: 70%;
     background-repeat: no-repeat;
+    cursor: pointer;
   }
   .kakaotalk {
     width: 30.7692%; min-width: 80px;
     height: 80px;
     border-radius: 50%;
-    cursor: pointer;
     background-image: url(../../img/loginpage/kakaotalk_logo.png);
     background-position: center;
     background-size: 70%;
     background-repeat: no-repeat;
+    cursor: pointer;
   }
 
   /* #footBox ======================= */
@@ -469,8 +469,8 @@
   }
   .foot_main .company_info li::after {display: none;}
   .foot_main p {
-    font-size: 12px;
     margin-top: 26px;
+    font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
   }
@@ -490,10 +490,10 @@
     width: 90.9091%; min-width: 110px; 
     height: 42px;
     line-height: 42px;
-    background-color: #37B9DF;
-    border-radius: 5px;
-    color: #000;
     font-size: 15px;
+    color: #000;
+    border-radius: 5px;
+    background-color: #37B9DF;
   }
   .brandsite_part ul {
     width: 90.9091%; min-width: 110px; 
@@ -503,9 +503,9 @@
     display: none;
     position: relative;
     border: 1px solid #262626;
-    background-color: #fff;
     text-align: center;
     cursor: pointer;
+    background-color: #fff;
   }
   .brandsite_part li {
     width: auto;
@@ -518,7 +518,7 @@
     display: block;
   }
   .brandsite_part ul button {
-    font-weight: 400;
     font-size: 14px;
+    font-weight: 400;
   }
 }

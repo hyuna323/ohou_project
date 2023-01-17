@@ -49,22 +49,22 @@
   /* slide menu button */
   #check_box {display: none;}
   #check_box + label {
-    position: relative;
-    display: block;
     width: 4.9479%; min-width: 38px;
     height: 20px;
-    cursor: pointer;
-    z-index: 100;
     margin: auto;
+    display: block;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
   }
   #check_box + label > span {
-    position: absolute;
-    display: block;
     width: 100%;
     height: 3px;
-    background: black;
-    border-radius: 5px;
+    display: block;
+    position: absolute;
     transition: all 300ms;
+    border-radius: 5px;
+    background: black;
   }
   #check_box:checked + label > span:nth-child(1) {
     top: 50%;
@@ -94,16 +94,16 @@
   #slide_menu {
     width: 100%; min-width: 739px;
     height: 100%;
-    position: fixed;
-    background-color: rgba(55, 185, 223, 0.9);
-    text-transform: uppercase;
-    left: 100%;
-    transition: all 300ms;
-    z-index: 1;
-    top: 0px;
     padding: 60px 16px 20px 16px;
+    position: fixed;
+    top: 0px;
+    left: 100%;
     box-sizing: border-box;
+    transition: all 300ms;
+    text-transform: uppercase;
     overflow: auto;
+    z-index: 1;
+    background-color: rgba(55, 185, 223, 0.9);
   }
   .button_part {
     width: 100%;
@@ -113,44 +113,44 @@
   .button_part button {
     width: 21.4286%; min-width: 150px;
     height: 40px;
-    line-height: 40px;
-    background-color: #fff;
-    border-radius: 5px;
     margin-left: 10px;
+    line-height: 40px;
     font-size: 18px;
     font-weight: 500;
+    border-radius: 5px;
+    background-color: #fff;
   }
   input[id*="slide_btn"] {display: none;}
   input[id*="slide_btn"] + label {
     width: auto;
     padding: 30px;
     display: block;
+    position: relative;
     border-bottom: 1px solid #fff;
     font-size: 16px;
     font-weight: 400;
     color: #000;
-    position: relative;
     cursor: pointer;
   }
   input[id*="slide_btn"] + label + div {
-    padding-left: 30px;
     max-height: 0;
+    padding-left: 30px;
     transition: all .35s;
-    overflow: hidden;
     font-size: 16px;
     font-weight: 400;
     color: #000;
+    overflow: hidden;
   }
   input[id*="slide_btn"] + label + div a {
     width: 84%;
     padding: 14px 14px 14px 30px;
     display: flex;
-    background-color: #78d7f4c1;
     text-decoration: none;
+    background-color: #78d7f4c1;
   }
   input[id*="slide_btn"]:checked + label + div {
-    padding-top: 20px;
     max-height: inherit;
+    padding-top: 20px;
   }
   .head_inner02 {display: none;}
 
@@ -158,9 +158,9 @@
   #loginBox {
     width: 100%; min-width: 768px; max-width: 1279px;
     height: auto;
-    padding: 0;
     margin: auto;
     margin-bottom: 70px;
+    padding: 0;
   }
   .logintxet {
     width: 91.1458%; min-width: 700px;
@@ -201,24 +201,24 @@
   .button_content button {
     width: 50%;
     height: 50px;
-    border-radius: 5px;
     font-size: 16px;
     font-weight: 500;
     text-align: center;
+    border-radius: 5px;
   }
   
   /* 로그인, 비회원 주문조회 버튼 */
   .login_content {
-    background-color: #fff;
     border: 1px solid #37B9DF;
+    background-color: #fff;
   }
   .login_content:hover {
-    background-color: #37B9DF;
     color: #000;
+    background-color: #37B9DF;
   }
   .nonmember_content {
-    background-color: #fff;
     border: 1px solid #37B9DF;
+    background-color: #fff;
   }
   .nonmember_content:hover {
     background-color: #37B9DF;
@@ -235,8 +235,8 @@
     height: 55px;
     padding: 12px 8px;
     border: 1px solid #000;
-    border-radius: 5px;
     font-size: 18px;
+    border-radius: 5px;
   }
   .nonMember_area {display: none;}
 
@@ -300,8 +300,8 @@
   /* login button --------------------- */
   .login_btn {
     margin-top: 10px;
-    border: none;
     padding: 0;
+    border: none;
   }
   .login {
     width: 90%; min-width: 450px;
@@ -332,8 +332,8 @@
     height: auto;
     margin: auto;
     display: flex;
-    justify-content: center;
     text-align: center;
+    justify-content: center;
   }
   .etcBox li {
     width: 120px;
@@ -375,32 +375,32 @@
     height: 110px;
     margin-right: 10px;
     border-radius: 50%;
-    cursor: pointer;
     background-image: url(../../img/loginpage/f_logo_RGB-Blue_58.png);
     background-size: 54%;
     background-position: center;
     background-repeat: no-repeat;
+    cursor: pointer;
   }
   .naver {
     width: 31.7865%; min-width: 137px;
     height: 110px;
     margin-right: 10px;
     border-radius: 50%;
-    cursor: pointer;
     background-image: url(../../img/loginpage/naver_iconcicle.png);
     background-position: center;
     background-size: 54%;
     background-repeat: no-repeat;
+    cursor: pointer;
   }
   .kakaotalk {
     width: 31.7865%; min-width: 137px;
     height: 110px;
     border-radius: 50%;
-    cursor: pointer;
     background-image: url(../../img/loginpage/kakaotalk_logo.png);
     background-position: center;
     background-size: 54%;
     background-repeat: no-repeat;
+    cursor: pointer;
   }
 
   /* #footBox ========================== */
@@ -416,8 +416,8 @@
     position: relative;
   }
   .foot_main {
-    color: #000;
     position: relative;
+    color: #000;
   }
   .foot_main h2 {
     width: auto;
@@ -439,8 +439,8 @@
   }
   .tel_part {
     width: 90%; min-width: 630px;
-    font-size: 18px;
     line-height: 28px;
+    font-size: 18px;
   }
   .cs_part button {
     width: 10.4167%; min-width: 70px;
@@ -490,10 +490,10 @@
     width: 100%; min-width: 180px;
     height: 42px;
     line-height: 42px;
-    background-color: #37B9DF;
-    border-radius: 5px;
     font-size: 15px;
     color: #000;
+    border-radius: 5px;
+    background-color: #37B9DF;
   }
   .brandsite_part ul {
     width: 100%;
@@ -503,9 +503,9 @@
     display: none;
     position: relative;
     border: 1px solid #262626;
-    background-color: #fff;
     text-align: center;
     cursor: pointer;
+    background-color: #fff;
   }
   .brandsite_part li {
     width: auto;
@@ -518,7 +518,7 @@
     height: auto;
   }
   .brandsite_part ul button {
-    font-weight: 400;
     font-size: 16px;
+    font-weight: 400;
   }
 }

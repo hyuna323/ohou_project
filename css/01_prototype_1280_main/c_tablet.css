@@ -8,8 +8,8 @@
   #headBox {
     width: 100%; min-width: 768px;
     height: 60px;
-    box-sizing: border-box;
     padding: 10px;
+    box-sizing: border-box;
     position: fixed;
     z-index: 1000;
     background-color: #fff;
@@ -49,22 +49,22 @@
   /* slide menu button */
   #check_box {display: none;}
   #check_box + label {
-    position: relative;
-    display: block;
     width: 4.9479%; min-width: 38px;
     height: 20px;
+    margin: auto;
+    display: block;
+    position: relative;
     cursor: pointer;
     z-index: 100;
-    margin: auto;
   }
   #check_box + label > span {
-    position: absolute;
-    display: block;
     width: 100%;
     height: 3px;
+    position: absolute;
+    display: block;
+    transition: all 300ms;
     background: black;
     border-radius: 5px;
-    transition: all 300ms;
   }
   #check_box:checked + label > span:nth-child(1) {
     top: 50%;
@@ -94,16 +94,16 @@
   #slide_menu {
     width: 100%; min-width: 739px;
     height: 100%;
-    position: fixed;
-    background-color: rgba(55, 185, 223, 0.9);
-    text-transform: uppercase;
-    left: 100%;
-    transition: all 300ms;
-    z-index: 1;
-    top: 0px;
     padding: 60px 16px 20px 16px;
+    top: 0px;
+    left: 100%;
+    position: fixed;
     box-sizing: border-box;
+    text-transform: uppercase;
+    transition: all 300ms;
     overflow: auto;
+    z-index: 1;
+    background-color: rgba(55, 185, 223, 0.9);
   }
   .button_part {
     width: 100%;
@@ -113,44 +113,44 @@
   .button_part button {
     width: 21.4286%; min-width: 150px;
     height: 40px;
-    line-height: 40px;
-    background-color: #fff;
-    border-radius: 5px;
     margin-left: 10px;
+    line-height: 40px;
     font-size: 18px;
     font-weight: 500;
+    border-radius: 5px;
+    background-color: #fff;
   }
   input[id*="slide_btn"] {display: none;}
   input[id*="slide_btn"] + label {
     width: auto;
     padding: 30px;
     display: block;
+    position: relative;
     border-bottom: 1px solid #fff;
     font-size: 16px;
     font-weight: 400;
     color: #000;
-    position: relative;
     cursor: pointer;
   }
   input[id*="slide_btn"] + label + div {
-    padding-left: 30px;
     max-height: 0;
+    padding-left: 30px;
     transition: all .35s;
-    overflow: hidden;
     font-size: 16px;
     font-weight: 400;
     color: #000;
+    overflow: hidden;
   }
   input[id*="slide_btn"] + label + div a {
     width: 84%;
     padding: 14px 14px 14px 30px;
     display: flex;
-    background-color: #78d7f4c1;
     text-decoration: none;
+    background-color: #78d7f4c1;
   }
   input[id*="slide_btn"]:checked + label + div {
-    padding-top: 20px;
     max-height: inherit;
+    padding-top: 20px;
   }
 
   .head_inner02 {display: none;}
@@ -331,19 +331,19 @@
     height: auto;
     margin: auto;
     top: 38%;
+    position: absolute;
     box-sizing: border-box;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
     color: #fff;
-    position: absolute;
   }
   .shortcut_outer li:nth-last-of-type(-n+5) {
     margin-bottom: 0;
   }
   .shortcut_outer li:nth-last-child(1) {
-    margin-bottom: 0;
     margin-right: 10px;
+    margin-bottom: 0;
   }
 
   /* #content_box_wrap ============================= */
@@ -408,7 +408,6 @@
     width: 31.4286%; min-width: 220px;
     height: auto;
     margin: auto;
-    border-radius: 5%;
   }
   .bestpicture1 img {
     width: 90%;
@@ -418,7 +417,6 @@
     width: 31.4286%; min-width: 220px;
     height: auto;
     margin: auto;
-    border-radius: 5%;
   }
   .bestpicture2 img {
     width: 90%;
@@ -431,7 +429,6 @@
     width: 31.4286%; min-width: 220px; 
     height: auto;
     margin: auto;
-    border-radius: 5%;
   }
   .bestpicture3 img {
     width: 90%;
@@ -441,7 +438,6 @@
     width: 31.4286%; min-width: 220px;
     height: auto;
     margin: auto;
-    border-radius: 5%;
   }
   .bestpicture4 img {
     width: 90%;
@@ -461,8 +457,8 @@
   /* .story ---------------------------- */
   .story_title {
     width: 97.1429%; min-width: 680px;
-    display: flex;
     margin: auto;
+    display: flex;
   }
   .story_title h2 {
     width: 93.2353%; min-width: 634px;
@@ -490,21 +486,20 @@
     width: 42.9688%; min-width: 330px;
     height: auto;
     margin: auto;
+    margin-right: 10px;
     display: flex;
     flex-wrap: wrap;
-    margin-right: 10px;
-    border-radius: 10px;
   }
   .storyimg01 img {
     width: 100%;
     height: auto;
     margin: auto;
+    border-radius: 10px;
   }
   .storytext {
     width: 42.9688%; min-width: 330px;
     height: auto;
     margin: auto;
-    border-radius: 10px;
     font-size: 18px;
   }
   .storytextid {
@@ -516,10 +511,9 @@
     width: 42.9688%; min-width: 330px;
     height: auto;
     margin: auto;
+    margin-right: 10px;
     display: flex;
     flex-wrap: wrap;
-    margin-right: 10px;
-    border-radius: 10px;
   }
   .storyimg02 img {
     width: 100%;
@@ -531,10 +525,9 @@
     width: 42.9688%; min-width: 330px;
     height: auto;
     margin: auto;
+    margin-right: 10px;
     display: flex;
     flex-wrap: wrap;
-    margin-right: 10px;
-    border-radius: 10px;
   }
   .storyimg03 img {
     width: 100%;
@@ -546,10 +539,9 @@
     width: 42.9688%; min-width: 330px;
     height: auto;
     margin: auto;
+    margin-right: 10px;
     display: flex;
     flex-wrap: wrap;
-    margin-right: 10px;
-    border-radius: 10px;
   }
   .storyimg04 img {
     width: 100%;
@@ -594,12 +586,12 @@
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
-    border-radius: 10px;
   }
   .reviewimg01 img {
     width: 100%;
     height: 200px;
     margin: auto;
+    border-radius: 10px;
   }
   .reviewtext {
     width: 50%; min-width: 350px;
@@ -614,12 +606,12 @@
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
-    border-radius: 10px;
   }
   .reviewimg02 img {
     width: 100%;
     height: 200px;
     margin: auto;
+    border-radius: 10px;
   }
   
   /* #bestBox============================== */
@@ -673,8 +665,8 @@
   }
   .bestbox_img ul {
     width: 100%;
-    display: flex;
     margin: auto;
+    display: flex;
     overflow: auto;
     white-space: nowrap;
   }
@@ -735,7 +727,6 @@
     width: 85.7143%; min-width: 300px;
     height: auto;
     margin: auto;
-    border-radius: 10px;
   }
   .dealimg img {
     width: 100%;
@@ -744,58 +735,57 @@
   .dealimg input[id="slide"] {display: none;}
   .dealimg input {display: none;}
   .slide_list {
-    white-space: nowrap;
     overflow: hidden;
+    white-space: nowrap;
   }
   .slide_item {
     width: 100%;
-    position: relative;
     display: inline-block;
-    vertical-align: middle;
+    position: relative;
     transition: all .35s;
+    vertical-align: middle;
   }
   .slide_item li {
     width: 100%;
     height: 100%;
     display: inline-block;
-    vertical-align: middle;
     transition: all .5s;
+    vertical-align: middle;
   }
   .textbox span {
     font-weight: 500;
     font-size: 16px;
   }
   .textbox p {
+    transition: all .5s;
     text-align: center;
     font-size: 16px;
     color: #000;
-    transition: all .5s;
   }
   .slide_item li a {
     display: block;
     position: relative;
   }
   .slide_item label {
-    position: absolute;
-    z-index: 1;
-    transform: translateY(-50%);
     padding: 20px;
-    border-radius: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    z-index: 1;
     cursor: pointer;
   }
 
   /* deal arrow */
   label.left {
-    left: 0px;
     top: 95px;
+    left: 0px;
     background-image: url('../../img/base/arrow_left.png');
     background-position: center center;
     background-size: 60%;
     background-repeat: no-repeat;
   }
   label.right {
-    right: 0px;
     top: 95px;
+    right: 0px;
     background-image: url('../../img/base/arrow_right.png');
     background-position: center center;
     background-size: 60%;
@@ -824,7 +814,6 @@
     width: 85.7143%; min-width: 300px;
     height: auto;
     margin: auto;
-    border-radius: 10px;
   }
   .planing_img img {
     width: 100%;
@@ -833,29 +822,29 @@
   .planing_img input {display: none;}
   .planing_img input [id="slide"] {display: none;}
   .planslide_list {
-    white-space: nowrap;
     overflow: hidden;
+    white-space: nowrap;
   }
   .planslide_item {
     width: 100%;
-    position: relative;
     display: inline-block;
-    vertical-align: middle;
+    position: relative;
     transition: all .35s;
+    vertical-align: middle;
   }
   .planslide_item li {
     width: 100%;
     height: 100%;
     display: inline-block;
-    vertical-align: middle;
     transition: all .5s;
+    vertical-align: middle;
   }
 
   /* plan 텍스트 */
   .plantext {
     width: 100%;
-    text-align: center;
     transition: all .5s;
+    text-align: center;
     color: #000;
   }
   .plantext span {
@@ -863,35 +852,34 @@
     font-size: 16px;
   }
   .plantext p {
-    font-size: 16px;
     width: auto;
     height: auto;
+    font-size: 16px;
   }
   .planslide_item li a {
     display: block;
     position: relative;
   }
   .planslide_item label {
-    position: absolute;
-    z-index: 1;
-    transform: translateY(-50%);
     padding: 20px;
-    border-radius: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    z-index: 1;
     cursor: pointer;
   }
 
   /* plan arrow */
   .plan_left {
-    left: 0px;
     top: 95px;
+    left: 0px;
     background-image: url('../../img/base/left.png');
     background-position: center center;
     background-size: 100%;
     background-repeat: no-repeat;
   }
   .plan_right {
-    right: 0px;
     top: 95px;
+    right: 0px;
     background-image: url('../../img/base/right.png');
     background-position: center center;
     background-size: 100%;
@@ -916,8 +904,8 @@
     position: relative;
   }
   .foot_main {
-    color: #000;
     position: relative;
+    color: #000;
   }
   .foot_main h2 {
     width: auto;
@@ -939,8 +927,8 @@
   }
   .tel_part {
     width: 90%; min-width: 630px;
-    font-size: 18px;
     line-height: 28px;
+    font-size: 18px;
   }
   .cs_part button {
     width: 10.4167%; min-width: 70px;
@@ -990,10 +978,10 @@
     width: 100%; min-width: 180px;
     height: 42px;
     line-height: 42px;
-    background-color: #37B9DF;
-    border-radius: 5px;
     font-size: 15px;
     color: #000;
+    border-radius: 5px;
+    background-color: #37B9DF;
   }
   .brandsite_part ul {
     width: 100%;
@@ -1003,9 +991,9 @@
     display: none;
     position: relative;
     border: 1px solid #262626;
-    background-color: #fff;
     text-align: center;
     cursor: pointer;
+    background-color: #fff;
   }
   .brandsite_part li {
     width: auto;
