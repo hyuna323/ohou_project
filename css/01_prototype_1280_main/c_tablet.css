@@ -897,25 +897,39 @@
     height: auto;
     border-top: 3px solid #37B9DF;
   }
+  .foot_main {display: none;}
   .foot_inner {
     width: 91.1458%; min-width: 700px;
     height: auto;
     margin: 30px auto;
     position: relative;
   }
-  .foot_main {
+  .foot_moblie_main {
     position: relative;
     color: #000;
   }
-  .foot_main h2 {
+  .foot_moblie_main h2 {
     width: auto;
     margin-bottom: 18px;
   }
-  .foot_main h2 button img {
+  .foot_moblie_main h2 button img {
     width: 150px;
     height: 45px;
     margin: auto;
     display: block;
+  }
+  .foot_moblie_main summary {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .foot_moblie_main summary::marker {
+    font-size: 0;
+  }
+  .foot_moblie_main summary img {
+    width: auto;
+    height: auto;
+    position: absolute;
   }
   .cs_box {
     width: 100%;
@@ -935,7 +949,7 @@
     height: auto;
     text-align: left;
   }
-  .tel_part address {
+  .tel_part address,span {
     font-size: 18px;
     font-weight: 400;
   }
@@ -944,20 +958,22 @@
   }
   .inquiry_time li {
     font-size: 18px;
+    font-weight: 400;
   }
-  .foot_main .company_info {
+  .foot_moblie_main .company_info {
     width: 100%; min-width: 700px;
     height: auto;
   }
-  .foot_main .company_info li {
+  .foot_moblie_main .company_info li {
     display: inline-block;
     font-size: 17px;
+    font-weight: 400;
   }
-  .foot_main .company_info li::after {
+  .foot_moblie_main .company_info li::after {
     padding: 0 14px;
     content: 'l';
   }
-  .foot_main p {
+  .foot_moblie_main p {
     margin-top: 26px;
     font-size: 15px;
     font-weight: 400;

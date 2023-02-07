@@ -1,4 +1,5 @@
 // 01_prototype_1280_main.js
+alert('교육 목적으로 제작된 페이지입니다.')
 
 function home(){
   let url = "https://hyunao.github.io/ohou_project/html/01_prototype_1280_main.html";

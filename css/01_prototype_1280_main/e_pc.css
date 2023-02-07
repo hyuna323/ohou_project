@@ -928,6 +928,7 @@
     font-weight: 400;
     text-transform: uppercase;
   }
+  .foot_moblie_main {display: none;}
   
   /* footer 관련사이트 ----------------- */
   .footsubmenu {
