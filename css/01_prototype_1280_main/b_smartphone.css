@@ -463,7 +463,7 @@
   .story_title h2 {
     width: 100%; min-width: 234px;
     line-height: 40px;
-    font-size: 20px;
+    font-size: 18px;
   }
   /* story 내용 */
   .story {
@@ -500,7 +500,7 @@
     width: 93.75%; min-width: 300px; 
     height: auto;
     margin: auto;
-    font-size: 20px;
+    font-size: 17px;
   }
   .storytextid {
     width: 100%; 
@@ -559,7 +559,7 @@
   }
   .review_title h2 {
     width: 100%; min-width: 234px;
-    font-size: 20px;
+    font-size: 18px;
   }
   /* review 내용 */
   .review {
@@ -596,7 +596,7 @@
     width: 93.75%; min-width: 300px;
     height: auto;
     margin: auto;
-    font-size: 20px;
+    font-size: 17px;
   }
   .reviewimg02 {
     width: 93.75%; min-width: 300px;
@@ -747,7 +747,7 @@
   }
   .slide_item li {
     width: 100%;
-    height: 100%;
+    height: 130px;
     display: inline-block;
     vertical-align: middle;
     transition: all .5s;
@@ -761,7 +761,7 @@
     position: relative;
   }
   .slide_item label {
-    padding: 20px;
+    padding: 16px;
     top: 50%;
     position: absolute;
     transform: translateY(-50%);
@@ -773,7 +773,7 @@
   /* deal arrow */
   .left {
     top: 150px;
-    left: 0px;
+    left: -6px;
     background-image: url('../../img/base/arrow_left.png');
     background-position: center center;
     background-size: 60%;
@@ -781,7 +781,7 @@
   }
   .right {
     top: 150px;
-    right: 0px;
+    right: -6px;
     background-image: url('../../img/base/arrow_right.png');
     background-position: center center;
     background-size: 60%;
@@ -830,7 +830,7 @@
   }
   .planslide_item li {
     width: 100%;
-    height: 160px;
+    height: 130px;
     display: inline-block;
     vertical-align: middle;
     transition: all .5s;
@@ -855,7 +855,7 @@
   }
   .planslide_item label {
     top: 43%;
-    padding: 20px;
+    padding: 16px;
     position: absolute;
     transform: translateY(-50%);
     z-index: 1;
@@ -866,7 +866,7 @@
   /* plan arrow */
   .plan_left {
     top: 150px;
-    left: 0px;
+    left: -6px;
     background-image: url('../../img/base/left.png');
     background-position: center center;
     background-size: 90%;
@@ -874,7 +874,7 @@
   }
   .plan_right {
     top: 150px;
-    right: 0px;
+    right: -6px;
     background-image: url('../../img/base/right.png');
     background-position: center center;
     background-size: 90%;
@@ -890,7 +890,6 @@
   #footBox {
     width: 100%; min-width: 320px;
     height: auto;
-    float: left;
     border-top: 3px solid #37B9DF;
   }
   .foot_inner {
@@ -900,8 +899,8 @@
     position: relative;
   }
   .foot_moblie_main {
-    color: #000;
     position: relative;
+    color: #000;
   }
   .foot_moblie_main h2 {
     width: auto;
@@ -909,7 +908,7 @@
   }
   .foot_moblie_main h2 button img {
     width: 80px; 
-    height: 30px;
+    height: auto;
     margin: auto;
     display: block;
   }
@@ -977,19 +976,20 @@
 
   /* footer 관련사이트 ----------------- */
   .footsubmenu {
-    width: 36.6667%; min-width: 110px;
+    width: 32.5%; min-width: 104px;
+    position: absolute;
     top: 0px;
     right: 0;
-    position: absolute;
+    z-index: 10;
   }
   .brandsite_part {
     width: 100%;
   }
   .brandsite_btn {
-    width: 90.9091%; min-width: 110px; 
-    height: 42px;
-    line-height: 42px;
-    font-size: 15px;
+    width: 100%; min-width: 104px; 
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
     color: #000;
     border-radius: 5px;
     background-color: #37B9DF;
@@ -1006,11 +1006,11 @@
     cursor: pointer;
     background-color: #fff;
   }
-  .brandsite_part li {
+  /* .brandsite_part li {
     width: auto;
     height: 35px;
     line-height: 25px;
-  }
+  } */
   /* brandsite_part click inner */
   .brandsite_part ul.on {
     width: 100%;
@@ -1018,7 +1018,7 @@
     display: block;
   }
   .brandsite_part ul button {
-    font-weight: 400;
     font-size: 14px;
+    font-weight: 400;
   }
 }

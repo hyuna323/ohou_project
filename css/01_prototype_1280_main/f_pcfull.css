@@ -201,7 +201,7 @@
     display: flex;
   }
   .scimg01 {
-    width: 18.75%; min-width: 300px;
+    width: 100%; min-width: 300px;
     height: 100%;
     margin: 0 10px 0 0;
     position: relative;
@@ -212,7 +212,7 @@
     vertical-align: middle;
   }
   .scimg02 {
-    width: 18.75%; min-width: 300px;
+    width: 100%; min-width: 300px;
     height: 100%;
     margin: 0 10px;
     position: relative;
@@ -223,7 +223,7 @@
     vertical-align: middle;
   }
   .scimg03 {
-    width: 18.75%; min-width: 300px;
+    width: 100%; min-width: 300px;
     height: 100%;
     margin: 0 10px;
     position: relative;
@@ -234,7 +234,7 @@
     vertical-align: middle;
   }
   .scimg04 {
-    width: 18.75%; min-width: 300px;
+    width: 100%; min-width: 300px;
     height: 100%;
     margin: 0 10px;
     position: relative;
@@ -245,7 +245,7 @@
     vertical-align: middle;
   }
   .scimg05 {
-    width: 18.75%; min-width: 300px;
+    width: 100%; min-width: 300px;
     height: 100%;
     margin-left: 10px;
     position: relative;
@@ -260,11 +260,11 @@
   .shortcut02 {
     width: 100%; min-width: 1600px;
     height: auto;
-    display: flex;
     margin-bottom: 10px;
+    display: flex;
   }
   .scimg06 {
-    width: 18.75%; min-width: 300px;
+    width: 100%; min-width: 300px;
     height: 100%;
     margin: 0 10px 0 0;
     position: relative;
@@ -275,7 +275,7 @@
     vertical-align: middle;
   }
   .scimg07 {
-    width: 18.75%; min-width: 300px;
+    width: 100%; min-width: 300px;
     height: 100%;
     margin: 0 10px;
     position: relative;
@@ -286,7 +286,7 @@
     vertical-align: middle;
   }
   .scimg08 {
-    width: 18.75%; min-width: 300px;
+    width: 100%; min-width: 300px;
     height: 100%;
     margin: 0 10px;
     position: relative;
@@ -297,7 +297,7 @@
     vertical-align: middle;
   }
   .scimg09 {
-    width: 18.75%; min-width: 300px;
+    width: 100%; min-width: 300px;
     height: 100%;
     margin: 0 10px;
     position: relative;
@@ -308,7 +308,7 @@
     vertical-align: middle;
   }
   .scimg10 {
-    width: 18.75%; min-width: 300px;
+    width: 100%; min-width: 300px;
     height: 100%;
     margin-left: 10px;
     position: relative;
@@ -347,7 +347,7 @@
 
   /* #communityBox ======================= */
   #communityBox {
-    width: 50%; min-width: 800px; 
+    width: 100%; min-width: 800px; 
     height: auto;
     margin: auto;
     margin-top: 100px;
@@ -380,27 +380,27 @@
   
   /* bestpicture 내용 */
   .bestpicture {
-    width: 50%; min-width: 800px; 
+    width: 100%; min-width: 800px; 
     height: auto;
     margin-top: 25px;
   }
   .bestpicture_top {display: flex;}
   .bestpicture1 {
-    width: 43.75%; min-width: 350px; 
+    width: 400px;
     height: auto;
     margin: auto;
   }
   .bestpicture1 img {
-    width: 100%;
+    width: 90%;
     border-radius: 5%;
   }
   .bestpicture2 {
-    width: 43.75%; min-width: 350px; 
+    width: 400px;
     height: auto;
     margin: auto;
   }
   .bestpicture2 img {
-    width: 100%;
+    width: 90%;
     border-radius: 5%;
   }
   .bestpicture_bottom {
@@ -408,31 +408,33 @@
     display: flex;
   }
   .bestpicture3 {
-    width: 43.75%; min-width: 350px; 
+    width: 400px;
     height: auto;
     margin: auto;
   }
   .bestpicture3 img {
-    width: 100%;
+    width: 90%;
     border-radius: 5%;
   }
   .bestpicture4 {
-    width: 43.75%; min-width: 350px; 
+    width: 400px;
     height: auto;
     margin: auto;
   }
   .bestpicture4 img {
-    width: 100%;
+    width: 90%;
     border-radius: 5%;
   }
 
   /* #community_inner02 =============== */
   /* story, riview part */
   #community_inner02 {
-    width: 50%; min-width: 800px;
+    width: 100%; min-width: 800px;
     height: auto;
     margin: auto;
     margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   /* .story ---------------------------- */
@@ -450,34 +452,33 @@
   /* story 내용 */
   .story {
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: auto;
   }
   .story_img {
     width: auto;
-    height: auto;
+    height: 360px;
     margin: auto;
     margin-top: 25px;
     display: flex;
     overflow: auto;
+    overflow-y: hidden;
   }
   .storyimg01 {
     width: 96.25%; min-width: 770px;
-    height: auto;
+    height: 100%;
     margin: 0 20px;
     display: flex;
     flex-wrap: wrap;
   }
   .storyimg01 img {
     width: 100%; min-width: 770px;
-    height: auto;
-    margin: auto;
+    height: 83%;
     border-radius: 10px;
   }
   .storytext {
     width: 100%;
     height: auto;
-    margin: auto;
     font-size: 20px;
   }
   .storytextid {
@@ -494,8 +495,7 @@
   }
   .storyimg02 img {
     width: 100%; min-width: 770px;
-    height: auto;
-    margin: auto;
+    height: 83%;
     border-radius: 10px;
   }
   .storyimg03 {
@@ -507,8 +507,7 @@
   }
   .storyimg03 img {
     width: 100%; min-width: 770px;
-    height: auto;
-    margin: auto;
+    height: 83%;
     border-radius: 10px;
   }
   .storyimg04 {
@@ -520,16 +519,16 @@
   }
   .storyimg04 img {
     width: 100%; min-width: 770px;
-    height: auto;
-    margin: auto;
+    height: 83%;
     border-radius: 10px;
   }
 
   /* .review --------------- */
   .review {
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: auto;
+    margin-top: 17px;
   }
   .review_title {
     width: 91.25%; min-width: 730px;
@@ -544,32 +543,34 @@
   }
   .review_img {
     width: auto;
+    height: 342px;
     display: flex;
     overflow: auto;
+    overflow-y: hidden;
   }
   .reviewimg01 {
     width: 96.25%; min-width: 770px;
-    height: 300px;
-    margin: 20px;
+    height: auto;
+    margin: 20px 20px 0 20px;
     display: flex;
     flex-wrap: wrap;
   }
   .reviewimg01 img {
     width: 100%; min-width: 770px;
-    height: 80%;
+    height: 81%;
     margin: auto;
     border-radius: 10px;
   }
   .reviewimg02 {
     width: 96.25%; min-width: 770px;
     height: 300px;
-    margin: 20px;
+    margin: 20px 20px 0 20px;
     display: flex;
     flex-wrap: wrap;
   }
   .reviewimg02 img {
     width: 100%; min-width: 770px;
-    height: 80%;
+    height: 81%;
     margin: auto;
     border-radius: 10px;
   }

@@ -198,12 +198,11 @@
   .shortcut01 {
     width: 100%; min-width: 1100px;
     height: auto;
-    margin: auto;
     margin-bottom: 10px;
     display: flex;
   }
   .scimg01 {
-    width: 18.1818%; min-width: 200px;
+    width: 100%; min-width: 204px;
     height: 100%;
     margin: 0 10px 0 0;
     position: relative;
@@ -214,7 +213,7 @@
     vertical-align: middle;
   }
   .scimg02 {
-    width: 18.1818%; min-width: 200px;
+    width: 100%; min-width: 204px;
     height: 100%;
     margin: 0 10px;
     position: relative;
@@ -225,7 +224,7 @@
     vertical-align: middle;
   }
   .scimg03 {
-    width: 18.1818%; min-width: 200px;
+    width: 100%; min-width: 204px;
     height: 100%;
     margin: 0 10px;
     position: relative;
@@ -236,7 +235,7 @@
     vertical-align: middle;
   }
   .scimg04 {
-    width: 18.1818%; min-width: 200px;
+    width: 100%; min-width: 204px;
     height: 100%;
     margin: 0 10px;
     position: relative;
@@ -247,9 +246,9 @@
     vertical-align: middle;
   }
   .scimg05 {
-    width: 18.1818%; min-width: 200px;
+    width: 100%; min-width: 204px;
     height: 100%;
-    margin: 0 10px;
+    margin: 0 0 0 10px;
     position: relative;
   }
   .scimg05 img {
@@ -266,7 +265,7 @@
     display: flex;
   }
   .scimg06 {
-    width: 18.1818%; min-width: 200px;
+    width: 100%; min-width: 204px;
     height: 100%;
     margin: 0 10px 0 0;
     position: relative;
@@ -277,7 +276,7 @@
     vertical-align: middle;
   }
   .scimg07 {
-    width: 18.1818%; min-width: 200px;
+    width: 100%; min-width: 204px;
     height: 100%;
     margin: 0 10px;
     position: relative;
@@ -288,7 +287,7 @@
     vertical-align: middle;
   }
   .scimg08 {
-    width: 18.1818%; min-width: 200px;
+    width: 100%; min-width: 204px;
     height: 100%;
     margin: 0 10px;
     position: relative;
@@ -299,7 +298,7 @@
     vertical-align: middle;
   }
   .scimg09 {
-    width: 18.1818%; min-width: 200px;
+    width: 100%; min-width: 204px;
     height: 100%;
     margin: 0 10px;
     position: relative;
@@ -310,9 +309,9 @@
     vertical-align: middle;
   }
   .scimg10 {
-    width: 18.1818%; min-width: 200px;
+    width: 100%; min-width: 204px;
     height: 100%;
-    margin: 0 10px;
+    margin: 0 0 0 10px;
     position: relative;
   }
   .scimg10 img {
@@ -349,7 +348,7 @@
 
   /* #communityBox =============================== */ 
   #communityBox {
-    width: 54.5455%; min-width: 600px; 
+    width: 100%; min-width: 500px; 
     height: auto;
     margin: auto;
     margin-top: 70px;
@@ -362,20 +361,19 @@
 
   /* bestpicture ---------------------- */
   .bestpicture_title {
-    width: 84.3333%; min-width: 506px;
+    width: 94.8%; min-width: 474px;
     margin: auto;
     display: flex;
   }
   .bestpicture_title h2 {
     width: 100%;
-    height: auto;
     line-height: 43px;
     font-size: 20px;
     font-weight: 500;
   }
   .moretx {
-    width: 43px;
-    height: 40px;
+    width: 38px;
+    height: auto;
     text-align: center;
   }
   .moretx button {
@@ -385,14 +383,13 @@
 
   /* bestpicture 내용 */
   .bestpicture {
-    width: 90%; min-width: 540px; 
+    width: 100%; min-width: 500px; 
     height: auto;
-    margin: auto;
     margin-top: 25px;
   }
   .bestpicture_top {display: flex;}
   .bestpicture1 {
-    width: 50.7407%; min-width: 274px;
+    width: 250px;
     height: auto;
     margin: auto;
   }
@@ -401,7 +398,7 @@
     border-radius: 5%;
   }
   .bestpicture2 {
-    width: 50.7407%; min-width: 274px;
+    width: 250px;
     height: auto;
     margin: auto;
   }
@@ -414,7 +411,7 @@
     display: flex;
   }
   .bestpicture3 {
-    width: 50.7407%; min-width: 274px;
+    width: 250px;
     height: auto;
     margin: auto;
   }
@@ -423,7 +420,7 @@
     border-radius: 5%;
   }
   .bestpicture4 {
-    width: 50.7407%; min-width: 274px;
+    width: 250px;
     height: auto;
     margin: auto;
   }
@@ -435,10 +432,13 @@
   /* #community_inner02 =============== */
   /* story, riview part */
   #community_inner02 {
-    width: 45.4545%; min-width: 500px;
+    width: 100%; min-width: 600px;
     height: auto;
     margin: auto;
     margin-top: 70px;
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   /* .story ---------------------------- */
@@ -462,29 +462,28 @@
   }
   .story_img {
     width: auto;
-    height: auto;
+    height: 230px;
     margin: auto;
     margin-top: 25px;
     display: flex;
     overflow: auto;
+    overflow-y: hidden;
   }
   .storyimg01 {
     width: 98%; min-width: 490px;
-    height: auto;
+    height: 100%;
     margin-right: 10px;
     display: flex;
     flex-wrap: wrap;
   }
   .storyimg01 img {
     width: 100%; min-width: 490px;
-    height: auto;
-    margin: auto;
+    height: 81%;
     border-radius: 10px;
   }
   .storytext {
     width: 100%;
     height: auto;
-    margin: auto;
     font-size: 16px;
   }
   .storytextid {
@@ -501,8 +500,7 @@
   }
   .storyimg02 img {
     width: 100%; min-width: 490px;
-    height: auto;
-    margin: auto;
+    height: 81%;
     border-radius: 10px;
   }
   .storyimg03 {
@@ -514,8 +512,7 @@
   }
   .storyimg03 img {
     width: 100%; min-width: 490px;
-    height: auto;
-    margin: auto;
+    height: 81%;
     border-radius: 10px;
   }
   .storyimg04 {
@@ -527,15 +524,14 @@
   }
   .storyimg04 img {
     width: 100%; min-width: 490px;
-    height: auto;
-    margin: auto;
+    height: 81%;
     border-radius: 10px;
   }
 
   /* .review --------------- */
   .review {
     width: 100%; 
-    height: auto;
+    height: 100%;
     margin: auto;
   }
   .review_title {
@@ -552,34 +548,35 @@
   }
   .review_img {
     width: auto;
-    height: auto;
+    height: 202px;
     margin: auto;
     display: flex;
     overflow: auto;
+    overflow-y: hidden;
   }
   .reviewimg01 {
     width: 98%; min-width: 490px;
-    height: 218px;
+    height: auto;
     margin-right: 10px;
     display: flex;
     flex-wrap: wrap;
   }
   .reviewimg01 img {
     width: 100%; min-width: 490px;
-    height: 80%;
+    height: 79%;
     margin: auto;
     border-radius: 10px;
   }
   .reviewimg02 {
     width: 100%;
-    height: 218px;
+    height: auto;
     margin-right: 10px;
     display: flex;
     flex-wrap: wrap;
   }
   .reviewimg02 img {
     width: 98%; min-width: 490px;
-    height: 80%;
+    height: 79%;
     margin: auto;
     border-radius: 10px;
   }
@@ -588,7 +585,6 @@
     height: auto;
     margin: auto;
     font-size: 16px;
-    border-radius: 10px;
   }
   
   /* #bestBox============================== */
