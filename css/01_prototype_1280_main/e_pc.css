@@ -449,6 +449,7 @@
     height: auto;
     line-height: 40px;
     font-size: 22px;
+    font-weight: 500;
   }
   /* story 내용 */
   .story {
@@ -541,6 +542,7 @@
     height: auto;
     margin-left: 24px;
     font-size: 24px;
+    font-weight: 500;
   }
   .review_img {
     width: auto;
