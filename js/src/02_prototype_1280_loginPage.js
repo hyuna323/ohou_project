@@ -1,10 +1,10 @@
 function home(){
-  let url = "https://hyunao.github.io/ohou_project/html/01_prototype_1280_main.html";
+  let url = "https://main--dashing-elf-ee36a3.netlify.app/html/01_prototype_1280_main.html";
   window.location = url;
 }
 
 function login(){
-  let url = "https://hyunao.github.io/ohou_project/html/02_prototype_1280_loginPage.html";
+  let url = "https://main--dashing-elf-ee36a3.netlify.app/html/02_prototype_1280_loginpage";
   window.location = url;
 }
 
